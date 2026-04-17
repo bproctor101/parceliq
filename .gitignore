@@ -1,0 +1,17 @@
+# Large intermediate files (regenerable from pipeline)
+data/cities/*_Zoning_Mapped.csv
+data/cities/*_GIS_Raw.csv
+data/.gis_cache/
+
+# Raw statewide file (too large for git)
+master_hei_raw.csv
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# OS
+.DS_Store
+Thumbs.db
