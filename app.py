@@ -5,6 +5,31 @@ import sys
 import re
 import csv
 
+# ---------- Password Gate ----------
+def check_password():
+    """Simple password wall. Set your password in Streamlit Secrets or fallback to hardcoded."""
+    correct_password = st.secrets.get("password", "parceliq2026")
+
+    if "authenticated" not in st.session_state:
+        st.session_state.authenticated = False
+
+    if st.session_state.authenticated:
+        return True
+
+    st.markdown("### ParcelIQ Access")
+    pwd = st.text_input("Enter password to continue:", type="password")
+    if pwd:
+        if pwd == correct_password:
+            st.session_state.authenticated = True
+            st.rerun()
+        else:
+            st.error("Incorrect password.")
+    return False
+
+if not check_password():
+    st.stop()
+# -----------------------------------
+
 # Centralized Master Data Paths
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 MASTER_HEI_PATH = os.path.join(BASE_DIR, "data", "master_hei_normalized.csv")
