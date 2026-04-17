@@ -1,0 +1,70 @@
+city,site_address,parcel_id,gp_designation,zoning_code,min_density,max_density,total_acreage
+San Ramon,2700 Hooper Dr,208-250-058,Mixed Use,SRVSP - Res. Overlay,22,35,1.8
+San Ramon,2092 Omega Rd,208-250-083,Mixed Use,SRVSP - Res. Overlay,22,35,0.7
+San Ramon,1947 San Ramon Valley Blvd,208-250-088,Mixed Use,SRVSP - Res. Overlay,22,35,0.6
+San Ramon,2001 Omega Rd,208-660-007,Mixed Use,SRVSP - Res. Overlay,22,35,0.8
+San Ramon,2233 San Ramon Valley Rd,208-260-036,Mixed Use,SRVSP - Village Center MU,30,35,0.7
+San Ramon,2233 San Ramon Valley Rd,208-260-052,Mixed Use,SRVSP - Village Center MU,30,35,2.2
+San Ramon,2241 San Ramon Valley Rd,208-260-053,Mixed Use,SRVSP - Village Center MU,30,35,0.3
+San Ramon,2255 San Ramon Valley Rd,208-271-003,Mixed Use,SRVSP - Village Center MU,30,35,1.0
+San Ramon,2400 Old Crow Canyon Rd,208-271-022,Mixed Use,SRVSP - Village Center MU,30,35,1.0
+San Ramon,2411 Old Crow Canyon Rd,208-260-056,Mixed Use,SRVSP - Village Center MU,30,35,5.3
+San Ramon,130 Market Pl,213-701-002,Mixed Use,MU: Mixed Use,14,30,3.6
+San Ramon,12943 Alcosta Blvd,213-020-046,Mixed Use,NCRSP - Office Mixed Use,20,30,4.6
+San Ramon,3401 Crow Canyon Rd,213-020-037,Mixed Use,NCRSP - Office Mixed Use,20,30,4.7
+San Ramon,Westside Dr,211-040-033,Low Medium Density/Open Space,WSP - Open Space,,,20.4
+San Ramon,3130 Crow Canyon Pl,213-010-052,MU,NCRSP - Destination Retail MU,20,40,3.3
+San Ramon,3160 Crow Canyon Pl,213-010-046,MU,NCRSP - Destination Retail MU,20,40,1.9
+San Ramon,3170 Crow Canyon Pl,213-010-047,MU,NCRSP - Destination Retail MU,20,40,1.9
+San Ramon,3150 Crow Canyon Pl,213-010-059,MU,NCRSP - Destination Retail MU,20,40,1.4
+San Ramon,3180 Crow Canyon Pl,213-010-060,MU,NCRSP - Destination Retail MU,20,40,1.9
+San Ramon,Crow Canyon Rd,213-011-002,MU,NCRSP - MU,20,40,1.7
+San Ramon,3301 Crow Canyon Rd,213-011-003,MU,NCRSP - MU,20,40,10.7
+San Ramon,Crow Canyon Rd,213-020-054,MU,NCRSP - MU,20,40,2.7
+San Ramon,Crow Canyon Rd,213-020-053,MU,NCRSP - MU,20,40,1.3
+San Ramon,Crow Canyon Rd,213-011-006,MU,NCRSP - MU,20,40,1.6
+San Ramon,12855 Alcosta Blvd,213-020-015,Multifamily,NCRSP - MU,20,40,0.8
+San Ramon,4750 Norris Canyon Rd,213-020-016,Multifamily,NCRSP - MU,20,40,0.7
+San Ramon,12821 Alcosta Blvd,213-020-017,Multifamily,NCRSP - MU,20,40,0.7
+San Ramon,2481 Deerwood Dr,208-640-003,Medium-High Density,OA,6,14,4.4
+San Ramon,2110 Omega Rd,208-250-071,Mixed Use,SRVSP - Res. Overlay,22,35,0.9
+San Ramon,2120 Omega Rd,208-250-072,Mixed Use,SRVSP - Res. Overlay,22,35,0.3
+San Ramon,18 Crow Canyon Ct,208-490-010,MU,SRVSP - BMU,20,30,2.91
+San Ramon,680 Bollinger Canyon Way,213-610-033,MF High Density,Multi-Family,20,30,0.8
+San Ramon,680 Bollinger Canyon Way,213-610-032,MF High Density,Multi-Family,20,30,1.5
+San Ramon,500 Bollinger Canyon Ln,213-621-013,MF High Density,Multi-Family,20,30,7.1
+San Ramon,500 Bollinger Canyon Ln,213-621-009,MF High Density,Multi-Family,20,30,2.4
+San Ramon,4600 Norris Canyon,213-131-009,MU,NCRSP - TCMU,20,40,5.8
+San Ramon,2301 Camino Ramon,213-131-003,Multifamily/Downtown,Downtown MU,20,60,11.1
+San Ramon,2527 Camino Ramon,213-133-078,Office/Downtown,Downtown MU,20,60,12.6
+San Ramon,3000 Executive Parkway,213-133-069,Office/Downtown,Downtown MU OA-H,20,60,9.9
+San Ramon,4000 Executive Parkway,213-133-068,Office/Downtown,Downtown MU OA-H,20,60,8.1
+San Ramon,5000 Executive Parkway,213-133-067,Office/Downtown,Downtown MU OA-H,20,60,9.3
+San Ramon,19001 San Ramon Valley Blvd,211-051-014,PS,PS/Res. Overlay,6,14,5.4
+San Ramon,2451 Bishop Dr,213-133-051,MU/Downtown,Downtown MU TCMU & DRMU,20,60,29.6
+San Ramon,2190 Camino Ramon,218-112-001,MU-C,NCRSP - CMU,20,40,0.9
+San Ramon,3130 Crow Canyon Rd,218-112-004,MU-C,NCRSP - CMU,20,40,0.4
+San Ramon,3120 Crow Canyon Rd,218-112-005,MU-C,NCRSP - CMU,20,40,1.0
+San Ramon,2001 Crow Canyon Pl,218-102-012,MU-C,NCRSP - CMU,20,40,1.4
+San Ramon,2551 San Ramon Valley Blvd,209-030-096,MU,MU,20,40,3.8
+San Ramon,2525 San Ramon Valley Blvd,209-030-093,MU,MU,20,40,2.5
+San Ramon,2710 Crow Canyon Rd,208-280-033,MU,PD/Res. Overlay,20,30,1.3
+San Ramon,2730 Crow Canyon Rd,208-280-034,MU,PD/Res. Overlay,20,30,0.9
+San Ramon,2610 Crow Canyon Rd,208-280-027,MF Very High Density,Multi-Family,30,50,1.9
+San Ramon,2701 Old Crow Canyon Rd,208-280-009,MF High Density,Multi-Family,20,30,1.1
+San Ramon,110 Ryan Industrial Ct,208-280-014,MF High Density,Multi-Family,20,30,1.0
+San Ramon,101 Ryan Industrial Ct,208-280-015,MF High Density,Multi-Family,20,30,0.9
+San Ramon,115 Ryan Industrial Ct,208-280-016,MF High Density,Multi-Family,20,30,1.3
+San Ramon,200 Montgomery St,213-701-004,MU,MU,20,40,3.6
+San Ramon,1071 Market Place,213-702-002,MU,MU,20,40,2.79
+San Ramon,1021 Market Place,213-702-006,MU,MU,20,40,0.21
+San Ramon,1081 Market Pl,213-702-004,MU,MU,20,40,1.1
+San Ramon,1041 Market Pl,213-702-007,MU,MU,20,40,4.0
+San Ramon,9130 Alcosta Blvd,210-520-055,MU,MU,20,40,0.68
+San Ramon,9150 Alcosta Blvd,210-520-056,MU,MU,20,40,0.81
+San Ramon,9120 Alcosta Blvd,210-520-051,MU,MU,20,40,2.5
+San Ramon,9260 Alcosta Dr,210-260-054,Mixed Use/Senior Housing,MU-SH,20,40,0.8
+San Ramon,9260 Alcosta Dr,210-260-057,Mixed Use/Senior Housing,MU-SH,20,40,1.0
+San Ramon,9260 Alcosta Dr,210-260-058,Mixed Use/Senior Housing,MU-SH,20,30,0.9
+San Ramon,Bollinger Canyon Rd,222-270-059,MU,DVSP - MU,20,40,6.6
+San Ramon,Bollinger Canyon Rd,222-270-060,MU,DVSP - MU,20,40,6.8

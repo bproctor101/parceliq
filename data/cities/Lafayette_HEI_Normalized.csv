@@ -1,0 +1,114 @@
+city,site_address,parcel_id,gp_designation,zoning_code,min_density,max_density,total_acreage
+Lafayette,954 Risa Rd,241-010-022,West End Commercial,C,,75,0.26
+Lafayette,950 Risa Rd,241-010-023,West End Commercial,C,,75,0.26
+Lafayette,946 Risa Rd,241-010-029,West End Commercial,C,,75,0.29
+Lafayette,3671 Mt Diablo Blvd,241-030-002,West End Commercial,C,,75,1.0
+Lafayette,3669 Mt Diablo Blvd,241-030-003,West End Commercial,C,,75,0.12
+Lafayette,3667 Mt Diablo Blvd,241-030-004,West End Commercial,C,,75,0.16
+Lafayette,3667 Mt Diablo Blvd,241-030-031,West End Commercial,C,,75,0.22
+Lafayette,3703 Mt Diablo Blvd,241-050-006,West End Commercial,C,,75,0.16
+Lafayette,3701 Mt Diablo Blvd,241-050-007,West End Commercial,C,,75,0.14
+Lafayette,3705 Mt Diablo Blvd,241-050-017,West End Commercial,C,,75,0.2
+Lafayette,3707 Mt Diablo Blvd,241-050-018,West End Commercial,C,,75,0.45
+Lafayette,3651 Mt Diablo Blvd,241-030-011,West End Commercial,C,,75,0.11
+Lafayette,3659 Mt Diablo Blvd,241-030-010,West End Commercial,C,,75,0.28
+Lafayette,959 Mountain View Dr,241-030-012,West End Commercial,C,,75,0.12
+Lafayette,955 Mountain View Dr,241-030-013,West End Commercial,C,,75,0.22
+Lafayette,953 Mountain View Dr,241-030-014,West End Commercial,C,,75,0.22
+Lafayette,Happy Valley Rd,243-050-013,Downtown Core,X,,75,0.6
+Lafayette,1007 Oak Hill Rd,243-030-020,Downtown Core,SRB,,75,0.34
+Lafayette,1001 Oak Hill Rd,243-030-033,Downtown Core,SRB,,75,0.19
+Lafayette,Oak Hill Rd,243-030-038,Downtown Core,SRB,,75,0.2
+Lafayette,1009 Oak Hill Rd,243-030-041,Downtown Core,SRB,,75,0.4
+Lafayette,3601 Happy Valley Rd,243-060-002,Downtown Core,SRB,,75,0.27
+Lafayette,3603 Happy Valley Rd,243-060-019,Downtown Core,SRB,,75,0.35
+Lafayette,Mt Diablo Blvd,243-020-039,Downtown Core,RB,,75,1.32
+Lafayette,1010 Oak Hill Rd,243-020-007,Downtown Core,RB,,75,0.17
+Lafayette,1014 Oak Hill Rd,243-020-030,Downtown Core,RB,,75,0.11
+Lafayette,1018 Oak Hill Rd,243-020-010,Downtown Core,RB,,75,0.48
+Lafayette,1024 Oak Hill Rd,243-020-011,Downtown Core,RB,,75,0.03
+Lafayette,Oak Hill Rd,243-020-031,Downtown Core,RB,,75,0.12
+Lafayette,3533 Mt Diablo Blvd,243-170-013,Downtown Core,SRB,,50,0.13
+Lafayette,3529 Mt Diablo Blvd,243-170-014,Downtown Core,SRB,,50,0.44
+Lafayette,3625 Mt Diablo Blvd,243-110-027,Downtown Core,SRB,,50,0.82
+Lafayette,3406 Mt Diablo Blvd,233-032-006,East End Commercial,C-1,,75,1.02
+Lafayette,1041 Stuart St,233-032-003,East End Commercial,C-1,,75,0.38
+Lafayette,1041 Blackwood Ln,233-040-006,East End Commercial,C-1,,75,0.32
+Lafayette,1029 Blackwood Ln,233-040-007,East End Commercial,C-1,,75,0.67
+Lafayette,1020 Aileen St,233-022-005,East End Commercial,C-1,,75,0.28
+Lafayette,1048 Aileen St,233-022-006,East End Commercial,C-1,,75,0.11
+Lafayette,3360 Mt Diablo Blvd,233-022-003,East End Commercial,C-1,,75,0.22
+Lafayette,3364 Mt Diablo Blvd,233-022-004,East End Commercial,C-1,,75,0.21
+Lafayette,3344 Mt Diablo Blvd,233-022-013,East End Commercial,C-1,,75,1.16
+Lafayette,Elizabeth St,233-022-014,East End Commercial,C-1,,75,0.27
+Lafayette,3396 Mt Diablo Blvd,233-032-025,East End Commercial,C-1,,75,1.04
+Lafayette,3434 Mt Diablo Blvd,233-040-024,East End Commercial,C-1,,75,0.87
+Lafayette,3430 Mt Diablo Blvd,233-040-039,East End Commercial,C-1,,75,0.16
+Lafayette,1032 Stuart St,233-021-007,East End Commercial,C-1,,75,0.25
+Lafayette,3380 Mt Diablo Blvd,233-021-006,East End Commercial,C-1,,75,0.13
+Lafayette,Mt Diablo Blvd,233-021-005,East End Commercial,C-1,,75,0.13
+Lafayette,3372 Mt Diablo Blvd,233-021-014,East End Commercial,C-1,,75,0.25
+Lafayette,1005 Blackwood Ln,233-040-035,East End Commercial,C-1,,75,0.43
+Lafayette,1001 Blackwood Ln,233-040-026,East End Commercial,C-1,,75,0.22
+Lafayette,3440 Mt Diablo Blvd,233-040-027,East End Commercial,C-1,,75,0.16
+Lafayette,1020 Brown Ave,233-032-023,East End Commercial,C-1,,75,0.15
+Lafayette,Brown Ave,233-032-024,East End Commercial,C-1,,75,0.15
+Lafayette,1036 Brown Ave,233-032-027,East End Commercial,C-1,,75,0.13
+Lafayette,1030 Brown Ave,233-032-010,East End Commercial,C-1,,75,0.15
+Lafayette,3483 Mt Diablo Blvd,243-231-022,East End Commercial,C-1,,50,0.77
+Lafayette,3484 Golden Gate Way,243-231-021,East End Commercial,C-1,,50,0.46
+Lafayette,3470 Golden Gate Way,243-231-010,East End Commercial,C-1,,50,0.16
+Lafayette,3462 Golden Gate Way,243-231-009,East End Commercial,C-1,,50,0.1
+Lafayette,3335 Mt Diablo Blvd,233-110-023,East End Commercial,C-1,,50,0.54
+Lafayette,3335 Mt Diablo Blvd,233-110-024,Medium-density single-family residential,R-10,,50,0.3
+Lafayette,3341 Mt Diablo Blvd,233-110-025,Medium-density single-family residential,R-10,,50,0.33
+Lafayette,3445 Golden Gate Way,233-051-011,East End Commercial,C-1,,50,0.16
+Lafayette,3451 Golden Gate Way,233-051-012,East End Commercial,C-1,,50,0.4
+Lafayette,3477 Golden Gate Way,243-232-010,East End Commercial,C-1,,50,0.09
+Lafayette,3475 Golden Gate Way,243-232-011,East End Commercial,C-1,,50,0.16
+Lafayette,3467 Golden Gate Way,243-232-012,East End Commercial,C-1,,50,0.21
+Lafayette,3461 Golden Gate Way,243-232-013,East End Commercial,C-1,,50,0.26
+Lafayette,3327 Mt Diablo Blvd,233-110-003,East End Commercial,C-1,,50,0.17
+Lafayette,3333 Mt Diablo Blvd,233-110-026,East End Commercial,C-1,,50,0.31
+Lafayette,3331 Mt Diablo Blvd,233-110-027,East End Commercial,C-1,,50,0.32
+Lafayette,3325 Mt Diablo Blvd,233-110-004,East End Commercial,C-1,,50,0.6
+Lafayette,3319 Mt Diablo Blvd,233-110-005,East End Commercial,C-1,,50,0.6
+Lafayette,Mt Diablo Blvd,252-050-015,Rural Residential 10,LR-10,,35,9.5
+Lafayette,Mt Diablo Blvd,252-050-018,Medium density single family residential,R-10,,35,1.97
+Lafayette,Moraga Rd/St Marys Rd,234-041-001,Admin/Professional/Office,MRO,,35,2.38
+Lafayette,907 Moraga Rd,241-200-027,Admin/Professional/Office,MRO,,35,0.36
+Lafayette,901 Moraga Rd,241-200-040,Admin/Professional/Office,MRO,,35,0.21
+Lafayette,3530 O'Conner Dr,241-200-041,Admin/Professional/Office,MRO,,35,0.14
+Lafayette,941 Moraga Rd,243-210-013,Admin/Professional/Office,MRO,,35,0.12
+Lafayette,943 Moraga Rd,243-210-014,Admin/Professional/Office,MRO,,35,0.35
+Lafayette,945 Moraga Rd,243-210-015,Admin/Professional/Office,MRO,,35,0.1
+Lafayette,949 Moraga Rd,243-210-016,Admin/Professional/Office,MRO,,35,0.17
+Lafayette,972 Hough Ave,243-180-016,High Density multi family residential,MRA,,35,1.06
+Lafayette,948 East St,243-210-004,High Density multi family residential,MRA,,35,0.46
+Lafayette,3675 Mt Diablo Blvd,241-030-034,West End Commercial,C,,50,0.48
+Lafayette,3675 Mt Diablo Blvd,241-030-033,West End Commercial,C,,50,1.95
+Lafayette,3685 Mt Diablo Blvd,241-050-024,West End Commercial,C,,50,1.3
+Lafayette,3687 Mt Diablo Blvd,241-050-022,West End Commercial,C,,50,0.9
+Lafayette,3685 Mt Diablo Blvd,241-050-023,West End Commercial,C,,50,0.4
+Lafayette,Moraga Rd,241-200-024,Admin/Professional/Office,MRO,,35,0.25
+Lafayette,919 Moraga Rd,241-200-025,Admin/Professional/Office,MRO,,35,0.43
+Lafayette,3578 Terrace Way,243-030-023,Downtown Core,SRB,,50,0.11
+Lafayette,1000 S Thompson Rd,243-030-024,Downtown Core,SRB,,50,0.34
+Lafayette,3576 Terrace Way,243-030-030,Downtown Core,SRB,,50,0.21
+Lafayette,3574 Terrace Way,243-030-031,Downtown Core,SRB,,50,0.19
+Lafayette,3572 Terrace Way,243-030-021,Downtown Core,SRB,,50,0.13
+Lafayette,3666 Mt Diablo Blvd,241-020-020,West End Commercial,C,,75,2.0
+Lafayette,3742 Mt Diablo Blvd,241-010-042,West End Commercial,C,,,0.37
+Lafayette,5 Woodbury Highlands Ct,241-020-011,West End Commercial,C,,,2.0
+Lafayette,3721 Mt Diablo Blvd,241-050-015,West End Commercial,C,,,0.3
+Lafayette,210 Lafayette Circle,243-150-017,Downtown Core,,,,0.38
+Lafayette,3470 Mt Diablo Blvd,243-011-054,East End Commercial,,,,4.16
+Lafayette,Stuart Street,233-021-011,East End Commercial,C-1,,,0.6
+Lafayette,3458 Mt Diablo Blvd,243-011-016,East End Commercial,,,,0.76
+Lafayette,3408 Mt Diablo Blvd,233-032-030,East End Commercial,C-1,,,0.38
+Lafayette,3483 Golden Gate Way,243-232-027,East End Commercial,C-1,,,1.49
+Lafayette,950 Hough Ave,243-190-003,,,,,0.43
+Lafayette,3233 Deer Hill Rd,233-131-029,,,,,22.5
+Lafayette,3505 Golden Gate Way,243-222-015,Downtown Core,,,40,0.36
+Lafayette,3505 Golden Gate Way,243-222-016,Downtown Core,,,40,0.36
+Lafayette,3424 Mt Diablo Blvd,233-031-027,East End Commercial,C-1,,50,0.73

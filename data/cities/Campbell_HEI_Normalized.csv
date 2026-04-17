@@ -1,0 +1,137 @@
+city,site_address,parcel_id,gp_designation,zoning_code,min_density,max_density,total_acreage
+Campbell,1901 S BASCOM AV,28804027,Transit Oriented Mixed Use,C-2-O,57,75,8.85
+Campbell,1980 HAMILTON AV,28824059,Medium-High Density Mixed Use,P-F,26,30,1.22
+Campbell,2365 WINCHESTER BL,30536012,Transit Oriented Mixed Use,P-D,57,75,3.8
+Campbell,700 HACIENDA AV,40619036,Neighborhood Mixed Use,R-M,18.75,20,0.51
+Campbell,60 S SAN TOMAS AQUINO RD,40401031,High Density Mixed Use,C-1,34,45,0.82
+Campbell,1875 S BASCOM AV,28804028,Commercial Corridor Mixed Use,C-2-O,45,60,16.4
+Campbell,1226 HACIENDA AV,40616041,Neighborhood Mixed Use,R-1-10,18.75,20,0.2
+Campbell,621 E CAMPBELL AV,27946011,High Density Mixed Use,P-D,34,45,0.64
+Campbell,621 E CAMPBELL AV,27946012,High Density Mixed Use,P-D,34,45,0.95
+Campbell,471 E CAMPBELL AV,27943055,High Density Mixed Use,P-D,34,45,0.67
+Campbell,1216 HACIENDA AV,40616042,Neighborhood Mixed Use,R-1-10,18.75,20,0.51
+Campbell,573 E CAMPBELL AV,27946049,High Density Mixed Use,P-D,34,45,0.12
+Campbell,1265 BURROWS RD,40316096,Neighborhood Mixed Use,R-1-10,18.75,20,0.59
+Campbell,56 FOOTE ST,27943020,High Density Mixed Use,P-D,34,45,1.41
+Campbell,1236 HACIENDA AV,40616083,Neighborhood Mixed Use,R-1-10,18.75,20,0.31
+Campbell,2470 S WINCHESTER BL,41202001,Transit Oriented Mixed Use,P-D,57,75,0.61
+Campbell,2290 S WINCHESTER BL,41202006,High Density Mixed Use,P-D,34,45,0.62
+Campbell,2460 S WINCHESTER BL,41202032,Transit Oriented Mixed Use,P-D,57,75,2.39
+Campbell,579 E CAMPBELL AV,27946048,High Density Mixed Use,P-D,34,45,0.12
+Campbell,500 E HAMILTON AV,27933052,Transit Oriented Mixed Use,C-2,57,75,1.87
+Campbell,2240 S WINCHESTER BL,41204016,High Density Mixed Use,P-D,34,45,0.15
+Campbell,2120 S WINCHESTER BL,41205047,High Density Mixed Use,P-D,34,45,0.33
+Campbell,320 VIRGINIA AV,40407033,Medium Density Residential,PF/OS,18.75,20,2.17
+Campbell,700 W HAMILTON AV,30739037,Commercial Corridor Mixed Use,C-2,45,60,3.9
+Campbell,262 - 282 E HAMILTON AV,27935002,Commercial Corridor Mixed Use,C-2,45,60,3.58
+Campbell,176 GILMAN AV,41208047,Commercial Corridor Mixed Use,P-D,45,60,0.4
+Campbell,150 GILMAN AV,41208048,Commercial Corridor Mixed Use,P-D,45,60,0.48
+Campbell,57 GILMAN AV,41209032,Commercial Corridor Mixed Use,P-D,45,60,0.1
+Campbell,63 GILMAN AV,41209033,Commercial Corridor Mixed Use,P-D,45,60,0.19
+Campbell,71 GILMAN AV,41209034,Commercial Corridor Mixed Use,P-D,45,60,0.29
+Campbell,85 GILMAN AV,41209035,Commercial Corridor Mixed Use,P-D,45,60,0.18
+Campbell,101 GILMAN AV,41209036,Commercial Corridor Mixed Use,P-D,45,60,0.19
+Campbell,136 GILMAN AV,41209040,Commercial Corridor Mixed Use,P-D,45,60,0.28
+Campbell,130 GILMAN AV,41209041,Commercial Corridor Mixed Use,P-D,45,60,0.29
+Campbell,100 GILMAN AV,41209042,Commercial Corridor Mixed Use,P-D,45,60,0.28
+Campbell,90 GILMAN AV,41209043,Commercial Corridor Mixed Use,P-D,45,60,0.21
+Campbell,80 GILMAN AV,41209044,Commercial Corridor Mixed Use,P-D,45,60,0.36
+Campbell,140 GILMAN AV,41209058,Commercial Corridor Mixed Use,P-D,45,60,0.21
+Campbell,2029 S BASCOM AV,41210042,Commercial Corridor Mixed Use,C-2,45,60,0.73
+Campbell,980 E CAMPBELL AV,41210062,Commercial Corridor Mixed Use,C-2,45,60,0.91
+Campbell,2045 S BASCOM AV,41210063,Commercial Corridor Mixed Use,R-3,45,60,0.76
+Campbell,1475 S BASCOM AV,28224011,Commercial Corridor Mixed Use,C-2,45,60,3.54
+Campbell,2260 S WINCHESTER BL,41204014,High Density Mixed Use,P-D,34,45,0.51
+Campbell,2375 S WINCHESTER BL,30536013,Transit Oriented Mixed Use,P-D,57,75,1.57
+Campbell,290 DILLON AVE,41208072,Transit Oriented Mixed Use,P-D,57,75,2.76
+Campbell,971 E HAMILTON AV,28225001,Transit Oriented Mixed Use,P-D,57,75,1.14
+Campbell,877 E HAMILTON AV,28225002,Transit Oriented Mixed Use,P-D,57,75,1.2
+Campbell,45 3RD ST,27938087,High Density Mixed Use,C-3,34,45,0.64
+Campbell,1661 S BASCOM AV,28802011,Transit Oriented Mixed Use,P-D,57,75,0.56
+Campbell,1657 S BASCOM AV,28802018,Transit Oriented Mixed Use,P-D,57,75,0.35
+Campbell,1777 S BASCOM AV,28802030,Commercial Corridor Mixed Use,P-D,45,60,1.34
+Campbell,1825 S BASCOM AV,28803015,Commercial Corridor Mixed Use,P-D,45,60,0.64
+Campbell,1970 S BASCOM AV,28809096,High Density Mixed Use,C-2,34,45,0.5
+Campbell,499 E HAMILTON AVE,27930051,Transit Oriented Mixed Use,C-2,57,75,1.23
+Campbell,251 LLEWELLYN AV,30517017,Medium Density Residential,P-F,18.75,20,5.54
+Campbell,60 W HAMILTON AV,30521003,Commercial Corridor Mixed Use,C-2,45,60,1.21
+Campbell,1769 S WINCHESTER BL,30521012,Commercial Corridor Mixed Use,P-D,45,60,1.95
+Campbell,1763 S WINCHESTER BL,30521022,Commercial Corridor Mixed Use,P-D,45,60,3.49
+Campbell,2400 S WINCHESTER BL,41202003,Transit Oriented Mixed Use,P-D,57,75,1.6
+Campbell,525 E HAMILTON AV,27931006,High Density Mixed Use,C-2,34,45,5.72
+Campbell,54 W RINCON AV,30533017,Neighborhood Mixed Use,P-D,18.75,20,0.18
+Campbell,2325 S WINCHESTER BL,30534006,High Density Mixed Use,P-D,34,45,0.54
+Campbell,2507 S WINCHESTER BL,30536004,Transit Oriented Mixed Use,P-D,57,75,1.56
+Campbell,"2523 S WINCHESTER BL, #A-#G CAMPBELL",30536005,Transit Oriented Mixed Use,P-D,57,75,0.7
+Campbell,2565 S WINCHESTER BL,30539050,Transit Oriented Mixed Use,P-D,57,75,1.73
+Campbell,2415 WINCHESTER BL,30536008,Transit Oriented Mixed Use,P-D,57,75,3.27
+Campbell,2345 WINCHESTER BL,30536011,Transit Oriented Mixed Use,P-D,57,75,0.31
+Campbell,750 W HAMILTON AV,30739030,Commercial Corridor Mixed Use,C-2,45,60,0.7
+Campbell,600 E HAMILTON AV,27932010,Transit Oriented Mixed Use,P-D,57,75,3.87
+Campbell,600 E HAMILTON AV,27932012,Transit Oriented Mixed Use,P-D,57,75,3.41
+Campbell,816 W HAMILTON AV,30740040,Commercial Corridor Mixed Use,P-D,45,60,1.04
+Campbell,780 W HAMILTON AV,30740041,Commercial Corridor Mixed Use,P-D,45,60,0.91
+Campbell,100 N SAN TOMAS AQUINO RD,30750083,Commercial Corridor Mixed Use,C-1,45,60,9.3
+Campbell,1440 ELAM AV,40310070,Neighborhood Mixed Use,R-1-6,18.75,20,2.15
+Campbell,675 CAMPBELL TECHNOLOGY PARK PY,41229011,Medium-High Density Mixed Use,P-D,26,30,4.98
+Campbell,695 CAMPBELL TECHNOLOGY PARK PY,41229010,Medium-High Density Mixed Use,P-D,26,30,3.74
+Campbell,635 CAMPBELL TECHNOLOGY PARK PY,41229015,Medium-High Density Mixed Use,P-D,26,30,3.75
+Campbell,655 CAMPBELL TECHNOLOGY PARK PY,41229012,Medium-High Density Mixed Use,P-D,26,30,4.9
+Campbell,1200 SMITH AV,40606009,Neighborhood Mixed Use,P-D,18.75,20,0.12
+Campbell,900 S SAN TOMAS AQUINO RD,40606093,Neighborhood Mixed Use,P-D,18.75,20,0.12
+Campbell,920 S SAN TOMAS AQUINO RD,40606007,Neighborhood Mixed Use,P-D,18.75,20,0.25
+Campbell,1627 S BASCOM AV,28802007,Transit Oriented Mixed Use,P-D,57,75,0.23
+Campbell,1645 S BASCOM AV,28802009,Transit Oriented Mixed Use,P-D,57,75,0.35
+Campbell,1639 S BASCOM AV,28802008,Transit Oriented Mixed Use,P-D,57,75,0.32
+Campbell,116 RAILWAY AV,41209001,Commercial Corridor Mixed Use,P-D,45,60,0.19
+Campbell,90 RAILWAY AV,41209002,Commercial Corridor Mixed Use,P-D,45,60,0.19
+Campbell,86 RAILWAY AV,41209003,Commercial Corridor Mixed Use,P-D,45,60,0.21
+Campbell,70 RAILWAY AV,41209004,Commercial Corridor Mixed Use,P-D,45,60,0.09
+Campbell,64 RAILWAY AV,41209005,Commercial Corridor Mixed Use,P-D,45,60,0.18
+Campbell,48 RAILWAY AV,41209006,Commercial Corridor Mixed Use,P-D,45,60,0.09
+Campbell,40 RAILWAY AV,41209007,Commercial Corridor Mixed Use,P-D,45,60,0.1
+Campbell,36 RAILWAY AV,41209008,Commercial Corridor Mixed Use,P-D,45,60,0.1
+Campbell,20 RAILWAY AV,41209009,Commercial Corridor Mixed Use,P-D,45,60,0.19
+Campbell,74 DILLON AV,41209025,Commercial Corridor Mixed Use,P-D,45,60,0.2
+Campbell,139 DILLON AV,41209020,Commercial Corridor Mixed Use,P-D,45,60,0.25
+Campbell,89 DILLON AV,41209016,Commercial Corridor Mixed Use,P-D,45,60,0.22
+Campbell,61 DILLON AV,41209014,Commercial Corridor Mixed Use,P-D,45,60,0.31
+Campbell,131 DILLON AV,41209019,Commercial Corridor Mixed Use,P-D,45,60,0.15
+Campbell,457 SAM CAVA LN,41209057,Commercial Corridor Mixed Use,P-D,45,60,0.14
+Campbell,126 DILLON AV,41209023,Commercial Corridor Mixed Use,P-D,45,60,0.39
+Campbell,88 DILLON AV,41209024,Commercial Corridor Mixed Use,P-D,45,60,0.21
+Campbell,132 DILLON AV,41209022,Commercial Corridor Mixed Use,P-D,45,60,0.14
+Campbell,103 DILLON AV,41209017,Commercial Corridor Mixed Use,P-D,45,60,0.1
+Campbell,60 DILLON AV,41209026,Commercial Corridor Mixed Use,P-D,45,60,0.2
+Campbell,111 DILLON AV,41209018,Commercial Corridor Mixed Use,P-D,45,60,0.21
+Campbell,75 DILLON AV,41209015,Commercial Corridor Mixed Use,P-D,45,60,0.19
+Campbell,1380 W CAMPBELL AV,40401004,High Density Mixed Use,C-1,34,45,0.46
+Campbell,1400 W CAMPBELL AV,40401036,High Density Mixed Use,C-1,34,45,0.59
+Campbell,930 S SAN TOMAS AQUINO RD,40606006,Neighborhood Mixed Use,R-1-6,18.75,20,0.26
+Campbell,1750 S WINCHESTER BL,27937007,Commercial Corridor Mixed Use,P-D,45,60,0.27
+Campbell,1740 S WINCHESTER BL,27937008,Commercial Corridor Mixed Use,P-D,45,60,0.21
+Campbell,1708 S WINCHESTER BL,27937009,Commercial Corridor Mixed Use,P-D,45,60,0.14
+Campbell,2050 S BASCOM AV,28808053,High Density Mixed Use,C-2,34,45,0.34
+Campbell,2020 S BASCOM AV,28808079,High Density Mixed Use,C-2,34,45,0.33
+Campbell,2075 S BASCOM AV,41210044,Commercial Corridor Mixed Use,C-2,45,60,0.21
+Campbell,2089 S BASCOM AV,41210045,Commercial Corridor Mixed Use,C-2,45,60,0.72
+Campbell,32 SUNNYSIDE AV,41204017,High Density Mixed Use,P-D,34,45,0.1
+Campbell,1500 E HAMILTON AV,28813095,Medium-High Density Mixed Use,P-O,26,30,2.76
+Campbell,400 W CAMPBELL AV,30530009,Neighborhood Mixed Use,P-F,18.75,20,2.94
+Campbell,476 E CAMPBELL AV,41209065,Commercial Corridor Mixed Use,P-D,45,60,0.32
+Campbell,486 E CAMPBELL AV,41209063,Commercial Corridor Mixed Use,P-D,45,60,0.2
+Campbell,35 DILLON AV,41209013,Commercial Corridor Mixed Use,P-D,45,60,0.1
+Campbell,318 W RINCON AV,30529007,Medium-High Density Mixed Use,R-2,26,30,0.91
+Campbell,202 W Rincon Ave,30533007,Medium Density Residential,P-D,15,20,0.51
+Campbell,600 E Campbell Ave,41209028,Medium-High Density Mixed Use,C-PD,15,20,0.3
+Campbell,600 E Campbell Ave,41209030,Commercial Corridor Mixed Use,C-PD,20,27,0.14
+Campbell,600 E Campbell Ave,41209031,Commercial Corridor Mixed Use,C-PD,20,27,0.28
+Campbell,600 E Campbell Ave,41209029,Commercial Corridor Mixed Use,C-PD,20,27,0.21
+Campbell,1429 Westmont Ave,40310116,Low Density Residential,P-D,1,6,0.63
+Campbell,1443 Westmont Ave,40310117,Low Density Residential,P-D,1,6,0.63
+Campbell,2575 S Winchester Blvd,30539007,Residential / Commercial / Office,P-D,34,45,0.19
+Campbell,2585 S Winchester Blvd,30539008,Residential / Commercial / Office,P-D,34,45,0.17
+Campbell,601 Almarida Dr,27930043,High Density Residential,R-3,34,45,6.49
+Campbell,523 Union Ave,41230045,High Density Residential,R-3,34,45,0.26
+Campbell,16160 E Mozart Ave,42406130,Low Density Residential,R-1-6,1,6,0.87
+Campbell,16244 E Mozart Ave,42406122,Low Density Residential,R-1-6,1,6,5.62

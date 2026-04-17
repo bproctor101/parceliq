@@ -204,21 +204,34 @@ def parse_query_simple(query_text, cities_in_db):
                 target_density["target"] = float(target_match.group(1))
                 target_density["type"] = "target"
 
-    # 3. Acreage Parsing (Expanded Regex)
-    target_acreage = {"value": None, "type": "any"}
-    
-    # Minimum Acreage Pattern: more than, at least, larger than, min, etc.
-    min_ac_match = re.search(r'(?:>|>=|over|above|more than|at least|minimum|min|larger than|bigger than)\s*(\d+(?:\.\d+)?)\s*acres?', q)
-    if min_ac_match:
-        target_acreage["value"] = float(min_ac_match.group(1))
-        target_acreage["type"] = "min"
+    # 3. Acreage Parsing (Full Range Support - mirrors density logic)
+    target_acreage = {"min": None, "max": None, "type": None}
+
+    # Range: "between 3 and 10 acres", "3 to 10 acres", "3-10 acres"
+    range_ac_match = re.search(r'(\d+(?:\.\d+)?)\s*(?:to|and|-)\s*(\d+(?:\.\d+)?)\s*acres?', q)
+    if not range_ac_match:
+        # Also catch: "acres between 3 and 10", "acreage from 3 to 10"
+        range_ac_match = re.search(r'acr(?:es|eage)?\s*(?:between|from)?\s*(\d+(?:\.\d+)?)\s*(?:to|and|-)\s*(\d+(?:\.\d+)?)', q)
+    if range_ac_match:
+        target_acreage["min"] = float(range_ac_match.group(1))
+        target_acreage["max"] = float(range_ac_match.group(2))
+        target_acreage["type"] = "range"
     else:
-        # Maximum Acreage Pattern: under, below, less than, at most, max, etc.
+        # Minimum only: "over 5 acres", "at least 3 acres", "bigger than 2 acres"
+        min_ac_match = re.search(r'(?:>|>=|over|above|more than|at least|minimum|min|larger than|bigger than)\s*(\d+(?:\.\d+)?)\s*acres?', q)
+        if min_ac_match:
+            target_acreage["min"] = float(min_ac_match.group(1))
+            target_acreage["type"] = "min"
+
+        # Maximum only: "under 10 acres", "less than 5 acres", "smaller than 3 acres"
         max_ac_match = re.search(r'(?:<|<=|under|below|less than|at most|maximum|max|smaller than)\s*(\d+(?:\.\d+)?)\s*acres?', q)
         if max_ac_match:
-            target_acreage["value"] = float(max_ac_match.group(1))
-            target_acreage["type"] = "max"
-            
+            target_acreage["max"] = float(max_ac_match.group(1))
+            if target_acreage["type"] == "min":
+                target_acreage["type"] = "both"
+            else:
+                target_acreage["type"] = "max"
+
     return target_city, target_acreage, target_density
 
 @st.cache_data(ttl=60)
@@ -242,9 +255,14 @@ master_hei_df = load_csv_data(MASTER_HEI_PATH)
 master_gis_df = load_csv_data(MASTER_GIS_PATH)
 
 # Unique City List for UI and Parsing
+# Only show cities that have BOTH Tier 1 (HEI) and Tier 2 (GIS) data fully integrated
+hei_cities = set(master_hei_df['city'].dropna().str.strip().str.title().unique()) if not master_hei_df.empty else set()
+gis_cities = set(master_gis_df['city'].dropna().str.strip().str.title().unique()) if not master_gis_df.empty else set()
+fully_integrated = sorted(hei_cities & gis_cities)
+# For query parsing, use all cities (so searches still work); for display, only fully integrated
 all_cities = pd.concat([master_hei_df['city'], master_gis_df['city']]).unique()
 cities_in_db = sorted([str(c).title().strip() for c in all_cities if pd.notna(c)])
-unique_cities_display = sorted(list(set(cities_in_db)))
+unique_cities_display = fully_integrated
 
 with st.expander("Available City Inventories"):
     st.write(", ".join(unique_cities_display))
@@ -269,8 +287,10 @@ if run_btn:
                 m1, m2, m3 = st.columns(3)
                 m1.metric("Location", target_city.title() if target_city else "Regional Search")
                 acre_label = "Any"
-                if target_acreage["type"] == "min": acre_label = f"> {target_acreage['value']} ac"
-                elif target_acreage["type"] == "max": acre_label = f"< {target_acreage['value']} ac"
+                if target_acreage["type"] == "range": acre_label = f"{target_acreage['min']} - {target_acreage['max']} ac"
+                elif target_acreage["type"] == "min": acre_label = f"> {target_acreage['min']} ac"
+                elif target_acreage["type"] == "max": acre_label = f"< {target_acreage['max']} ac"
+                elif target_acreage["type"] == "both": acre_label = f"{target_acreage['min']} - {target_acreage['max']} ac"
                 m2.metric("Size Requirement", acre_label)
                 den_label = "Any"
                 if target_density["type"] == "range": den_label = f"{target_density['min']} - {target_density['max']} DU/ac"
@@ -286,11 +306,12 @@ if run_btn:
                     if df.empty: return df
                     mask = pd.Series([True] * len(df), index=df.index)
                     if target_city: mask &= (df['city'].str.lower() == target_city.lower())
-                    if target_acreage["value"] is not None:
+                    if target_acreage["type"] is not None:
                         acres = pd.to_numeric(df['total_acreage'], errors='coerce').fillna(0)
-                        val = target_acreage["value"]
-                        if target_acreage["type"] == "min": mask &= (acres >= val)
-                        elif target_acreage["type"] == "max": mask &= (acres <= val)
+                        a = target_acreage
+                        if a["type"] in ["range", "both"]: mask &= (acres >= a["min"]) & (acres <= a["max"])
+                        elif a["type"] == "min": mask &= (acres >= a["min"])
+                        elif a["type"] == "max": mask &= (acres <= a["max"])
                     if target_density["type"] is not None:
                         max_den = pd.to_numeric(df['max_density'], errors='coerce').fillna(0)
                         d = target_density
@@ -376,4 +397,4 @@ if run_btn:
                 st.error(f"Error: {str(e)}")
 
 st.markdown("---")
-st.caption("ParcelIQ v1.3.7 | Advanced NL Query Engine")
+st.caption("ParcelIQ v1.4.0 | Advanced NL Query Engine")
