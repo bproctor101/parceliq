@@ -1,0 +1,723 @@
+{
+  "city": "Cupertino",
+  "state": "California",
+  "source": [
+    "Cupertino General Plan Community Vision 2015-2040, Appendix A: Land Use Definitions (2024 Update, Sep 25 2024) - https://www.cupertino.gov/files/assets/city/v/2/departments/documents/community-development/planning/general-plan/current-gp-documents/cupgp_appendixa_2024update_9-25-2024.pdf",
+    "Cupertino Municipal Code Title 19 Zoning - https://www.cupertino.gov/Your-City/Departments/Community-Development/Planning/Zoning",
+    "Cupertino 6th Cycle Housing Element (adopted May 14, 2024) and Zoning Changes (July 2, 2024) - https://www.cupertino.gov/Your-City/Departments/Community-Development/Planning/Major-Projects/6th-Cycle-Housing-Element-Update"
+  ],
+  "last_updated": "2026-04-16",
+  "notes": "Cupertino uses General Plan land use designations to set density ranges (du/ac). The Municipal Code Title 19 establishes zoning districts (R1, R2, R3, etc.) that implement these designations. Density is expressed in dwelling units per gross acre unless otherwise noted. The 2024 Housing Element update added new high-density residential categories (R4 High/Very High and R4 Very High). For Planned Development (P) zones, density is set by the underlying General Plan designation. Commercial/Office/Industrial zones without a residential component do not permit standalone residential development (density = 0).",
+  "zones": {
+    "R1-5": {
+      "min_density": 1,
+      "max_density": 5,
+      "description": "Single-Family Residential (5,000 sq ft min lot). Corresponds to General Plan Low Density (1-5 du/ac). Detached single-family homes in suburban setting."
+    },
+    "R1-6": {
+      "min_density": 1,
+      "max_density": 5,
+      "description": "Single-Family Residential (6,000 sq ft min lot). Corresponds to General Plan Low Density (1-5 du/ac). Detached single-family homes."
+    },
+    "R1-7.5": {
+      "min_density": 1,
+      "max_density": 5,
+      "description": "Single-Family Residential (7,500 sq ft min lot). Corresponds to General Plan Low Density (1-5 du/ac). Detached single-family homes."
+    },
+    "R1-8": {
+      "min_density": 1,
+      "max_density": 5,
+      "description": "Single-Family Residential (8,000 sq ft min lot). Corresponds to General Plan Low Density (1-5 du/ac). Detached single-family homes."
+    },
+    "R1-10": {
+      "min_density": 1,
+      "max_density": 5,
+      "description": "Single-Family Residential (10,000 sq ft min lot). Corresponds to General Plan Low Density (1-5 du/ac). Detached single-family homes."
+    },
+    "R1-20": {
+      "min_density": 1,
+      "max_density": 2,
+      "description": "Single-Family Residential (20,000 sq ft min lot / half-acre). Lower density single-family with larger lots."
+    },
+    "R1-Xi": {
+      "min_density": 1,
+      "max_density": 5,
+      "description": "Single-Family Residential Restricted to One Story (not to exceed 18 ft). Min lot area = number x 1,000 sq ft. Low Density designation."
+    },
+    "R1-Xe": {
+      "min_density": 1,
+      "max_density": 5,
+      "description": "Single-Family Residential Eichler District. Min lot area = number x 1,000 sq ft. Preserves Eichler neighborhood character. Low Density designation."
+    },
+    "R1-a": {
+      "min_density": 1,
+      "max_density": 4,
+      "description": "Single-Family Residential with Semi-Rural Characteristics. 10,000 sq ft minimum lot, 75 ft min lot width. Low Density designation."
+    },
+    "R1C": {
+      "min_density": 1,
+      "max_density": 5,
+      "description": "Residential Single-Family Cluster. Allows clustered single-family development. Low Density designation."
+    },
+    "RHS": {
+      "min_density": 0.05,
+      "max_density": 1,
+      "description": "Residential Hillside. Corresponds to General Plan Very Low Density. Intensity based on slope-density formulas (Foothill Modified, Semi-Rural 5 acre, or Foothill 5-20 acre). Protects environmentally sensitive hillside areas."
+    },
+    "A": {
+      "min_density": 0,
+      "max_density": 1,
+      "description": "Agricultural. Very low density residential may be permitted as accessory to agricultural use."
+    },
+    "A-1": {
+      "min_density": 0,
+      "max_density": 1,
+      "description": "Agricultural-Residential. Very low density residential permitted alongside agricultural use."
+    },
+    "R2": {
+      "min_density": 5.01,
+      "max_density": 10,
+      "description": "Residential Duplex. Corresponds to General Plan Low/Medium Density (5.01-10 du/ac). Allows two dwelling units on one lot. Intended to increase housing variety while maintaining neighborhood character."
+    },
+    "R3": {
+      "min_density": 10.01,
+      "max_density": 20,
+      "description": "Multiple-Family Residential. Corresponds to General Plan Medium Density (10.01-20 du/ac). Smaller-scale multi-family including duplexes, townhomes, and rowhouse development. Missing middle housing types."
+    },
+    "R3-MH": {
+      "min_density": 20.01,
+      "max_density": 35,
+      "description": "Multiple-Family Residential Medium/High Density. Corresponds to General Plan Medium/High Density (20.01-35 du/ac). Triplexes, fourplexes, multi-family residential, and townhome development in corridors with access to services and transit."
+    },
+    "R4-H": {
+      "min_density": 35.01,
+      "max_density": 50,
+      "description": "Multiple-Family Residential High Density. Corresponds to General Plan High Density (35.01-50 du/ac). Primarily multi-family residential at urban locations with adequate utility services or transit."
+    },
+    "R4-HVH": {
+      "min_density": 50.01,
+      "max_density": 65,
+      "description": "Multiple-Family Residential High/Very High Density. New designation created by 2024 Housing Element. Corresponds to General Plan High/Very High Density (50.01-65 du/ac). Multi-family or mixed-use in urban environments with adequate utility services, transit, or both."
+    },
+    "R4-VH": {
+      "min_density": 65.01,
+      "max_density": 80,
+      "description": "Multiple-Family Residential Very High Density. New designation created by 2024 Housing Element. Corresponds to General Plan Very High Density (65.01-80 du/ac). Maximum housing opportunity in distinctly urban environments."
+    },
+    "R4-Highest": {
+      "min_density": 80.01,
+      "max_density": 95,
+      "description": "Multiple-Family Residential Highest Density. Corresponds to General Plan Highest Density (80.01-95 du/ac). Maximum opportunity for housing choice including workforce housing, at locations with adequate utility services adjacent to office campus environments."
+    },
+    "TH": {
+      "min_density": 10.01,
+      "max_density": 35,
+      "description": "Townhome Combining District. Overlay district that permits townhome development. Density set by underlying General Plan designation, typically Medium to Medium/High Density range."
+    },
+    "CG": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "General Commercial. Commercial uses including retail sales, business, and service establishments. No standalone residential permitted."
+    },
+    "P(CG)": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Planned Development - General Commercial. Commercial uses per Planned Development approval. No standalone residential."
+    },
+    "P(CG,Res)": {
+      "min_density": 5.01,
+      "max_density": 50,
+      "description": "Planned Development - General Commercial with Residential. Mixed-use commercial/residential. Density per General Plan Commercial/Residential designation, which ranges from Low/Medium (5.01-10) up to High (35.01-50) du/ac depending on sub-designation."
+    },
+    "CR-LM": {
+      "min_density": 5.01,
+      "max_density": 10,
+      "description": "Commercial/Residential Low/Medium Density. Mixed-use with commercial and residential at 5.01-10 du/ac. Low to medium intensity residential within walking distance to local/neighborhood commercial."
+    },
+    "CR-M": {
+      "min_density": 10.01,
+      "max_density": 20,
+      "description": "Commercial/Residential Medium Density. Mixed-use with commercial and residential at 10.01-20 du/ac. Missing-middle housing and smaller-scale multi-family combined with commercial."
+    },
+    "CR-MH": {
+      "min_density": 20.01,
+      "max_density": 35,
+      "description": "Commercial/Residential Medium/High Density. Mixed-use with commercial and residential at 20.01-35 du/ac. Multi-family and townhome development in corridors with services and transit."
+    },
+    "CR-H": {
+      "min_density": 35.01,
+      "max_density": 50,
+      "description": "Commercial/Residential High Density. Mixed-use with commercial and residential at 35.01-50 du/ac. Primarily multi-family at urban locations with adequate utility services or transit."
+    },
+    "CR-HVH": {
+      "min_density": 50.01,
+      "max_density": 65,
+      "description": "Commercial/Residential High/Very High Density. Mixed-use with commercial and residential at 50.01-65 du/ac. Multi-family in urban environments."
+    },
+    "CR-VH": {
+      "min_density": 65.01,
+      "max_density": 80,
+      "description": "Commercial/Residential Very High Density. Mixed-use with commercial and residential at 65.01-80 du/ac. Maximum housing opportunity in distinctly urban environment."
+    },
+    "NCR": {
+      "min_density": 0,
+      "max_density": 10,
+      "description": "Neighborhood Commercial/Residential. Subset of Commercial designation. Retail, personal services, and limited commercial offices serving adjacent neighborhoods. Residential living units allowed as upper floor uses or behind non-residential component of live/work units."
+    },
+    "RS-Res": {
+      "min_density": 29.7,
+      "max_density": 35,
+      "description": "Regional Shopping / Residential (Vallco Shopping District Special Area). Residential at max 35 du/ac and min 29.7 du/ac by right. Limited ground-floor commercial. Up to 5 stories residential-only or 6 stories with ground-floor commercial."
+    },
+    "RS": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Regional Shopping (Vallco Shopping District Special Area, non-residential portions). Commercial uses, retail, restaurants, entertainment, hotel. No residential allowed."
+    },
+    "OA": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Administrative and Professional Office. Office uses including administrative, professional, and research and development activities. No standalone residential permitted."
+    },
+    "OP": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Professional Office. Professional office uses. No standalone residential permitted."
+    },
+    "COR": {
+      "min_density": 0,
+      "max_density": 35,
+      "description": "Commercial/Office/Residential. Mixed-use areas predominantly commercial and office. Supporting residential uses allowed to offset job growth and balance jobs-to-housing ratio. Density subject to Land Use Element numerical caps."
+    },
+    "IR": {
+      "min_density": 0,
+      "max_density": 35,
+      "description": "Industrial/Residential. Primarily industrial uses with secondary residential. Housing allowed to offset job growth and balance jobs-to-housing ratio. Density subject to Land Use Element numerical caps."
+    },
+    "ICR": {
+      "min_density": 0,
+      "max_density": 35,
+      "description": "Industrial/Commercial/Residential. Primarily industrial with secondary commercial and residential. Housing allowed to balance jobs-to-housing ratio. Density subject to Land Use Element numerical caps."
+    },
+    "OICR": {
+      "min_density": 0,
+      "max_density": 35,
+      "description": "Office/Industrial/Commercial/Residential. Primarily office and industrial uses. Commercial ancillary and supportive. Residential subject to Land Use Element numerical caps and policies."
+    },
+    "ML": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Light Industrial. Manufacturing, assembly, research and development. No standalone residential permitted."
+    },
+    "MP": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Industrial Park. Industrial park uses. No standalone residential permitted."
+    },
+    "P": {
+      "min_density": null,
+      "max_density": null,
+      "description": "Planned Development. Flexible zoning allowing any form of development from residential to commercial/office or mixed-use. Density determined by underlying General Plan land use designation and approved development plan."
+    },
+    "BA": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Public Building. Government and public facility uses. No residential permitted."
+    },
+    "BQ": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Quasi-Public Building. Privately owned land for activities such as private utilities, healthcare facilities, educational or religious facilities. No standalone residential."
+    },
+    "OS": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Open Space. Public and private open space and recreational lands. No residential permitted."
+    },
+    "PR": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Park and Recreation. Public parks and recreation areas. No residential permitted."
+    },
+    "FP": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Private Recreation. Private recreational facilities. No residential permitted."
+    },
+    "T": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Transportation. Streets, highways, and rail corridors. No residential permitted."
+    },
+    "A-215": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Agricultural Preserve (Williamson Act Contract). Restricted to agricultural use per contract."
+    },
+    "A1-40": {
+      "min_density": 0,
+      "max_density": 1,
+      "description": "Agricultural-Residential (40,000 sq ft min lot / ~1 acre). Very low density residential alongside agricultural use."
+    },
+    "A1-43": {
+      "min_density": 0,
+      "max_density": 1,
+      "description": "Agricultural-Residential (43,000 sq ft min lot / ~1 acre). Very low density residential alongside agricultural use."
+    },
+    "CG-rg": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "General Commercial with Residential Guideline overlay. Commercial uses with residential design guidelines applied."
+    },
+    "FP-o": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Private Recreation with overlay. Private recreational facilities with special overlay conditions."
+    },
+    "ML-rc": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Light Industrial with Restricted Commercial overlay. Light industrial with limited commercial permitted."
+    },
+    "Pre R1-10": {
+      "min_density": 1,
+      "max_density": 5,
+      "description": "Pre-annexation Single-Family Residential (10,000 sq ft min lot). County zoning prior to annexation, treated as R1-10."
+    },
+    "Pre-BQ": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Pre-annexation Quasi-Public Building. County zoning prior to annexation, treated as BQ."
+    },
+    "Pre-R1-7.5": {
+      "min_density": 1,
+      "max_density": 5,
+      "description": "Pre-annexation Single-Family Residential (7,500 sq ft min lot). County zoning prior to annexation, treated as R1-7.5."
+    },
+    "Pre-RHS": {
+      "min_density": 0.05,
+      "max_density": 1,
+      "description": "Pre-annexation Residential Hillside. County zoning prior to annexation, treated as RHS."
+    },
+    "R1-10i": {
+      "min_density": 1,
+      "max_density": 5,
+      "description": "Single-Family Residential Restricted to One Story (10,000 sq ft min lot). Low Density designation."
+    },
+    "R1-6e": {
+      "min_density": 1,
+      "max_density": 5,
+      "description": "Single-Family Residential Eichler District (6,000 sq ft min lot). Preserves Eichler neighborhood character. Low Density designation."
+    },
+    "R1-6i": {
+      "min_density": 1,
+      "max_density": 5,
+      "description": "Single-Family Residential Restricted to One Story (6,000 sq ft min lot). Low Density designation."
+    },
+    "R1-7": {
+      "min_density": 1,
+      "max_density": 5,
+      "description": "Single-Family Residential (7,000 sq ft min lot). Low Density designation."
+    },
+    "R1-7.5i": {
+      "min_density": 1,
+      "max_density": 5,
+      "description": "Single-Family Residential Restricted to One Story (7,500 sq ft min lot). Low Density designation."
+    },
+    "R1-22": {
+      "min_density": 1,
+      "max_density": 2,
+      "description": "Single-Family Residential (22,000 sq ft min lot / half-acre). Lower density single-family with larger lots."
+    },
+    "R1-32.5": {
+      "min_density": 0.5,
+      "max_density": 1.3,
+      "description": "Single-Family Residential (32,500 sq ft min lot / ~3/4 acre). Very low density single-family."
+    },
+    "R1C-2.5": {
+      "min_density": 1,
+      "max_density": 5,
+      "description": "Residential Single-Family Cluster (2,500 sq ft per unit). Cluster development allowing higher effective density."
+    },
+    "R1C-2.9": {
+      "min_density": 1,
+      "max_density": 5,
+      "description": "Residential Single-Family Cluster (2,900 sq ft per unit). Cluster development."
+    },
+    "R1C-3.2": {
+      "min_density": 1,
+      "max_density": 5,
+      "description": "Residential Single-Family Cluster (3,200 sq ft per unit). Cluster development."
+    },
+    "R2-4.25": {
+      "min_density": 5.01,
+      "max_density": 10,
+      "description": "Residential Duplex (4,250 sq ft min lot per unit). Low/Medium Density designation."
+    },
+    "R2-4.25i": {
+      "min_density": 5.01,
+      "max_density": 10,
+      "description": "Residential Duplex Restricted to One Story (4,250 sq ft min lot per unit). Low/Medium Density designation."
+    },
+    "R3-2.2": {
+      "min_density": 10.01,
+      "max_density": 20,
+      "description": "Multiple-Family Residential (2,200 sq ft min lot per unit). Medium Density designation."
+    },
+    "R3/TH": {
+      "min_density": 10.01,
+      "max_density": 35,
+      "description": "Multiple-Family Residential with Townhome Combining District. Townhome and multi-family development."
+    },
+    "R4": {
+      "min_density": 35.01,
+      "max_density": 50,
+      "description": "Multiple-Family Residential High Density. High density multi-family, 35.01-50 du/ac."
+    },
+    "R-3(10-20)": {
+      "min_density": 10,
+      "max_density": 20,
+      "description": "Multiple-Family Residential (10-20 du/ac). Medium Density multi-family."
+    },
+    "RHS-8": {
+      "min_density": 0,
+      "max_density": 1,
+      "description": "Residential Hillside (800 sq ft min lot / ~0.2 ac). Very Low Density hillside residential."
+    },
+    "RHS-10": {
+      "min_density": 0,
+      "max_density": 1,
+      "description": "Residential Hillside (1000 sq ft min lot / ~0.2 ac). Very Low Density hillside residential."
+    },
+    "RHS-12": {
+      "min_density": 0,
+      "max_density": 1,
+      "description": "Residential Hillside (1200 sq ft min lot / ~0.3 ac). Very Low Density hillside residential."
+    },
+    "RHS-15": {
+      "min_density": 0,
+      "max_density": 1,
+      "description": "Residential Hillside (1500 sq ft min lot / ~0.3 ac). Very Low Density hillside residential."
+    },
+    "RHS-20": {
+      "min_density": 0,
+      "max_density": 1,
+      "description": "Residential Hillside (2000 sq ft min lot / ~0.5 ac). Very Low Density hillside residential."
+    },
+    "RHS-21": {
+      "min_density": 0,
+      "max_density": 1,
+      "description": "Residential Hillside (2100 sq ft min lot / ~0.5 ac). Very Low Density hillside residential."
+    },
+    "RHS-30": {
+      "min_density": 0,
+      "max_density": 1,
+      "description": "Residential Hillside (3000 sq ft min lot / ~0.7 ac). Very Low Density hillside residential."
+    },
+    "RHS-40": {
+      "min_density": 0,
+      "max_density": 1,
+      "description": "Residential Hillside (4000 sq ft min lot / ~0.9 ac). Very Low Density hillside residential."
+    },
+    "RHS-60": {
+      "min_density": 0,
+      "max_density": 0.73,
+      "description": "Residential Hillside (6000 sq ft min lot / ~1.4 ac). Very Low Density hillside residential."
+    },
+    "RHS-70": {
+      "min_density": 0,
+      "max_density": 0.62,
+      "description": "Residential Hillside (7000 sq ft min lot / ~1.6 ac). Very Low Density hillside residential."
+    },
+    "RHS-80": {
+      "min_density": 0,
+      "max_density": 0.54,
+      "description": "Residential Hillside (8000 sq ft min lot / ~1.8 ac). Very Low Density hillside residential."
+    },
+    "RHS-90": {
+      "min_density": 0,
+      "max_density": 0.48,
+      "description": "Residential Hillside (9000 sq ft min lot / ~2.1 ac). Very Low Density hillside residential."
+    },
+    "RHS-100": {
+      "min_density": 0,
+      "max_density": 0.44,
+      "description": "Residential Hillside (10000 sq ft min lot / ~2.3 ac). Very Low Density hillside residential."
+    },
+    "RHS-120": {
+      "min_density": 0,
+      "max_density": 0.36,
+      "description": "Residential Hillside (12000 sq ft min lot / ~2.8 ac). Very Low Density hillside residential."
+    },
+    "RHS-150": {
+      "min_density": 0,
+      "max_density": 0.29,
+      "description": "Residential Hillside (15000 sq ft min lot / ~3.4 ac). Very Low Density hillside residential."
+    },
+    "RHS-170": {
+      "min_density": 0,
+      "max_density": 0.26,
+      "description": "Residential Hillside (17000 sq ft min lot / ~3.9 ac). Very Low Density hillside residential."
+    },
+    "RHS-175": {
+      "min_density": 0,
+      "max_density": 0.25,
+      "description": "Residential Hillside (17500 sq ft min lot / ~4.0 ac). Very Low Density hillside residential."
+    },
+    "RHS-180": {
+      "min_density": 0,
+      "max_density": 0.24,
+      "description": "Residential Hillside (18000 sq ft min lot / ~4.1 ac). Very Low Density hillside residential."
+    },
+    "RHS-190": {
+      "min_density": 0,
+      "max_density": 0.23,
+      "description": "Residential Hillside (19000 sq ft min lot / ~4.4 ac). Very Low Density hillside residential."
+    },
+    "RHS-200": {
+      "min_density": 0,
+      "max_density": 0.22,
+      "description": "Residential Hillside (20000 sq ft min lot / ~4.6 ac). Very Low Density hillside residential."
+    },
+    "RHS-218": {
+      "min_density": 0,
+      "max_density": 0.2,
+      "description": "Residential Hillside (21800 sq ft min lot / ~5.0 ac). Very Low Density hillside residential."
+    },
+    "RHS-240": {
+      "min_density": 0,
+      "max_density": 0.18,
+      "description": "Residential Hillside (24000 sq ft min lot / ~5.5 ac). Very Low Density hillside residential."
+    },
+    "RHS-260": {
+      "min_density": 0,
+      "max_density": 0.17,
+      "description": "Residential Hillside (26000 sq ft min lot / ~6.0 ac). Very Low Density hillside residential."
+    },
+    "RHS-400": {
+      "min_density": 0,
+      "max_density": 0.11,
+      "description": "Residential Hillside (40000 sq ft min lot / ~9.2 ac). Very Low Density hillside residential."
+    },
+    "RHS-440": {
+      "min_density": 0,
+      "max_density": 0.1,
+      "description": "Residential Hillside (44000 sq ft min lot / ~10.1 ac). Very Low Density hillside residential."
+    },
+    "P (CG, R3, TH)": {
+      "min_density": 10.01,
+      "max_density": 35,
+      "description": "Planned Development (CG, R3, TH) - with R3 multi-family/townhome residential."
+    },
+    "P (CG, R4)": {
+      "min_density": 35.01,
+      "max_density": 50,
+      "description": "Planned Development (CG, R4) - with R4 high-density residential."
+    },
+    "P(BA)": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Planned Development (BA) - commercial/office uses per approved plan. No standalone residential permitted."
+    },
+    "P(BQ,Mini-Stor)": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Planned Development (BQ,Mini-Stor) - with mini-storage. No standalone residential permitted."
+    },
+    "P(CG, ML, BQ, Res)": {
+      "min_density": 0,
+      "max_density": 50,
+      "description": "Planned Development (CG, ML, BQ, Res) - with residential component, density per approved plan."
+    },
+    "P(CG, ML, OA)": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Planned Development (CG, ML, OA) - commercial/office uses per approved plan. No standalone residential permitted."
+    },
+    "P(CG, ML, Res 35)": {
+      "min_density": 20.01,
+      "max_density": 35,
+      "description": "Planned Development (CG, ML, Res 35) - with residential up to 35 du/ac."
+    },
+    "P(CG, ML, Res 4-10)": {
+      "min_density": 4,
+      "max_density": 10,
+      "description": "Planned Development (CG, ML, Res 4-10) - with residential at 4-10 du/ac."
+    },
+    "P(CG, ML, Res)": {
+      "min_density": 0,
+      "max_density": 50,
+      "description": "Planned Development (CG, ML, Res) - with residential component, density per approved plan."
+    },
+    "P(CG, OA)": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Planned Development (CG, OA) - commercial/office uses per approved plan. No standalone residential permitted."
+    },
+    "P(CG, OP, ML, Res)": {
+      "min_density": 0,
+      "max_density": 50,
+      "description": "Planned Development (CG, OP, ML, Res) - with residential component, density per approved plan."
+    },
+    "P(CG, OP, Res)": {
+      "min_density": 0,
+      "max_density": 50,
+      "description": "Planned Development (CG, OP, Res) - with residential component, density per approved plan."
+    },
+    "P(CG, R4)": {
+      "min_density": 35.01,
+      "max_density": 50,
+      "description": "Planned Development (CG, R4) - with R4 high-density residential."
+    },
+    "P(CG, Res 5-15)": {
+      "min_density": 5,
+      "max_density": 15,
+      "description": "Planned Development (CG, Res 5-15) - with residential at 5-15 du/ac."
+    },
+    "P(CG, Res)": {
+      "min_density": 0,
+      "max_density": 50,
+      "description": "Planned Development (CG, Res) - with residential component, density per approved plan."
+    },
+    "P(CN)": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Planned Development (CN) - commercial/office uses per approved plan. No standalone residential permitted."
+    },
+    "P(CN, ML, Res 4-12)": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Planned Development (CN, ML, Res 4-12) - commercial/office uses per approved plan."
+    },
+    "P(Hotel)": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Planned Development (Hotel) - for hotel use. No standalone residential permitted."
+    },
+    "P(Institutional)": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Planned Development (Institutional) - for institutional use. No standalone residential permitted."
+    },
+    "P(ML)": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Planned Development (ML) - commercial/office uses per approved plan. No standalone residential permitted."
+    },
+    "P(ML, CG)": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Planned Development (ML, CG) - commercial/office uses per approved plan. No standalone residential permitted."
+    },
+    "P(MP)": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Planned Development (MP) - commercial/office uses per approved plan. No standalone residential permitted."
+    },
+    "P(MP, CG)": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Planned Development (MP, CG) - commercial/office uses per approved plan. No standalone residential permitted."
+    },
+    "P(OA)": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Planned Development (OA) - commercial/office uses per approved plan. No standalone residential permitted."
+    },
+    "P(OP)": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Planned Development (OP) - commercial/office uses per approved plan. No standalone residential permitted."
+    },
+    "P(R-3)10-20": {
+      "min_density": 10.01,
+      "max_density": 20,
+      "description": "Planned Development (R-3)10-20) - with R3 multi-family residential."
+    },
+    "P(R1 0-2)": {
+      "min_density": 1,
+      "max_density": 5,
+      "description": "Planned Development (R1 0-2) - with R1 single-family residential."
+    },
+    "P(R1)": {
+      "min_density": 1,
+      "max_density": 5,
+      "description": "Planned Development (R1) - with R1 single-family residential."
+    },
+    "P(R1-7.5)": {
+      "min_density": 1,
+      "max_density": 5,
+      "description": "Planned Development (R1-7.5) - with R1 single-family residential."
+    },
+    "P(R1C)": {
+      "min_density": 1,
+      "max_density": 5,
+      "description": "Planned Development (R1C) - with R1 single-family residential."
+    },
+    "P(R2)": {
+      "min_density": 5.01,
+      "max_density": 10,
+      "description": "Planned Development (R2) - with R2 duplex residential."
+    },
+    "P(R2, Mini-Stor)": {
+      "min_density": 5.01,
+      "max_density": 10,
+      "description": "Planned Development (R2, Mini-Stor) - with R2 duplex residential."
+    },
+    "P(R3)": {
+      "min_density": 10.01,
+      "max_density": 20,
+      "description": "Planned Development (R3) - with R3 multi-family residential."
+    },
+    "P(R3,CG)": {
+      "min_density": 10.01,
+      "max_density": 35,
+      "description": "Planned Development (R3,CG) - with R3 multi-family/townhome residential."
+    },
+    "P(Rec,Enter)": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Planned Development (Rec,Enter) - for recreation and entertainment. No standalone residential permitted."
+    },
+    "P(Res 10-20 Mini-Stor)": {
+      "min_density": 10,
+      "max_density": 20,
+      "description": "Planned Development (Res 10-20 Mini-Stor) - with residential at 10-20 du/ac."
+    },
+    "P(Res 10-20)": {
+      "min_density": 10,
+      "max_density": 20,
+      "description": "Planned Development (Res 10-20) - with residential at 10-20 du/ac."
+    },
+    "P(Res 4-8)": {
+      "min_density": 4,
+      "max_density": 10,
+      "description": "Planned Development (Res 4-8) - with residential at 4-10 du/ac."
+    },
+    "P(Res 4.4-12)": {
+      "min_density": 4.4,
+      "max_density": 12,
+      "description": "Planned Development (Res 4.4-12) - with residential at 4.4-12 du/ac."
+    },
+    "P(Res 4.4-7.7)": {
+      "min_density": 4.4,
+      "max_density": 7.7,
+      "description": "Planned Development (Res 4.4-7.7) - with residential at 4.4-7.7 du/ac."
+    },
+    "P(Res 5-10)": {
+      "min_density": 5,
+      "max_density": 10,
+      "description": "Planned Development (Res 5-10) - with residential at 5-10 du/ac."
+    },
+    "P(Res)": {
+      "min_density": 0,
+      "max_density": 50,
+      "description": "Planned Development (Res) - with residential component, density per approved plan."
+    },
+    "P(Res)-70": {
+      "min_density": 0,
+      "max_density": 50,
+      "description": "Planned Development (Residential) with 70-unit cap. Density per approved plan with maximum 70 units on site."
+    }
+  }
+}

@@ -1,0 +1,522 @@
+{
+  "city": "Pleasanton",
+  "source": "Pleasanton Municipal Code Title 18 Zoning, ecode360.com/43033789; Pleasanton General Plan Land Use Element; Pleasanton 2023-2031 Housing Element; Objective Design Standards for Housing Sites 2024, cityofpleasantonca.gov",
+  "last_updated": "2026-04-16",
+  "zones": {
+    "A": {
+      "min_density": 0,
+      "max_density": 0.1,
+      "description": "Agricultural District - very low density agricultural and rural residential"
+    },
+    "R-1-40000": {
+      "min_density": 0,
+      "max_density": 1.09,
+      "description": "One-Family Residential - min lot area 40,000 sq ft (1.09 du/ac); estate-scale single-family"
+    },
+    "R-1-20000": {
+      "min_density": 0,
+      "max_density": 2.18,
+      "description": "One-Family Residential - min lot area 20,000 sq ft (2.18 du/ac); large-lot single-family"
+    },
+    "R-1-10000": {
+      "min_density": 0,
+      "max_density": 4.36,
+      "description": "One-Family Residential - min lot area 10,000 sq ft (4.36 du/ac); standard single-family"
+    },
+    "R-1-8500": {
+      "min_density": 0,
+      "max_density": 5.12,
+      "description": "One-Family Residential - min lot area 8,500 sq ft (5.12 du/ac); single-family"
+    },
+    "R-1-7500": {
+      "min_density": 0,
+      "max_density": 5.81,
+      "description": "One-Family Residential - min lot area 7,500 sq ft (5.81 du/ac); single-family"
+    },
+    "R-1-6500": {
+      "min_density": 0,
+      "max_density": 6.7,
+      "description": "One-Family Residential - min lot area 6,500 sq ft (6.70 du/ac); compact single-family"
+    },
+    "R-1-6000": {
+      "min_density": 0,
+      "max_density": 7.26,
+      "description": "One-Family Residential - min lot area 6,000 sq ft (7.26 du/ac); compact single-family"
+    },
+    "RM-4000": {
+      "min_density": 7.0,
+      "max_density": 10.89,
+      "description": "Multi-Family Residential - min lot area 4,000 sq ft per unit (10.89 du/ac); low-density multifamily; RM districts near R-1 areas"
+    },
+    "RM-2500": {
+      "min_density": 10.9,
+      "max_density": 17.42,
+      "description": "Multi-Family Residential - min lot area 2,500 sq ft per unit (17.42 du/ac); medium-density multifamily"
+    },
+    "RM-2000": {
+      "min_density": 14.0,
+      "max_density": 21.78,
+      "description": "Multi-Family Residential - min lot area 2,000 sq ft per unit (21.78 du/ac); medium-high density multifamily; transitional areas"
+    },
+    "RM-1500": {
+      "min_density": 20.0,
+      "max_density": 29.04,
+      "description": "Multi-Family Residential - min lot area 1,500 sq ft per unit (29.04 du/ac); high-density multifamily"
+    },
+    "HOZ": {
+      "min_density": 30.0,
+      "max_density": 65.0,
+      "description": "Housing Opportunity Zone District - created for 2023-2031 Housing Element sites; minimum 30 du/ac, some sites up to 65 du/ac"
+    },
+    "RO": {
+      "min_density": 0,
+      "max_density": 29.04,
+      "description": "Residential Overlay District - applied over commercial districts to allow residential; density per underlying RM designation"
+    },
+    "MU": {
+      "min_density": 14.0,
+      "max_density": 43.6,
+      "description": "Mixed Use District - residential and commercial mixed-use; up to 43.6 du/ac"
+    },
+    "O": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Office District - professional offices; no residential as primary use"
+    },
+    "C-N": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Neighborhood Commercial - neighborhood-serving retail and services; no residential as primary use"
+    },
+    "C-C": {
+      "min_density": 0,
+      "max_density": 43.6,
+      "description": "Community Commercial - community-scale commercial; may allow residential mixed-use up to 43.6 du/ac with RO overlay"
+    },
+    "C-R": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Regional Commercial - regional-scale retail (e.g. Stoneridge Mall); density up to 50-65 du/ac when rezoned per Housing Element"
+    },
+    "C-S": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Service Commercial - auto-oriented and service commercial; no residential"
+    },
+    "I": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Industrial District - manufacturing, warehousing, distribution; no residential"
+    },
+    "Q": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Rock, Sand and Gravel Extraction District - mineral extraction; no residential"
+    },
+    "P": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Public and Institutional District - public facilities, schools, government; no residential"
+    },
+    "S": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Study District - areas under study for future designation; development restricted"
+    },
+    "PUD": {
+      "min_density": 0,
+      "max_density": 65.0,
+      "description": "Planned Unit Development District - density set by approved PUD plan"
+    },
+    "H-P-D": {
+      "min_density": 0,
+      "max_density": 2.0,
+      "description": "Hillside Planned Development District - low-density hillside residential"
+    },
+    "R-1-10": {
+      "min_density": 0,
+      "max_density": 4.36,
+      "description": "One-Family Residential, 10,000 sq ft lot (alternate code for R-1-10000). 4.36 du/ac."
+    },
+    "R-1-20": {
+      "min_density": 0,
+      "max_density": 2.18,
+      "description": "One-Family Residential, 20,000 sq ft lot (alternate code for R-1-20000). 2.18 du/ac."
+    },
+    "R-1-40": {
+      "min_density": 0,
+      "max_density": 1.09,
+      "description": "One-Family Residential, 40,000 sq ft lot (alternate code for R-1-40000). 1.09 du/ac."
+    },
+    "R-1-65": {
+      "min_density": 0,
+      "max_density": 0.67,
+      "description": "One-Family Residential, 65,000 sq ft lot. ~0.67 du/ac. Large-lot single-family."
+    },
+    "R-1-75": {
+      "min_density": 0,
+      "max_density": 0.58,
+      "description": "One-Family Residential, 75,000 sq ft lot. ~0.58 du/ac. Large-lot single-family."
+    },
+    "R-1-85": {
+      "min_density": 0,
+      "max_density": 0.51,
+      "description": "One-Family Residential, 85,000 sq ft lot. ~0.51 du/ac. Large-lot single-family."
+    },
+    "RM-2": {
+      "min_density": 14.0,
+      "max_density": 21.78,
+      "description": "Multi-Family Residential, 2,000 sq ft per unit (alternate code for RM-2000). 21.78 du/ac."
+    },
+    "RM-4": {
+      "min_density": 7.0,
+      "max_density": 10.89,
+      "description": "Multi-Family Residential, 4,000 sq ft per unit (alternate code for RM-4000). 10.89 du/ac."
+    },
+    "RM-15": {
+      "min_density": 20.0,
+      "max_density": 29.04,
+      "description": "Multi-Family Residential, 1,500 sq ft per unit (alternate code for RM-1500). 29.04 du/ac."
+    },
+    "RM-25": {
+      "min_density": 10.9,
+      "max_density": 17.42,
+      "description": "Multi-Family Residential, 2,500 sq ft per unit (alternate code for RM-2500). 17.42 du/ac."
+    },
+    "RM-40": {
+      "min_density": 7.0,
+      "max_density": 10.89,
+      "description": "Multi-Family Residential, 4,000 sq ft per unit (alternate code for RM-4000). 10.89 du/ac."
+    },
+    "C-F": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Community Facilities District. Public and institutional facilities."
+    },
+    "C-R (m)": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Regional Commercial (Stoneridge Mall). Regional-scale retail."
+    },
+    "C-R (p)": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Regional Commercial (Periphery). Regional-scale commercial areas."
+    },
+    "HPD": {
+      "min_density": 0,
+      "max_density": 2.0,
+      "description": "Hillside Planned Development District (alternate code for H-P-D). Low-density hillside residential."
+    },
+    "I-G-40": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Industrial General, 40,000 sq ft minimum lot. General industrial uses."
+    },
+    "I-P": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Industrial Park District. Light industrial and business park uses."
+    },
+    "MU-D": {
+      "min_density": 14.0,
+      "max_density": 43.6,
+      "description": "Mixed Use Downtown District. Downtown mixed-use with residential."
+    },
+    "MU-T": {
+      "min_density": 14.0,
+      "max_density": 43.6,
+      "description": "Mixed Use Transit District. Transit-oriented mixed-use with residential."
+    },
+    "U": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Utility District. Public utility facilities and infrastructure."
+    },
+    "PUD-A": {
+      "min_density": 0,
+      "max_density": 0.1,
+      "description": "PUD - Agricultural. Very low density agricultural."
+    },
+    "PUD-A-OS": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "PUD - Agricultural/Open Space."
+    },
+    "PUD-A/MDR": {
+      "min_density": 0,
+      "max_density": 14,
+      "description": "PUD - Agricultural/Medium Density Residential."
+    },
+    "PUD-A/OS": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "PUD - Agricultural/Open Space."
+    },
+    "PUD-A/OS/LDR": {
+      "min_density": 0,
+      "max_density": 6,
+      "description": "PUD - Agricultural/Open Space/Low Density Residential."
+    },
+    "PUD-A/RDR": {
+      "min_density": 0,
+      "max_density": 2,
+      "description": "PUD - Agricultural/Rural Density Residential."
+    },
+    "PUD-C": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "PUD - Commercial."
+    },
+    "PUD-C-C": {
+      "min_density": 0,
+      "max_density": 43.6,
+      "description": "PUD - Community Commercial. May allow residential mixed-use."
+    },
+    "PUD-C-N": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "PUD - Neighborhood Commercial."
+    },
+    "PUD-C-O": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "PUD - Commercial Office."
+    },
+    "PUD-C-S": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "PUD - Service Commercial."
+    },
+    "PUD-COMMUNITY PARK": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "PUD - Community Park. Public park and recreation."
+    },
+    "PUD-ELEMENTARY SCHOOL": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "PUD - Elementary School. School facility."
+    },
+    "PUD-G&LI": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "PUD - General and Light Industrial."
+    },
+    "PUD-GC": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "PUD - General Commercial."
+    },
+    "PUD-HDR": {
+      "min_density": 20.0,
+      "max_density": 30.0,
+      "description": "PUD - High Density Residential. 20-30 du/ac."
+    },
+    "PUD-HDR-MDR": {
+      "min_density": 8.0,
+      "max_density": 30.0,
+      "description": "PUD - High/Medium Density Residential. 8-30 du/ac."
+    },
+    "PUD-HDR/C": {
+      "min_density": 20.0,
+      "max_density": 30.0,
+      "description": "PUD - High Density Residential/Commercial."
+    },
+    "PUD-HDR/C-C": {
+      "min_density": 20.0,
+      "max_density": 43.6,
+      "description": "PUD - High Density Residential/Community Commercial."
+    },
+    "PUD-HR": {
+      "min_density": 20.0,
+      "max_density": 30.0,
+      "description": "PUD - High Residential. 20-30 du/ac."
+    },
+    "PUD-HR/OS": {
+      "min_density": 0,
+      "max_density": 30.0,
+      "description": "PUD - High Residential/Open Space."
+    },
+    "PUD-I": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "PUD - Industrial."
+    },
+    "PUD-I/C-O": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "PUD - Industrial/Commercial Office."
+    },
+    "PUD-LDR": {
+      "min_density": 2.0,
+      "max_density": 6.0,
+      "description": "PUD - Low Density Residential. 2-6 du/ac."
+    },
+    "PUD-LDR/A": {
+      "min_density": 0,
+      "max_density": 6.0,
+      "description": "PUD - Low Density Residential/Agricultural."
+    },
+    "PUD-LDR/C/PHS/WO": {
+      "min_density": 0,
+      "max_density": 6.0,
+      "description": "PUD - Low Density Residential/Commercial/Public Health & Safety/Worship."
+    },
+    "PUD-LDR/HDR/P&I & Mixed P&I/MDR": {
+      "min_density": 2.0,
+      "max_density": 30.0,
+      "description": "PUD - Low/High Density Residential with Public/Institutional and Medium Density Residential."
+    },
+    "PUD-LDR/MDR": {
+      "min_density": 2.0,
+      "max_density": 14.0,
+      "description": "PUD - Low/Medium Density Residential. 2-14 du/ac."
+    },
+    "PUD-LDR/MDR/OS": {
+      "min_density": 2.0,
+      "max_density": 14.0,
+      "description": "PUD - Low/Medium Density Residential/Open Space."
+    },
+    "PUD-LDR/O": {
+      "min_density": 0,
+      "max_density": 6.0,
+      "description": "PUD - Low Density Residential/Office."
+    },
+    "PUD-LDR/OS": {
+      "min_density": 0,
+      "max_density": 6.0,
+      "description": "PUD - Low Density Residential/Open Space."
+    },
+    "PUD-LDR/RDR/OS": {
+      "min_density": 0,
+      "max_density": 6.0,
+      "description": "PUD - Low/Rural Density Residential/Open Space."
+    },
+    "PUD-LDR/RDR/OS-PHS/WO": {
+      "min_density": 0,
+      "max_density": 6.0,
+      "description": "PUD - Low/Rural Density Residential/Open Space with Public Health & Safety/Worship."
+    },
+    "PUD-LDR/RDR/PHS": {
+      "min_density": 0,
+      "max_density": 6.0,
+      "description": "PUD - Low/Rural Density Residential/Public Health & Safety."
+    },
+    "PUD-MDR": {
+      "min_density": 8.0,
+      "max_density": 14.0,
+      "description": "PUD - Medium Density Residential. 8-14 du/ac."
+    },
+    "PUD-MDR/LDR/RDR": {
+      "min_density": 0.5,
+      "max_density": 14.0,
+      "description": "PUD - Medium/Low/Rural Density Residential."
+    },
+    "PUD-MDR/OS": {
+      "min_density": 0,
+      "max_density": 14.0,
+      "description": "PUD - Medium Density Residential/Open Space."
+    },
+    "PUD-MDR/OS/PH&S/WO": {
+      "min_density": 0,
+      "max_density": 14.0,
+      "description": "PUD - Medium Density Residential/Open Space/Public Health & Safety/Worship."
+    },
+    "PUD-MU": {
+      "min_density": 14.0,
+      "max_density": 43.6,
+      "description": "PUD - Mixed Use. Residential and commercial."
+    },
+    "PUD-O": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "PUD - Office."
+    },
+    "PUD-O/C-C": {
+      "min_density": 0,
+      "max_density": 43.6,
+      "description": "PUD - Office/Community Commercial."
+    },
+    "PUD-O/HDR": {
+      "min_density": 0,
+      "max_density": 30.0,
+      "description": "PUD - Office/High Density Residential."
+    },
+    "PUD-OS": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "PUD - Open Space."
+    },
+    "PUD-OS/A": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "PUD - Open Space/Agricultural."
+    },
+    "PUD-OSD": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "PUD - Open Space Dedication."
+    },
+    "PUD-P": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "PUD - Public/Institutional."
+    },
+    "PUD-R-1-65": {
+      "min_density": 0,
+      "max_density": 0.67,
+      "description": "PUD - One-Family Residential, 65,000 sq ft lot. ~0.67 du/ac."
+    },
+    "PUD-RDR": {
+      "min_density": 0.5,
+      "max_density": 2.0,
+      "description": "PUD - Rural Density Residential. 0.5-2 du/ac."
+    },
+    "PUD-RDR/LDR": {
+      "min_density": 0.5,
+      "max_density": 6.0,
+      "description": "PUD - Rural/Low Density Residential."
+    },
+    "PUD-RDR/LDR/A": {
+      "min_density": 0,
+      "max_density": 6.0,
+      "description": "PUD - Rural/Low Density Residential/Agricultural."
+    },
+    "PUD-RDR/OS": {
+      "min_density": 0,
+      "max_density": 2.0,
+      "description": "PUD - Rural Density Residential/Open Space."
+    },
+    "PUD-RDR/PHS": {
+      "min_density": 0,
+      "max_density": 2.0,
+      "description": "PUD - Rural Density Residential/Public Health & Safety."
+    },
+    "PUD-RM-25": {
+      "min_density": 10.9,
+      "max_density": 17.42,
+      "description": "PUD - Multi-Family Residential, 2,500 sq ft per unit. 17.42 du/ac."
+    },
+    "PUD-SRDR": {
+      "min_density": 0,
+      "max_density": 1.0,
+      "description": "PUD - Semi-Rural Density Residential. Up to 1 du/ac."
+    },
+    "PUD-SRR": {
+      "min_density": 0,
+      "max_density": 1.0,
+      "description": "PUD - Semi-Rural Residential. Up to 1 du/ac."
+    },
+    "PUD-TC": {
+      "min_density": 14.0,
+      "max_density": 43.6,
+      "description": "PUD - Town Center. Mixed-use town center with residential."
+    },
+    "PUD-VINEYARD": {
+      "min_density": 0,
+      "max_density": 0.1,
+      "description": "PUD - Vineyard. Agricultural/vineyard preservation."
+    }
+  }
+}

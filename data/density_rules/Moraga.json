@@ -1,0 +1,142 @@
+{
+  "city": "Moraga",
+  "source": "Town of Moraga Municipal Code Title 8 (https://library.municode.com/ca/moraga/codes/municipal_code?nodeId=MOCA_TIT8PLZO); Moraga Housing Element (https://www.moraga.ca.us/DocumentCenter/View/7078/Appendix-B-Housing-Sites-Inventory-PDF); Moraga Center Specific Plan (https://www.moraga.ca.us/177/Moraga-Center-Specific-Plan-Implementati); Housing Zoning Code Amendments (https://www.moraga.ca.us/DocumentCenter/View/9791/Housing-Zoning-Code-Amendments)",
+  "last_updated": "2026-04-16",
+  "zones": {
+    "MOSO-OS": {
+      "min_density": 0,
+      "max_density": 0.05,
+      "description": "MOSO Open Space District. Hillside open space, limited to 1 du/20 ac under Moraga Open Space Ordinance."
+    },
+    "N-OS": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Non-MOSO Open Space District. Open space and agriculture; residential requires conditional use permit."
+    },
+    "1-DUA": {
+      "min_density": 0,
+      "max_density": 1.0,
+      "description": "One Dwelling Unit Per Acre Residential District. Low density single-family, max 1 du/ac."
+    },
+    "2-DUA": {
+      "min_density": 0,
+      "max_density": 2.0,
+      "description": "Two Dwelling Units Per Acre Residential District. Low density single-family, max 2 du/ac."
+    },
+    "3-DUA": {
+      "min_density": 0,
+      "max_density": 3.0,
+      "description": "Three Dwelling Units Per Acre Residential District. Low density single-family, max 3 du/ac."
+    },
+    "6-DUA": {
+      "min_density": 3,
+      "max_density": 6.0,
+      "description": "Six Dwelling Units Per Acre Residential District. Low-medium density single-family, max 6 du/ac."
+    },
+    "R-6": {
+      "min_density": 3,
+      "max_density": 6.0,
+      "description": "Residential 6 District (Moraga Center area). Up to 6 du/ac; allows mixed residential types."
+    },
+    "R-12": {
+      "min_density": 6,
+      "max_density": 12.0,
+      "description": "Residential 12 District (Moraga Center area). Medium density, up to 12 du/ac."
+    },
+    "R-20": {
+      "min_density": 12,
+      "max_density": 20.0,
+      "description": "Residential 20 District. High density, up to 20 du/ac (or 30 du/ac for senior housing)."
+    },
+    "R-20B": {
+      "min_density": 12,
+      "max_density": 20.0,
+      "description": "Residential 20B District. High density variant, up to 20 du/ac."
+    },
+    "R-24": {
+      "min_density": 20,
+      "max_density": 24.0,
+      "description": "Residential 24 District. High density, up to 24 du/ac."
+    },
+    "CC": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Community Commercial District. Commercial retail and services."
+    },
+    "LC": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Limited Commercial District. Limited retail, office, and service uses."
+    },
+    "SO": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Suburban Office District. Office and professional uses."
+    },
+    "COL": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "College District. Saint Mary's College campus; institutional uses."
+    },
+    "Institutional": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Institutional. Schools, churches, government, and public facility uses. No standalone residential permitted."
+    },
+    "MCSP R-6": {
+      "min_density": 3,
+      "max_density": 6.0,
+      "description": "Moraga Center Specific Plan Residential 6 District. Up to 6 du/ac within the MCSP area."
+    },
+    "MCSP-C": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Moraga Center Specific Plan Commercial District. Commercial uses within the MCSP area."
+    },
+    "MCSP-OR": {
+      "min_density": 0,
+      "max_density": 12.0,
+      "description": "Moraga Center Specific Plan Office/Residential District. Mixed office and residential within the MCSP area, up to 12 du/ac."
+    },
+    "MCSP-RR": {
+      "min_density": 6,
+      "max_density": 12.0,
+      "description": "Moraga Center Specific Plan Residential/Retail District. Mixed residential and retail within the MCSP area, up to 12 du/ac."
+    },
+    "MR-OD": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Moraga Road Office District. Office and professional uses along Moraga Road."
+    },
+    "OS": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Open Space. Public and private open space, parks, and recreation. No residential permitted."
+    },
+    "OSM DT": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Open Space Moraga Downtown. Open space/public area in downtown Moraga."
+    },
+    "PD": {
+      "min_density": 0,
+      "max_density": 20.0,
+      "description": "Planned Development. Density set by approved development plan, typically up to 20 du/ac."
+    },
+    "R-20-A": {
+      "min_density": 12,
+      "max_density": 20.0,
+      "description": "Residential 20-A District. High density variant A, up to 20 du/ac."
+    },
+    "R-20-B": {
+      "min_density": 12,
+      "max_density": 20.0,
+      "description": "Residential 20-B District. High density variant B, up to 20 du/ac."
+    },
+    "Study": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Study Area. Parcels under active planning study; zoning designation pending. No development permitted until study is complete."
+    }
+  }
+}

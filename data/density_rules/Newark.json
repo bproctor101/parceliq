@@ -1,0 +1,207 @@
+{
+  "city": "Newark",
+  "source": "Newark Municipal Code Title 17 Zoning Ordinance (2023), library.municode.com/ca/newark; Newark General Plan Land Use Element, newarkca.gov/departments/community-development/newark-general-plan; Newark 2023-2031 Housing Element",
+  "last_updated": "2026-04-16",
+  "zones": {
+    "RS-6000": {
+      "min_density": 0,
+      "max_density": 7.26,
+      "description": "Residential Single Family - min lot area 6,000 sq ft (7.26 du/ac); detached single-family homes"
+    },
+    "RS-5000": {
+      "min_density": 0,
+      "max_density": 8.71,
+      "description": "Residential Single Family Small Lot - min lot area 5,000 sq ft (8.71 du/ac); small-lot single-family"
+    },
+    "RS-4000": {
+      "min_density": 0,
+      "max_density": 10.89,
+      "description": "Residential Single Family Small Lot - min lot area 4,000 sq ft (10.89 du/ac); compact single-family"
+    },
+    "RD": {
+      "min_density": 8.7,
+      "max_density": 14.5,
+      "description": "Residential Duplex - two-family dwellings; 8.7-14.5 du/ac per General Plan Medium Density designation"
+    },
+    "RM": {
+      "min_density": 14.5,
+      "max_density": 30.0,
+      "description": "Residential Medium Density - multi-family residential; 14.5-30 du/ac; townhomes, apartments, condos"
+    },
+    "RH": {
+      "min_density": 30.0,
+      "max_density": 60.0,
+      "description": "Residential High Density - high-density multi-family; 30-60 du/ac; apartments and mixed-use residential"
+    },
+    "MU-N": {
+      "min_density": 14.5,
+      "max_density": 30.0,
+      "description": "Mixed Use Neighborhood - residential and neighborhood-serving commercial; 14.5-30 du/ac"
+    },
+    "MU-C": {
+      "min_density": 30.0,
+      "max_density": 60.0,
+      "description": "Mixed Use Corridor - mixed-use along major corridors; 30-60 du/ac"
+    },
+    "MU-TC": {
+      "min_density": 30.0,
+      "max_density": 75.0,
+      "description": "Mixed Use Town Center - high-density mixed use in town center areas; 30-75 du/ac"
+    },
+    "CN": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Commercial Neighborhood - neighborhood-serving retail and services; no residential as primary use"
+    },
+    "CG": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Commercial General - general commercial uses, retail, services; no residential as primary use"
+    },
+    "CC": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Commercial Community - community-scale commercial; no residential as primary use"
+    },
+    "CO": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Commercial Office - professional and administrative offices; no residential"
+    },
+    "IL": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Industrial Light - light manufacturing, warehousing, R&D; no residential"
+    },
+    "IG": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Industrial General - general manufacturing and heavy industrial; no residential"
+    },
+    "P": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Public/Institutional - public facilities, schools, government buildings; no residential"
+    },
+    "OS": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Open Space - parks, recreation areas, and natural open space; no residential"
+    },
+    "EM": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Employment Mixed Use District - employment-focused uses with limited commercial; no residential"
+    },
+    "A": {
+      "min_density": 0,
+      "max_density": 0.05,
+      "description": "Agricultural District. Very low density agricultural and rural uses."
+    },
+    "CI": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Intermediate Commercial District. Intermediate-scale commercial uses; no residential as primary use."
+    },
+    "CPA": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Professional and Administrative Commercial District. Office and professional commercial uses; no residential."
+    },
+    "CR": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Regional Commercial District. Large-scale regional commercial uses; no residential."
+    },
+    "CVR": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Visitor and Recreation Commercial District. Visitor-oriented commercial and recreation uses; no residential."
+    },
+    "MG": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "General Industrial District. General manufacturing and industrial uses; no residential."
+    },
+    "ML": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Limited Industrial District. Light manufacturing and warehousing; no residential."
+    },
+    "MP": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Industrial Park District. Planned industrial park uses; no residential."
+    },
+    "MT": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Industrial Technology Park District. Technology and R&D uses; no residential."
+    },
+    "MT-1": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "High Technology Park District. High-tech industrial and R&D uses; no residential."
+    },
+    "O-C": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Open Space - Conservation District. Conservation and natural resource protection; no residential."
+    },
+    "O-P": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Open Space - Parks District. Parks and recreational facilities; no residential."
+    },
+    "R-10000": {
+      "min_density": 0,
+      "max_density": 4.36,
+      "description": "Low Density Residential - 10000 District. Min lot area 10,000 sq ft (4.36 du/ac); detached single-family homes."
+    },
+    "R-1500": {
+      "min_density": 0,
+      "max_density": 29.04,
+      "description": "High Density Residential - 1500 District. Min lot area 1,500 sq ft per unit (29.04 du/ac); high-density multi-family."
+    },
+    "R-1500-SC": {
+      "min_density": 0,
+      "max_density": 29.04,
+      "description": "High Density Residential - 1500 District - Special Civic District. Min lot area 1,500 sq ft per unit (29.04 du/ac); high-density multi-family in special civic area."
+    },
+    "R-2500": {
+      "min_density": 0,
+      "max_density": 17.42,
+      "description": "Medium Density Residential - 2500 District. Min lot area 2,500 sq ft per unit (17.42 du/ac); medium-density multi-family."
+    },
+    "R-6000": {
+      "min_density": 0,
+      "max_density": 7.26,
+      "description": "Low Density Residential - 6000 District. Min lot area 6,000 sq ft (7.26 du/ac); detached single-family homes."
+    },
+    "R-6000-SC": {
+      "min_density": 0,
+      "max_density": 7.26,
+      "description": "Low Density Residential - 6000 District - Special Civic District. Min lot area 6,000 sq ft (7.26 du/ac); single-family in special civic area."
+    },
+    "R-7000": {
+      "min_density": 0,
+      "max_density": 6.22,
+      "description": "Low Density Residential - 7000 District. Min lot area 7,000 sq ft (6.22 du/ac); detached single-family homes."
+    },
+    "R-7000-SC": {
+      "min_density": 0,
+      "max_density": 6.22,
+      "description": "Low Density Residential - 7000 District - Special Civic District. Min lot area 7,000 sq ft (6.22 du/ac); single-family in special civic area."
+    },
+    "R-8000": {
+      "min_density": 0,
+      "max_density": 5.45,
+      "description": "Low Density Residential - 8000 District. Min lot area 8,000 sq ft (5.45 du/ac); detached single-family homes."
+    },
+    "R-8000-SC": {
+      "min_density": 0,
+      "max_density": 5.45,
+      "description": "Low Density Residential - 8000 District - Special Civic District. Min lot area 8,000 sq ft (5.45 du/ac); single-family in special civic area."
+    }
+  }
+}

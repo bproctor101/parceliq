@@ -1,0 +1,153 @@
+{
+  "city": "Los Altos",
+  "state": "California",
+  "source": [
+    "https://library.municode.com/ca/los_altos/codes/code_of_ordinances?nodeId=TIT14ZO (Title 14 Zoning Code)",
+    "https://library.municode.com/ca/los_altos/codes/code_of_ordinances?nodeId=TIT14ZO_CH14.04ZODIDE (Chapter 14.04 Zoning Districts)",
+    "https://www.losaltosca.gov/218/Adopted-Plans (General Plan Land Use Element)",
+    "https://www.losaltosca.gov/214/Housing-Element (Housing Element 2023-2031)",
+    "https://www.losaltosca.gov/FAQ.aspx?QID=101 (Density Threshold FAQ)"
+  ],
+  "last_updated": "2026-04-16",
+  "notes": [
+    "Los Altos is predominantly single-family residential. The R3 multifamily district suffix indicates the minimum lot area per dwelling unit in thousands of square feet (e.g., R3-4.5 = 4,500 sq ft per unit).",
+    "R1 district suffixes indicate minimum lot size in thousands of square feet (R1-10 = 10,000 sq ft min lot).",
+    "For R3 zones, max_density is calculated as 43,560 sq ft/acre divided by lot area per unit. Actual yield may be lower due to setbacks, parking, open space, and other development standards.",
+    "Several commercial zones (CD, CN, CRS, CT) allow residential in mixed-use configurations. The CD/R3 and CRS/OAD districts explicitly allow multifamily housing. Where no explicit maximum density is codified for mixed-use, density is effectively controlled by development standards (height, FAR, setbacks, parking).",
+    "In March 2022, the HCD default density for lower-income housing sites in Los Altos was updated to 30 du/ac (based on 2020 Census). Sites allowing at least 30 du/ac are presumed suitable for lower-income housing.",
+    "The General Plan Land Use Element designates single-family areas as Single-Family Small Lot, Single-Family Medium Lot (up to 4 du/net acre), and Single-Family Large Lot.",
+    "Los Altos adopted Housing Element rezoning in 2022-2023 to allow higher densities in commercial/mixed-use zones to meet RHNA of 1,958 units."
+  ],
+  "zones": {
+    "R1-10": {
+      "min_density": 0,
+      "max_density": 4.35,
+      "description": "Single-Family Residential District (10,000 sq ft min lot, Ch. 14.06). Standard single-family detached homes. Most common residential zone in Los Altos."
+    },
+    "R1-H": {
+      "min_density": 0,
+      "max_density": 4.35,
+      "description": "Single-Family Hillside Residential District (10,000 sq ft min lot with hillside overlay, Ch. 14.08). Single-family homes on hillside lots with additional slope-sensitive development standards."
+    },
+    "R1-20": {
+      "min_density": 0,
+      "max_density": 2.18,
+      "description": "Single-Family Residential District (20,000 sq ft min lot, Ch. 14.10). Single-family detached homes on larger lots."
+    },
+    "R1-40": {
+      "min_density": 0,
+      "max_density": 1.09,
+      "description": "Single-Family Residential District (40,000 sq ft min lot, Ch. 14.12). Single-family detached homes on very large lots, nearly one-acre minimum."
+    },
+    "R1-S": {
+      "min_density": 0,
+      "max_density": 4.35,
+      "description": "Single-Story Overlay District. Applied over R1 base zones to limit buildings to one story. Same density as underlying R1 zone."
+    },
+    "R3-5": {
+      "min_density": 0,
+      "max_density": 8.71,
+      "description": "Multiple-Family Residential District (5,000 sq ft min lot area per dwelling unit, Ch. 14.18). Low-density multifamily: duplexes, small apartment buildings."
+    },
+    "R3-4.5": {
+      "min_density": 0,
+      "max_density": 9.68,
+      "description": "Multiple-Family Residential District (4,500 sq ft min lot area per dwelling unit, Ch. 14.16). Low-density multifamily housing."
+    },
+    "R3-3": {
+      "min_density": 0,
+      "max_density": 14.52,
+      "description": "Multiple-Family Residential District (3,000 sq ft min lot area per dwelling unit, Ch. 14.20). Medium-density multifamily housing: apartments, condominiums."
+    },
+    "R3-1.8": {
+      "min_density": 0,
+      "max_density": 24.2,
+      "description": "Multiple-Family Residential District (1,800 sq ft min lot area per dwelling unit, Ch. 14.22). Higher-density multifamily housing: apartments, condominiums."
+    },
+    "R3-1": {
+      "min_density": 0,
+      "max_density": 43.56,
+      "description": "Multiple-Family Residential District (1,000 sq ft min lot area per dwelling unit, Ch. 14.24). Highest-density multifamily zone in Los Altos. Apartments, condominiums."
+    },
+    "OA": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Office-Administrative District (Ch. 14.28). Professional and administrative offices. Standalone residential not permitted."
+    },
+    "OA-1": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Office-Administrative District 1 (Ch. 14.28). Professional offices with specific site standards. Standalone residential not permitted."
+    },
+    "OA-4.5": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Office-Administrative District (4,500 sq ft min lot, Ch. 14.28). Small-scale office district. Standalone residential not permitted."
+    },
+    "CN": {
+      "min_density": 0,
+      "max_density": 25,
+      "description": "Commercial Neighborhood District (Ch. 14.34). Neighborhood-serving retail and services. Residential may be allowed in mixed-use per Housing Element rezoning. Density up to 25 du/ac where residential is permitted."
+    },
+    "CD": {
+      "min_density": 0,
+      "max_density": 30,
+      "description": "Commercial Downtown District (Ch. 14.36). Downtown Los Altos retail, restaurants, services. Residential allowed in mixed-use configurations per Housing Element. No explicit maximum density; effectively up to 30 du/ac based on development standards and Housing Element assumptions."
+    },
+    "CD/R3": {
+      "min_density": 0,
+      "max_density": 35,
+      "description": "Commercial Downtown/Multiple-Family District (Ch. 14.38). Mixed-use zone allowing both commercial and multifamily residential as permitted uses. No explicit maximum density cap; effectively up to 35 du/ac based on development standards."
+    },
+    "CRS": {
+      "min_density": 0,
+      "max_density": 25,
+      "description": "Commercial Retail Sales District (Ch. 14.40). Retail commercial uses. Residential may be allowed in mixed-use per Housing Element. Density up to 25 du/ac where residential is permitted."
+    },
+    "CRS/OAD": {
+      "min_density": 0,
+      "max_density": 25,
+      "description": "Commercial Retail Sales/Office-Administrative District (Ch. 14.42). Mixed commercial and office zone. Residential may be allowed in mixed-use per Housing Element. Density up to 25 du/ac where residential is permitted."
+    },
+    "CT": {
+      "min_density": 0,
+      "max_density": 40,
+      "description": "Commercial Thoroughfare District (Ch. 14.44). Commercial uses along major thoroughfares (e.g., El Camino Real). Residential allowed in mixed-use per Housing Element rezoning. Highest commercial zone density, up to 40 du/ac."
+    },
+    "PCF": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Public and Community Facilities District (Ch. 14.46). Schools, parks, government facilities, churches. Residential not generally permitted."
+    },
+    "PCF/R1-10": {
+      "min_density": 0,
+      "max_density": 4.35,
+      "description": "Public and Community Facilities/Single-Family Residential District. Dual-zoned for public facilities and single-family residential. Density same as R1-10."
+    },
+    "PC": {
+      "min_density": null,
+      "max_density": null,
+      "description": "Planned Community District (Ch. 14.48). Density set by individual planned community development plan. Allows flexible mix of uses."
+    },
+    "PUD": {
+      "min_density": null,
+      "max_density": null,
+      "description": "Planned Unit Development District (Ch. 14.50). Density set by individual PUD plan approval. Allows creative site planning with mixed housing types."
+    },
+    "LCSPZ": {
+      "min_density": 0,
+      "max_density": 25,
+      "description": "Loyola Corners Specific Plan Zone (overlay). Mixed-use specific plan area. Density governed by the Loyola Corners Specific Plan, approximately up to 25 du/ac."
+    },
+    "OUT": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Unincorporated/Outside City Limits. Parcels outside Los Altos city jurisdiction. Zoning governed by Santa Clara County."
+    },
+    "ROW": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Right-of-Way. Public streets, roads, and utility easements. No residential development permitted."
+    }
+  }
+}

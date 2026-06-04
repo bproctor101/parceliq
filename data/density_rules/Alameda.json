@@ -1,0 +1,317 @@
+{
+  "city": "Alameda",
+  "state": "California",
+  "source": [
+    "https://library.municode.com/ca/alameda/codes/code_of_ordinances?nodeId=CHXXXDERE_ARTIZODIRE",
+    "https://www.alamedaca.gov/Departments/Planning-Building-and-Transportation/Planning-Division/Zoning-Regulations",
+    "https://www.alamedaca.gov/files/assets/public/v/1/major-planning-projects/2023-2031-city-of-alameda-adopted-housing-element.pdf",
+    "https://alameda-preservation.org/wp-content/uploads/2022/07/Exhibit-1-July-1-Draft-Housing-Element-Zoning-Amendments.pdf",
+    "https://alamedasun.com/news/approving-housing-element-densifies-residential-and-business-districts-unwise",
+    "https://alamedapost.com/news/council-approves-housing-element/",
+    "https://www.themorningbun.com/two-buildings-rep/"
+  ],
+  "last_updated": "2026-04-16",
+  "notes": "City of Alameda (incorporated city), NOT Alameda County. Density limits updated via 2023-2031 Housing Element zoning amendments adopted November 2022. City Charter Article 26 historically capped density at 1 unit per 2,000 sq ft (21.78 du/ac) across most zones; Housing Element amendments increased density in R-3 through R-6 districts. R-1 district renamed to One-Family and Two-Family Residence District per SB 9 (allows up to 4 units per lot under state law). Transit Oriented Housing Waivers may allow additional density near frequent transit stops. Alameda Point subdistricts have separate density standards per the Alameda Point zoning plan.",
+  "zones": {
+    "R-1": {
+      "min_density": 1,
+      "max_density": 21,
+      "description": "One-Family and Two-Family Residence District. Formerly single-family only; renamed per SB 9 to allow duplexes and lot splits. Max density 21 du/ac per Article 26. SB 9 allows up to 4 units per lot under state law. Min lot area 5,000 sq ft."
+    },
+    "R-2": {
+      "min_density": 1,
+      "max_density": 21,
+      "description": "Two-Family Residence District. Lower-density neighborhoods with one-family, two-family, and limited multi-family dwellings. Max density 21 du/ac per Article 26. Min lot area approx 5,000 sq ft."
+    },
+    "R-3": {
+      "min_density": 1,
+      "max_density": 30,
+      "description": "Medium Density Residential District. Multi-family dwellings permitted. Density increased from 21 to 30 du/ac per 2022 Housing Element zoning amendments."
+    },
+    "R-4": {
+      "min_density": 1,
+      "max_density": 40,
+      "description": "Medium-High Density Residential District. Multi-family residential. Density increased from 21 to 40 du/ac per 2022 Housing Element zoning amendments."
+    },
+    "R-5": {
+      "min_density": 1,
+      "max_density": 50,
+      "description": "High Density Residential District. Multi-family residential including apartments and condominiums. Density increased from 21 to 50 du/ac per 2022 Housing Element zoning amendments."
+    },
+    "R-6": {
+      "min_density": 1,
+      "max_density": 60,
+      "description": "Very High Density Residential District. Highest-density residential zone. Multi-family housing including large apartment complexes. Density increased from 21 to 60 du/ac per 2022 Housing Element zoning amendments."
+    },
+    "C-1": {
+      "min_density": 0,
+      "max_density": 30,
+      "description": "Neighborhood Business District. Small-scale neighborhood commercial. Mixed-use with residential above permitted per 2022 zoning amendments. Parking minimums removed (2021). Transit Oriented Housing Waivers may apply near transit."
+    },
+    "C-2": {
+      "min_density": 0,
+      "max_density": 30,
+      "description": "Central Business District. Downtown commercial core. Mixed-use with residential above commercial permitted. Higher intensity commercial uses."
+    },
+    "C-C": {
+      "min_density": 0,
+      "max_density": 30,
+      "description": "Community Commercial District. Larger-scale commercial serving community needs. Mixed-use with residential component permitted."
+    },
+    "M-1": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "General Manufacturing District. Industrial and manufacturing uses. Residential not permitted."
+    },
+    "M-2": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Light Manufacturing District. Light industrial, warehousing, and compatible commercial uses. Residential not permitted."
+    },
+    "MX": {
+      "min_density": 1,
+      "max_density": 30,
+      "description": "Mixed-Use District. Allows both commercial and residential uses, including ground-floor retail with residential above."
+    },
+    "O": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Open Space District. Parks, recreation, conservation areas, and open space. Residential not permitted."
+    },
+    "A-P-MF": {
+      "min_density": 1,
+      "max_density": 30,
+      "description": "Alameda Point Multi-Family Residential. Multi-family housing within the Alameda Point redevelopment area (former Naval Air Station). Medium to high density."
+    },
+    "A-P-MU": {
+      "min_density": 1,
+      "max_density": 60,
+      "description": "Alameda Point Mixed-Use. Mixed-use development within Alameda Point. Residential and commercial. High density permitted."
+    },
+    "A-P-NC": {
+      "min_density": 0,
+      "max_density": 30,
+      "description": "Alameda Point Neighborhood Commercial. Neighborhood-serving commercial within Alameda Point with residential permitted."
+    },
+    "A-P-OS": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Alameda Point Open Space. Parks and open space within the Alameda Point area. Residential not permitted."
+    },
+    "A-P-T": {
+      "min_density": 0,
+      "max_density": 60,
+      "description": "Alameda Point Transit-Oriented. Transit-oriented development within Alameda Point near ferry/bus transit. High-density residential and mixed-use permitted."
+    },
+    "R-1-PD": {
+      "min_density": 1,
+      "max_density": 21,
+      "description": "One-Family and Two-Family Residence District with Planned Development overlay. Density per R-1."
+    },
+    "R-1-A-PD": {
+      "min_density": 1,
+      "max_density": 21,
+      "description": "One-Family Residence District, A subzone, with Planned Development overlay. Density per R-1."
+    },
+    "R-1-A-H-30": {
+      "min_density": 1,
+      "max_density": 21,
+      "description": "One-Family Residence District, A subzone, with Height limit 30 ft. Density per R-1."
+    },
+    "R-1-A-H-40": {
+      "min_density": 1,
+      "max_density": 21,
+      "description": "One-Family Residence District, A subzone, with Height limit 40 ft. Density per R-1."
+    },
+    "R-1-H-30": {
+      "min_density": 1,
+      "max_density": 21,
+      "description": "One-Family and Two-Family Residence District with 30 ft height limit. Density per R-1."
+    },
+    "R-1-H-50": {
+      "min_density": 1,
+      "max_density": 21,
+      "description": "One-Family and Two-Family Residence District with 50 ft height limit. Density per R-1."
+    },
+    "R-1-Y-F-5": {
+      "min_density": 1,
+      "max_density": 21,
+      "description": "One-Family Residence District with Y, F-5 overlays. Density per R-1."
+    },
+    "R-2-PD": {
+      "min_density": 1,
+      "max_density": 21,
+      "description": "Two-Family Residence District with Planned Development overlay. Density per R-2."
+    },
+    "R-2-H-40": {
+      "min_density": 1,
+      "max_density": 21,
+      "description": "Two-Family Residence District with 40 ft height limit. Density per R-2."
+    },
+    "R-3-PD": {
+      "min_density": 1,
+      "max_density": 30,
+      "description": "Medium Density Residential with Planned Development overlay. Density per R-3."
+    },
+    "R-4-PD": {
+      "min_density": 1,
+      "max_density": 40,
+      "description": "Medium-High Density Residential with Planned Development overlay. Density per R-4."
+    },
+    "R-5-PD": {
+      "min_density": 1,
+      "max_density": 50,
+      "description": "High Density Residential with Planned Development overlay. Density per R-5."
+    },
+    "R-5-G": {
+      "min_density": 1,
+      "max_density": 50,
+      "description": "High Density Residential with G (Government) overlay. Density per R-5."
+    },
+    "R-6-PD": {
+      "min_density": 1,
+      "max_density": 60,
+      "description": "Very High Density Residential with Planned Development overlay. Density per R-6."
+    },
+    "C-2-PD": {
+      "min_density": 0,
+      "max_density": 30,
+      "description": "Central Business District with Planned Development overlay. Density per C-2."
+    },
+    "C-C-PD": {
+      "min_density": 0,
+      "max_density": 30,
+      "description": "Community Commercial with Planned Development overlay. Density per C-C."
+    },
+    "C-C-T": {
+      "min_density": 0,
+      "max_density": 30,
+      "description": "Community Commercial with Transit overlay. Density per C-C."
+    },
+    "C-M": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Commercial Manufacturing District. Commercial and light industrial uses."
+    },
+    "C-M-PD": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Commercial Manufacturing with Planned Development overlay."
+    },
+    "M-1-PD": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "General Manufacturing with Planned Development overlay."
+    },
+    "M-2-PD": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Light Manufacturing with Planned Development overlay."
+    },
+    "M-2-G": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Light Manufacturing with Government overlay."
+    },
+    "M-X": {
+      "min_density": 1,
+      "max_density": 30,
+      "description": "Mixed-Use District (alternate code for MX). Allows commercial and residential uses."
+    },
+    "O-PD": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Open Space with Planned Development overlay."
+    },
+    "O-G": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Open Space with Government overlay."
+    },
+    "E": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Estuary/Water District. Waterfront and maritime uses."
+    },
+    "A-P": {
+      "min_density": 0,
+      "max_density": 60,
+      "description": "Alameda Point base zone. Density varies by sub-area within the Alameda Point redevelopment."
+    },
+    "A-P-H-15": {
+      "min_density": 0,
+      "max_density": 60,
+      "description": "Alameda Point with 15 ft height limit overlay."
+    },
+    "AP-AR": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Alameda Point Adaptive Reuse subdistrict. Reuse of existing structures."
+    },
+    "AP-E1": {
+      "min_density": 0,
+      "max_density": 60,
+      "description": "Alameda Point Enterprise subdistrict 1. Mixed-use employment and residential."
+    },
+    "AP-E2": {
+      "min_density": 0,
+      "max_density": 60,
+      "description": "Alameda Point Enterprise subdistrict 2. Mixed-use employment and residential."
+    },
+    "AP-E3": {
+      "min_density": 0,
+      "max_density": 60,
+      "description": "Alameda Point Enterprise subdistrict 3. Mixed-use employment and residential."
+    },
+    "AP-E4": {
+      "min_density": 0,
+      "max_density": 60,
+      "description": "Alameda Point Enterprise subdistrict 4. Mixed-use employment and residential."
+    },
+    "AP-MS": {
+      "min_density": 0,
+      "max_density": 60,
+      "description": "Alameda Point Main Street subdistrict. Mixed-use with ground-floor commercial."
+    },
+    "AP-NR/G": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Alameda Point Natural Resources/Green subdistrict. Open space and natural areas."
+    },
+    "AP-OS": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Alameda Point Open Space subdistrict. Parks and open space."
+    },
+    "AP-WTC": {
+      "min_density": 0,
+      "max_density": 60,
+      "description": "Alameda Point Waterfront Town Center subdistrict. Mixed-use waterfront development."
+    },
+    "NP-G": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Northern Waterfront Green/Open Space subdistrict. Parks and open space."
+    },
+    "NP-MM": {
+      "min_density": 0,
+      "max_density": 30,
+      "description": "Northern Waterfront Maritime Mixed-Use subdistrict. Maritime and mixed-use."
+    },
+    "NP-MU": {
+      "min_density": 0,
+      "max_density": 30,
+      "description": "Northern Waterfront Mixed-Use subdistrict. Commercial and residential mixed-use."
+    },
+    "NP-R": {
+      "min_density": 1,
+      "max_density": 30,
+      "description": "Northern Waterfront Residential subdistrict. Residential development."
+    },
+    "NP-W": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Northern Waterfront Waterfront subdistrict. Maritime and waterfront uses."
+    }
+  }
+}

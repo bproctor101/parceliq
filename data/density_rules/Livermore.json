@@ -1,0 +1,1257 @@
+{
+  "city": "Livermore",
+  "source": "Livermore Planning and Zoning Code (LPZC), codepublishing.com/CA/Livermore; Livermore General Plan Land Use Element, imaginelivermore2045.org",
+  "last_updated": "2026-04-16",
+  "zones": {
+    "RS-0.25": {
+      "min_density": 0,
+      "max_density": 0.25,
+      "description": "Suburban Residential - 1 unit per 4 acres (minimum lot ~4 acres)"
+    },
+    "RS-0.50": {
+      "min_density": 0,
+      "max_density": 0.5,
+      "description": "Suburban Residential - 1 unit per 2 acres (minimum lot ~2 acres)"
+    },
+    "RS-1": {
+      "min_density": 0,
+      "max_density": 1.0,
+      "description": "Suburban Residential - up to 1 dwelling unit per acre"
+    },
+    "RS-2": {
+      "min_density": 0,
+      "max_density": 2.0,
+      "description": "Suburban Residential - up to 2 dwelling units per acre"
+    },
+    "RS-2.5": {
+      "min_density": 0,
+      "max_density": 2.5,
+      "description": "Suburban Residential - up to 2.5 dwelling units per acre"
+    },
+    "RS-3": {
+      "min_density": 0,
+      "max_density": 3.0,
+      "description": "Suburban Residential - up to 3 dwelling units per acre"
+    },
+    "RS-4": {
+      "min_density": 0,
+      "max_density": 4.0,
+      "description": "Suburban Residential - up to 4 dwelling units per acre"
+    },
+    "RS-4.5": {
+      "min_density": 0,
+      "max_density": 4.5,
+      "description": "Suburban Residential - up to 4.5 dwelling units per acre"
+    },
+    "RS-5": {
+      "min_density": 0,
+      "max_density": 5.0,
+      "description": "Suburban Residential - up to 5 dwelling units per acre"
+    },
+    "RS-6": {
+      "min_density": 0,
+      "max_density": 6.0,
+      "description": "Suburban Residential - up to 6 dwelling units per acre (min lot ~6,000 sq ft)"
+    },
+    "RL-5-0": {
+      "min_density": 0,
+      "max_density": 5.0,
+      "description": "Low Density Residential - up to 5 dwelling units per acre"
+    },
+    "RL-5": {
+      "min_density": 0,
+      "max_density": 5.0,
+      "description": "Low Density Residential - up to 5 dwelling units per acre"
+    },
+    "RL-6": {
+      "min_density": 0,
+      "max_density": 6.0,
+      "description": "Low Density Residential - up to 6 dwelling units per acre"
+    },
+    "RL-6.5": {
+      "min_density": 0,
+      "max_density": 6.5,
+      "description": "Low Density Residential - up to 6.5 dwelling units per acre"
+    },
+    "RL-7": {
+      "min_density": 0,
+      "max_density": 7.0,
+      "description": "Low Density Residential - up to 7 dwelling units per acre"
+    },
+    "RL-7.5": {
+      "min_density": 0,
+      "max_density": 7.5,
+      "description": "Low Density Residential - up to 7.5 dwelling units per acre"
+    },
+    "RL-8.5": {
+      "min_density": 0,
+      "max_density": 8.5,
+      "description": "Low Density Residential - up to 8.5 dwelling units per acre"
+    },
+    "RL-10": {
+      "min_density": 0,
+      "max_density": 10.0,
+      "description": "Low Density Residential - up to 10 dwelling units per acre"
+    },
+    "RG-10": {
+      "min_density": 0,
+      "max_density": 9.7,
+      "description": "Suburban Multiple Residential - 1 dwelling per 4,500 sq ft (9.7 du/net acre), max 10 du/gross acre"
+    },
+    "RG-12": {
+      "min_density": 0,
+      "max_density": 12.4,
+      "description": "Suburban Multiple Residential - 1 dwelling per 3,500 sq ft (12.4 du/net acre)"
+    },
+    "RG-14": {
+      "min_density": 0,
+      "max_density": 14.5,
+      "description": "Suburban Multiple Residential - 1 dwelling per 3,000 sq ft (14.5 du/net acre)"
+    },
+    "RG-16": {
+      "min_density": 0,
+      "max_density": 16.0,
+      "description": "Suburban Multiple Residential - up to 16 dwelling units per net acre"
+    },
+    "NM-1": {
+      "min_density": 2.0,
+      "max_density": 15.0,
+      "description": "Neighborhood Mixed Use 1 - base density 2-3 du/ac; up to 12-15 du/ac with TDC (Transferable Development Credits)"
+    },
+    "NM-2": {
+      "min_density": 3.0,
+      "max_density": 24.0,
+      "description": "Neighborhood Mixed Use 2 - base density 3-4.5 du/ac; up to 15-24 du/ac with TDC"
+    },
+    "NM-3": {
+      "min_density": 6.0,
+      "max_density": 38.0,
+      "description": "Neighborhood Mixed Use 3 - base density 6-8 du/ac; up to 24-38 du/ac with TDC"
+    },
+    "CM": {
+      "min_density": 0,
+      "max_density": 55.0,
+      "description": "Community Mixed Use - allows residential mixed-use development up to Urban High density (38-55 du/ac per General Plan)"
+    },
+    "CN": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Neighborhood Commercial - commercial uses; residential not typically permitted as primary use"
+    },
+    "CG": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "General Commercial - commercial uses; residential not typically permitted as primary use"
+    },
+    "CS": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Service Commercial - auto-oriented and service commercial uses; no residential"
+    },
+    "OC": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Office Commercial - office and professional uses; no residential"
+    },
+    "IP": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Industrial Park - light industrial and business park uses; no residential"
+    },
+    "PD": {
+      "min_density": 0,
+      "max_density": 55.0,
+      "description": "Planned Development - density set by approved PD plan; ranges vary by underlying General Plan designation"
+    },
+    "A": {
+      "min_density": 0,
+      "max_density": 0.01,
+      "description": "Agricultural - very low density; approximately 1 unit per 100 acres"
+    },
+    "OS": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Open Space - parks, recreation, and open space; no residential development"
+    },
+    "AIR-OP": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Airport Operations. Airport operational area; no residential."
+    },
+    "AIR-SE": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Airport Safety/Exclusion. Airport safety zone; no residential."
+    },
+    "CHS": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Commercial Highway Services. Highway-oriented commercial services; no residential."
+    },
+    "CNB": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Commercial Neighborhood Business. Neighborhood business commercial; no residential as primary use."
+    },
+    "CO": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Commercial Office. Professional office uses; no residential."
+    },
+    "CP": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Commercial Planned. Planned commercial district; no residential as primary use."
+    },
+    "DSP": {
+      "min_density": 0,
+      "max_density": 55.0,
+      "description": "Downtown Specific Plan. Mixed-use downtown area; residential density varies by sub-area, up to 55 du/ac."
+    },
+    "E": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Public and Quasi-Public. Public facilities, schools, churches; no residential."
+    },
+    "I-2": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Limited Industrial. Light industrial, manufacturing, R&D; no residential."
+    },
+    "I-3": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "General Industrial. General industrial and heavy manufacturing; no residential."
+    },
+    "INSP": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Isabel Neighborhood Specific Plan. Specific plan area; density per approved plan."
+    },
+    "MFR": {
+      "min_density": 14.5,
+      "max_density": 30.0,
+      "description": "Multi-Family Residential. Multi-family residential district; approximately 14.5-30 du/ac."
+    },
+    "NMU": {
+      "min_density": 2.0,
+      "max_density": 38.0,
+      "description": "Neighborhood Mixed Use. Mixed-use residential and commercial; density varies by sub-designation (2-38 du/ac)."
+    },
+    "OS-A": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Open Space - Agriculture. Agricultural open space; no residential development."
+    },
+    "OS-F": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Open Space - Foothills. Foothill open space preservation; no residential development."
+    },
+    "RL": {
+      "min_density": 0,
+      "max_density": 10.0,
+      "description": "Low Density Residential. Low density residential; up to 10 du/ac."
+    },
+    "RR-1": {
+      "min_density": 0,
+      "max_density": 1.0,
+      "description": "Rural Residential - 1 acre minimum. Rural residential; up to 1 du/ac."
+    },
+    "RR-5": {
+      "min_density": 0,
+      "max_density": 0.2,
+      "description": "Rural Residential - 5 acre minimum. Rural residential; up to 0.2 du/ac."
+    },
+    "RS": {
+      "min_density": 0,
+      "max_density": 6.0,
+      "description": "Suburban Residential. Single-family suburban residential; up to 6 du/ac."
+    },
+    "SLV-AG": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "South Livermore Valley - Agricultural. Agricultural preservation area; no residential."
+    },
+    "T3N": {
+      "min_density": 3.0,
+      "max_density": 12.0,
+      "description": "Transect Zone T3 Neighborhood. Sub-urban low-density mixed-use; 3-12 du/ac."
+    },
+    "T4N": {
+      "min_density": 12.0,
+      "max_density": 24.0,
+      "description": "Transect Zone T4 Neighborhood. General urban medium-density mixed-use; 12-24 du/ac."
+    },
+    "T4N-O": {
+      "min_density": 12.0,
+      "max_density": 24.0,
+      "description": "Transect Zone T4 Neighborhood - Open. General urban medium-density mixed-use with open space; 12-24 du/ac."
+    },
+    "PD 17-002": {
+      "min_density": 0,
+      "max_density": 55.0,
+      "description": "Planned Development (PD 17-002). Density per approved PD plan."
+    },
+    "PD 18-001": {
+      "min_density": 0,
+      "max_density": 55.0,
+      "description": "Planned Development (PD 18-001). Density per approved PD plan."
+    },
+    "PD 18-005": {
+      "min_density": 0,
+      "max_density": 55.0,
+      "description": "Planned Development (PD 18-005). Density per approved PD plan."
+    },
+    "PD 18-006": {
+      "min_density": 0,
+      "max_density": 55.0,
+      "description": "Planned Development (PD 18-006). Density per approved PD plan."
+    },
+    "PD 18-007": {
+      "min_density": 0,
+      "max_density": 55.0,
+      "description": "Planned Development (PD 18-007). Density per approved PD plan."
+    },
+    "PD 18-009": {
+      "min_density": 0,
+      "max_density": 55.0,
+      "description": "Planned Development (PD 18-009). Density per approved PD plan."
+    },
+    "PD 18-010": {
+      "min_density": 0,
+      "max_density": 55.0,
+      "description": "Planned Development (PD 18-010). Density per approved PD plan."
+    },
+    "PD 18-011": {
+      "min_density": 0,
+      "max_density": 55.0,
+      "description": "Planned Development (PD 18-011). Density per approved PD plan."
+    },
+    "PD-07-001": {
+      "min_density": 0,
+      "max_density": 55.0,
+      "description": "Planned Development (PD-07-001). Density per approved PD plan."
+    },
+    "PD-15": {
+      "min_density": 0,
+      "max_density": 55.0,
+      "description": "Planned Development (PD-15). Density per approved PD plan."
+    },
+    "PD-ECSP-OS": {
+      "min_density": 0,
+      "max_density": 55.0,
+      "description": "Planned Development (PD-ECSP-OS). Density per approved PD plan."
+    },
+    "PD-SLVSP": {
+      "min_density": 0,
+      "max_density": 55.0,
+      "description": "Planned Development (PD-SLVSP). Density per approved PD plan."
+    },
+    "PD/R-R-5": {
+      "min_density": 0,
+      "max_density": 55.0,
+      "description": "Planned Development (PD/R-R-5). Density per approved PD plan."
+    },
+    "PDC 17-003": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Planned Development Commercial (PDC 17-003). Density per approved PD plan; commercial-oriented."
+    },
+    "PDC 21-001": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Planned Development Commercial (PDC 21-001). Density per approved PD plan; commercial-oriented."
+    },
+    "PDC-00-172": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Planned Development Commercial (PDC-00-172). Density per approved PD plan; commercial-oriented."
+    },
+    "PDC-00-173": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Planned Development Commercial (PDC-00-173). Density per approved PD plan; commercial-oriented."
+    },
+    "PDC-00-176": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Planned Development Commercial (PDC-00-176). Density per approved PD plan; commercial-oriented."
+    },
+    "PDC-00-189": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Planned Development Commercial (PDC-00-189). Density per approved PD plan; commercial-oriented."
+    },
+    "PDC-00-193": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Planned Development Commercial (PDC-00-193). Density per approved PD plan; commercial-oriented."
+    },
+    "PDC-00-199": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Planned Development Commercial (PDC-00-199). Density per approved PD plan; commercial-oriented."
+    },
+    "PDC-01-018": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Planned Development Commercial (PDC-01-018). Density per approved PD plan; commercial-oriented."
+    },
+    "PDC-02-007": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Planned Development Commercial (PDC-02-007). Density per approved PD plan; commercial-oriented."
+    },
+    "PDC-03-001": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Planned Development Commercial (PDC-03-001). Density per approved PD plan; commercial-oriented."
+    },
+    "PDC-03-005": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Planned Development Commercial (PDC-03-005). Density per approved PD plan; commercial-oriented."
+    },
+    "PDC-05-003": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Planned Development Commercial (PDC-05-003). Density per approved PD plan; commercial-oriented."
+    },
+    "PDC-05-005": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Planned Development Commercial (PDC-05-005). Density per approved PD plan; commercial-oriented."
+    },
+    "PDC-06-005": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Planned Development Commercial (PDC-06-005). Density per approved PD plan; commercial-oriented."
+    },
+    "PDC-07-005": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Planned Development Commercial (PDC-07-005). Density per approved PD plan; commercial-oriented."
+    },
+    "PDC-07-006": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Planned Development Commercial (PDC-07-006). Density per approved PD plan; commercial-oriented."
+    },
+    "PDC-08-002": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Planned Development Commercial (PDC-08-002). Density per approved PD plan; commercial-oriented."
+    },
+    "PDC-14-002": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Planned Development Commercial (PDC-14-002). Density per approved PD plan; commercial-oriented."
+    },
+    "PDI 18-002": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Planned Development Industrial (PDI 18-002). Density per approved PD plan; industrial-oriented."
+    },
+    "PDI-00-182": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Planned Development Industrial (PDI-00-182). Density per approved PD plan; industrial-oriented."
+    },
+    "PDI-00-185": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Planned Development Industrial (PDI-00-185). Density per approved PD plan; industrial-oriented."
+    },
+    "PDI-01-003": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Planned Development Industrial (PDI-01-003). Density per approved PD plan; industrial-oriented."
+    },
+    "PDI-08-003": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Planned Development Industrial (PDI-08-003). Density per approved PD plan; industrial-oriented."
+    },
+    "PDI-22-001": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Planned Development Industrial (PDI-22-001). Density per approved PD plan; industrial-oriented."
+    },
+    "PDOS-00-198": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Planned Development Commercial (PDOS-00-198). Density per approved PD plan; commercial-oriented."
+    },
+    "PDR 05-002": {
+      "min_density": 0,
+      "max_density": 55.0,
+      "description": "Planned Development Residential (PDR 05-002). Density per approved PD plan; residential-oriented."
+    },
+    "PDR 07-002": {
+      "min_density": 0,
+      "max_density": 55.0,
+      "description": "Planned Development Residential (PDR 07-002). Density per approved PD plan; residential-oriented."
+    },
+    "PDR 12-002": {
+      "min_density": 0,
+      "max_density": 55.0,
+      "description": "Planned Development Residential (PDR 12-002). Density per approved PD plan; residential-oriented."
+    },
+    "PDR 14-005": {
+      "min_density": 0,
+      "max_density": 55.0,
+      "description": "Planned Development Residential (PDR 14-005). Density per approved PD plan; residential-oriented."
+    },
+    "PDR 15-001": {
+      "min_density": 0,
+      "max_density": 55.0,
+      "description": "Planned Development Residential (PDR 15-001). Density per approved PD plan; residential-oriented."
+    },
+    "PDR 18-003": {
+      "min_density": 0,
+      "max_density": 55.0,
+      "description": "Planned Development Residential (PDR 18-003). Density per approved PD plan; residential-oriented."
+    },
+    "PDR 18-004": {
+      "min_density": 0,
+      "max_density": 55.0,
+      "description": "Planned Development Residential (PDR 18-004). Density per approved PD plan; residential-oriented."
+    },
+    "PDR-00-160": {
+      "min_density": 0,
+      "max_density": 55.0,
+      "description": "Planned Development Residential (PDR-00-160). Density per approved PD plan; residential-oriented."
+    },
+    "PDR-00-161": {
+      "min_density": 0,
+      "max_density": 55.0,
+      "description": "Planned Development Residential (PDR-00-161). Density per approved PD plan; residential-oriented."
+    },
+    "PDR-00-167": {
+      "min_density": 0,
+      "max_density": 55.0,
+      "description": "Planned Development Residential (PDR-00-167). Density per approved PD plan; residential-oriented."
+    },
+    "PDR-00-168": {
+      "min_density": 0,
+      "max_density": 55.0,
+      "description": "Planned Development Residential (PDR-00-168). Density per approved PD plan; residential-oriented."
+    },
+    "PDR-00-169": {
+      "min_density": 0,
+      "max_density": 55.0,
+      "description": "Planned Development Residential (PDR-00-169). Density per approved PD plan; residential-oriented."
+    },
+    "PDR-00-170": {
+      "min_density": 0,
+      "max_density": 55.0,
+      "description": "Planned Development Residential (PDR-00-170). Density per approved PD plan; residential-oriented."
+    },
+    "PDR-00-174": {
+      "min_density": 0,
+      "max_density": 55.0,
+      "description": "Planned Development Residential (PDR-00-174). Density per approved PD plan; residential-oriented."
+    },
+    "PDR-00-177": {
+      "min_density": 0,
+      "max_density": 55.0,
+      "description": "Planned Development Residential (PDR-00-177). Density per approved PD plan; residential-oriented."
+    },
+    "PDR-00-183": {
+      "min_density": 0,
+      "max_density": 55.0,
+      "description": "Planned Development Residential (PDR-00-183). Density per approved PD plan; residential-oriented."
+    },
+    "PDR-01-006": {
+      "min_density": 0,
+      "max_density": 55.0,
+      "description": "Planned Development Residential (PDR-01-006). Density per approved PD plan; residential-oriented."
+    },
+    "PDR-01-007": {
+      "min_density": 0,
+      "max_density": 55.0,
+      "description": "Planned Development Residential (PDR-01-007). Density per approved PD plan; residential-oriented."
+    },
+    "PDR-01-008": {
+      "min_density": 0,
+      "max_density": 55.0,
+      "description": "Planned Development Residential (PDR-01-008). Density per approved PD plan; residential-oriented."
+    },
+    "PDR-02-001": {
+      "min_density": 0,
+      "max_density": 55.0,
+      "description": "Planned Development Residential (PDR-02-001). Density per approved PD plan; residential-oriented."
+    },
+    "PDR-02-004": {
+      "min_density": 0,
+      "max_density": 55.0,
+      "description": "Planned Development Residential (PDR-02-004). Density per approved PD plan; residential-oriented."
+    },
+    "PDR-02-005": {
+      "min_density": 0,
+      "max_density": 55.0,
+      "description": "Planned Development Residential (PDR-02-005). Density per approved PD plan; residential-oriented."
+    },
+    "PDR-02-008": {
+      "min_density": 0,
+      "max_density": 55.0,
+      "description": "Planned Development Residential (PDR-02-008). Density per approved PD plan; residential-oriented."
+    },
+    "PDR-02-009": {
+      "min_density": 0,
+      "max_density": 55.0,
+      "description": "Planned Development Residential (PDR-02-009). Density per approved PD plan; residential-oriented."
+    },
+    "PDR-03-006": {
+      "min_density": 0,
+      "max_density": 55.0,
+      "description": "Planned Development Residential (PDR-03-006). Density per approved PD plan; residential-oriented."
+    },
+    "PDR-03-007": {
+      "min_density": 0,
+      "max_density": 55.0,
+      "description": "Planned Development Residential (PDR-03-007). Density per approved PD plan; residential-oriented."
+    },
+    "PDR-05-004": {
+      "min_density": 0,
+      "max_density": 55.0,
+      "description": "Planned Development Residential (PDR-05-004). Density per approved PD plan; residential-oriented."
+    },
+    "PDR-05-006": {
+      "min_density": 0,
+      "max_density": 55.0,
+      "description": "Planned Development Residential (PDR-05-006). Density per approved PD plan; residential-oriented."
+    },
+    "PDR-06-006": {
+      "min_density": 0,
+      "max_density": 55.0,
+      "description": "Planned Development Residential (PDR-06-006). Density per approved PD plan; residential-oriented."
+    },
+    "PDR-08-001": {
+      "min_density": 0,
+      "max_density": 55.0,
+      "description": "Planned Development Residential (PDR-08-001). Density per approved PD plan; residential-oriented."
+    },
+    "PDR-10-003": {
+      "min_density": 0,
+      "max_density": 55.0,
+      "description": "Planned Development Residential (PDR-10-003). Density per approved PD plan; residential-oriented."
+    },
+    "PDR-10-004": {
+      "min_density": 0,
+      "max_density": 55.0,
+      "description": "Planned Development Residential (PDR-10-004). Density per approved PD plan; residential-oriented."
+    },
+    "PDR-11-001": {
+      "min_density": 0,
+      "max_density": 55.0,
+      "description": "Planned Development Residential (PDR-11-001). Density per approved PD plan; residential-oriented."
+    },
+    "PDR-13-002": {
+      "min_density": 0,
+      "max_density": 55.0,
+      "description": "Planned Development Residential (PDR-13-002). Density per approved PD plan; residential-oriented."
+    },
+    "PDR-24-001": {
+      "min_density": 0,
+      "max_density": 55.0,
+      "description": "Planned Development Residential (PDR-24-001). Density per approved PD plan; residential-oriented."
+    },
+    "PDR14-001": {
+      "min_density": 0,
+      "max_density": 55.0,
+      "description": "Planned Development Residential (PDR14-001). Density per approved PD plan; residential-oriented."
+    },
+    "PUD 02-205": {
+      "min_density": 0,
+      "max_density": 55.0,
+      "description": "Planned Unit Development (PUD 02-205). Density per approved PUD plan."
+    },
+    "PUD 1-81": {
+      "min_density": 0,
+      "max_density": 55.0,
+      "description": "Planned Unit Development (PUD 1-81). Density per approved PUD plan."
+    },
+    "PUD 10-001": {
+      "min_density": 0,
+      "max_density": 55.0,
+      "description": "Planned Unit Development (PUD 10-001). Density per approved PUD plan."
+    },
+    "PUD 10-90": {
+      "min_density": 0,
+      "max_density": 55.0,
+      "description": "Planned Unit Development (PUD 10-90). Density per approved PUD plan."
+    },
+    "PUD 102": {
+      "min_density": 0,
+      "max_density": 55.0,
+      "description": "Planned Unit Development (PUD 102). Density per approved PUD plan."
+    },
+    "PUD 103": {
+      "min_density": 0,
+      "max_density": 55.0,
+      "description": "Planned Unit Development (PUD 103). Density per approved PUD plan."
+    },
+    "PUD 104": {
+      "min_density": 0,
+      "max_density": 55.0,
+      "description": "Planned Unit Development (PUD 104). Density per approved PUD plan."
+    },
+    "PUD 105": {
+      "min_density": 0,
+      "max_density": 55.0,
+      "description": "Planned Unit Development (PUD 105). Density per approved PUD plan."
+    },
+    "PUD 106": {
+      "min_density": 0,
+      "max_density": 55.0,
+      "description": "Planned Unit Development (PUD 106). Density per approved PUD plan."
+    },
+    "PUD 107": {
+      "min_density": 0,
+      "max_density": 55.0,
+      "description": "Planned Unit Development (PUD 107). Density per approved PUD plan."
+    },
+    "PUD 109": {
+      "min_density": 0,
+      "max_density": 55.0,
+      "description": "Planned Unit Development (PUD 109). Density per approved PUD plan."
+    },
+    "PUD 109-78": {
+      "min_density": 0,
+      "max_density": 55.0,
+      "description": "Planned Unit Development (PUD 109-78). Density per approved PUD plan."
+    },
+    "PUD 11-80": {
+      "min_density": 0,
+      "max_density": 55.0,
+      "description": "Planned Unit Development (PUD 11-80). Density per approved PUD plan."
+    },
+    "PUD 110-87": {
+      "min_density": 0,
+      "max_density": 55.0,
+      "description": "Planned Unit Development (PUD 110-87). Density per approved PUD plan."
+    },
+    "PUD 111-78": {
+      "min_density": 0,
+      "max_density": 55.0,
+      "description": "Planned Unit Development (PUD 111-78). Density per approved PUD plan."
+    },
+    "PUD 111-81": {
+      "min_density": 0,
+      "max_density": 55.0,
+      "description": "Planned Unit Development (PUD 111-81). Density per approved PUD plan."
+    },
+    "PUD 113": {
+      "min_density": 0,
+      "max_density": 55.0,
+      "description": "Planned Unit Development (PUD 113). Density per approved PUD plan."
+    },
+    "PUD 115": {
+      "min_density": 0,
+      "max_density": 55.0,
+      "description": "Planned Unit Development (PUD 115). Density per approved PUD plan."
+    },
+    "PUD 116-78": {
+      "min_density": 0,
+      "max_density": 55.0,
+      "description": "Planned Unit Development (PUD 116-78). Density per approved PUD plan."
+    },
+    "PUD 116-94": {
+      "min_density": 0,
+      "max_density": 55.0,
+      "description": "Planned Unit Development (PUD 116-94). Density per approved PUD plan."
+    },
+    "PUD 117": {
+      "min_density": 0,
+      "max_density": 55.0,
+      "description": "Planned Unit Development (PUD 117). Density per approved PUD plan."
+    },
+    "PUD 117-91": {
+      "min_density": 0,
+      "max_density": 55.0,
+      "description": "Planned Unit Development (PUD 117-91). Density per approved PUD plan."
+    },
+    "PUD 118": {
+      "min_density": 0,
+      "max_density": 55.0,
+      "description": "Planned Unit Development (PUD 118). Density per approved PUD plan."
+    },
+    "PUD 12-94": {
+      "min_density": 0,
+      "max_density": 55.0,
+      "description": "Planned Unit Development (PUD 12-94). Density per approved PUD plan."
+    },
+    "PUD 123-78": {
+      "min_density": 0,
+      "max_density": 55.0,
+      "description": "Planned Unit Development (PUD 123-78). Density per approved PUD plan."
+    },
+    "PUD 127": {
+      "min_density": 0,
+      "max_density": 55.0,
+      "description": "Planned Unit Development (PUD 127). Density per approved PUD plan."
+    },
+    "PUD 127-78": {
+      "min_density": 0,
+      "max_density": 55.0,
+      "description": "Planned Unit Development (PUD 127-78). Density per approved PUD plan."
+    },
+    "PUD 129": {
+      "min_density": 0,
+      "max_density": 55.0,
+      "description": "Planned Unit Development (PUD 129). Density per approved PUD plan."
+    },
+    "PUD 135-80": {
+      "min_density": 0,
+      "max_density": 55.0,
+      "description": "Planned Unit Development (PUD 135-80). Density per approved PUD plan."
+    },
+    "PUD 137": {
+      "min_density": 0,
+      "max_density": 55.0,
+      "description": "Planned Unit Development (PUD 137). Density per approved PUD plan."
+    },
+    "PUD 138": {
+      "min_density": 0,
+      "max_density": 55.0,
+      "description": "Planned Unit Development (PUD 138). Density per approved PUD plan."
+    },
+    "PUD 139": {
+      "min_density": 0,
+      "max_density": 55.0,
+      "description": "Planned Unit Development (PUD 139). Density per approved PUD plan."
+    },
+    "PUD 139-80": {
+      "min_density": 0,
+      "max_density": 55.0,
+      "description": "Planned Unit Development (PUD 139-80). Density per approved PUD plan."
+    },
+    "PUD 140-91": {
+      "min_density": 0,
+      "max_density": 55.0,
+      "description": "Planned Unit Development (PUD 140-91). Density per approved PUD plan."
+    },
+    "PUD 141": {
+      "min_density": 0,
+      "max_density": 55.0,
+      "description": "Planned Unit Development (PUD 141). Density per approved PUD plan."
+    },
+    "PUD 143": {
+      "min_density": 0,
+      "max_density": 55.0,
+      "description": "Planned Unit Development (PUD 143). Density per approved PUD plan."
+    },
+    "PUD 144": {
+      "min_density": 0,
+      "max_density": 55.0,
+      "description": "Planned Unit Development (PUD 144). Density per approved PUD plan."
+    },
+    "PUD 150": {
+      "min_density": 0,
+      "max_density": 55.0,
+      "description": "Planned Unit Development (PUD 150). Density per approved PUD plan."
+    },
+    "PUD 152": {
+      "min_density": 0,
+      "max_density": 55.0,
+      "description": "Planned Unit Development (PUD 152). Density per approved PUD plan."
+    },
+    "PUD 153-86": {
+      "min_density": 0,
+      "max_density": 55.0,
+      "description": "Planned Unit Development (PUD 153-86). Density per approved PUD plan."
+    },
+    "PUD 153-87": {
+      "min_density": 0,
+      "max_density": 55.0,
+      "description": "Planned Unit Development (PUD 153-87). Density per approved PUD plan."
+    },
+    "PUD 154": {
+      "min_density": 0,
+      "max_density": 55.0,
+      "description": "Planned Unit Development (PUD 154). Density per approved PUD plan."
+    },
+    "PUD 156": {
+      "min_density": 0,
+      "max_density": 55.0,
+      "description": "Planned Unit Development (PUD 156). Density per approved PUD plan."
+    },
+    "PUD 158": {
+      "min_density": 0,
+      "max_density": 55.0,
+      "description": "Planned Unit Development (PUD 158). Density per approved PUD plan."
+    },
+    "PUD 159-A": {
+      "min_density": 0,
+      "max_density": 55.0,
+      "description": "Planned Unit Development (PUD 159-A). Density per approved PUD plan."
+    },
+    "PUD 17-89": {
+      "min_density": 0,
+      "max_density": 55.0,
+      "description": "Planned Unit Development (PUD 17-89). Density per approved PUD plan."
+    },
+    "PUD 173-90": {
+      "min_density": 0,
+      "max_density": 55.0,
+      "description": "Planned Unit Development (PUD 173-90). Density per approved PUD plan."
+    },
+    "PUD 178-90": {
+      "min_density": 0,
+      "max_density": 55.0,
+      "description": "Planned Unit Development (PUD 178-90). Density per approved PUD plan."
+    },
+    "PUD 18-83": {
+      "min_density": 0,
+      "max_density": 55.0,
+      "description": "Planned Unit Development (PUD 18-83). Density per approved PUD plan."
+    },
+    "PUD 184-84": {
+      "min_density": 0,
+      "max_density": 55.0,
+      "description": "Planned Unit Development (PUD 184-84). Density per approved PUD plan."
+    },
+    "PUD 188-89": {
+      "min_density": 0,
+      "max_density": 55.0,
+      "description": "Planned Unit Development (PUD 188-89). Density per approved PUD plan."
+    },
+    "PUD 191-94": {
+      "min_density": 0,
+      "max_density": 55.0,
+      "description": "Planned Unit Development (PUD 191-94). Density per approved PUD plan."
+    },
+    "PUD 194-94": {
+      "min_density": 0,
+      "max_density": 55.0,
+      "description": "Planned Unit Development (PUD 194-94). Density per approved PUD plan."
+    },
+    "PUD 195-94": {
+      "min_density": 0,
+      "max_density": 55.0,
+      "description": "Planned Unit Development (PUD 195-94). Density per approved PUD plan."
+    },
+    "PUD 196-83": {
+      "min_density": 0,
+      "max_density": 55.0,
+      "description": "Planned Unit Development (PUD 196-83). Density per approved PUD plan."
+    },
+    "PUD 2-80": {
+      "min_density": 0,
+      "max_density": 55.0,
+      "description": "Planned Unit Development (PUD 2-80). Density per approved PUD plan."
+    },
+    "PUD 2-82": {
+      "min_density": 0,
+      "max_density": 55.0,
+      "description": "Planned Unit Development (PUD 2-82). Density per approved PUD plan."
+    },
+    "PUD 201-82": {
+      "min_density": 0,
+      "max_density": 55.0,
+      "description": "Planned Unit Development (PUD 201-82). Density per approved PUD plan."
+    },
+    "PUD 202-88": {
+      "min_density": 0,
+      "max_density": 55.0,
+      "description": "Planned Unit Development (PUD 202-88). Density per approved PUD plan."
+    },
+    "PUD 21-84": {
+      "min_density": 0,
+      "max_density": 55.0,
+      "description": "Planned Unit Development (PUD 21-84). Density per approved PUD plan."
+    },
+    "PUD 216-83": {
+      "min_density": 0,
+      "max_density": 55.0,
+      "description": "Planned Unit Development (PUD 216-83). Density per approved PUD plan."
+    },
+    "PUD 22": {
+      "min_density": 0,
+      "max_density": 55.0,
+      "description": "Planned Unit Development (PUD 22). Density per approved PUD plan."
+    },
+    "PUD 225-83": {
+      "min_density": 0,
+      "max_density": 55.0,
+      "description": "Planned Unit Development (PUD 225-83). Density per approved PUD plan."
+    },
+    "PUD 240-84": {
+      "min_density": 0,
+      "max_density": 55.0,
+      "description": "Planned Unit Development (PUD 240-84). Density per approved PUD plan."
+    },
+    "PUD 246-81": {
+      "min_density": 0,
+      "max_density": 55.0,
+      "description": "Planned Unit Development (PUD 246-81). Density per approved PUD plan."
+    },
+    "PUD 25": {
+      "min_density": 0,
+      "max_density": 55.0,
+      "description": "Planned Unit Development (PUD 25). Density per approved PUD plan."
+    },
+    "PUD 25-85": {
+      "min_density": 0,
+      "max_density": 55.0,
+      "description": "Planned Unit Development (PUD 25-85). Density per approved PUD plan."
+    },
+    "PUD 26-94": {
+      "min_density": 0,
+      "max_density": 55.0,
+      "description": "Planned Unit Development (PUD 26-94). Density per approved PUD plan."
+    },
+    "PUD 29-89": {
+      "min_density": 0,
+      "max_density": 55.0,
+      "description": "Planned Unit Development (PUD 29-89). Density per approved PUD plan."
+    },
+    "PUD 3": {
+      "min_density": 0,
+      "max_density": 55.0,
+      "description": "Planned Unit Development (PUD 3). Density per approved PUD plan."
+    },
+    "PUD 3-90": {
+      "min_density": 0,
+      "max_density": 55.0,
+      "description": "Planned Unit Development (PUD 3-90). Density per approved PUD plan."
+    },
+    "PUD 31-85": {
+      "min_density": 0,
+      "max_density": 55.0,
+      "description": "Planned Unit Development (PUD 31-85). Density per approved PUD plan."
+    },
+    "PUD 33-85": {
+      "min_density": 0,
+      "max_density": 55.0,
+      "description": "Planned Unit Development (PUD 33-85). Density per approved PUD plan."
+    },
+    "PUD 34-92": {
+      "min_density": 0,
+      "max_density": 55.0,
+      "description": "Planned Unit Development (PUD 34-92). Density per approved PUD plan."
+    },
+    "PUD 35-89": {
+      "min_density": 0,
+      "max_density": 55.0,
+      "description": "Planned Unit Development (PUD 35-89). Density per approved PUD plan."
+    },
+    "PUD 39-80": {
+      "min_density": 0,
+      "max_density": 55.0,
+      "description": "Planned Unit Development (PUD 39-80). Density per approved PUD plan."
+    },
+    "PUD 4-81": {
+      "min_density": 0,
+      "max_density": 55.0,
+      "description": "Planned Unit Development (PUD 4-81). Density per approved PUD plan."
+    },
+    "PUD 4-82": {
+      "min_density": 0,
+      "max_density": 55.0,
+      "description": "Planned Unit Development (PUD 4-82). Density per approved PUD plan."
+    },
+    "PUD 40-85": {
+      "min_density": 0,
+      "max_density": 55.0,
+      "description": "Planned Unit Development (PUD 40-85). Density per approved PUD plan."
+    },
+    "PUD 41-85": {
+      "min_density": 0,
+      "max_density": 55.0,
+      "description": "Planned Unit Development (PUD 41-85). Density per approved PUD plan."
+    },
+    "PUD 44-87": {
+      "min_density": 0,
+      "max_density": 55.0,
+      "description": "Planned Unit Development (PUD 44-87). Density per approved PUD plan."
+    },
+    "PUD 46-89": {
+      "min_density": 0,
+      "max_density": 55.0,
+      "description": "Planned Unit Development (PUD 46-89). Density per approved PUD plan."
+    },
+    "PUD 49-89": {
+      "min_density": 0,
+      "max_density": 55.0,
+      "description": "Planned Unit Development (PUD 49-89). Density per approved PUD plan."
+    },
+    "PUD 51-93": {
+      "min_density": 0,
+      "max_density": 55.0,
+      "description": "Planned Unit Development (PUD 51-93). Density per approved PUD plan."
+    },
+    "PUD 52-93": {
+      "min_density": 0,
+      "max_density": 55.0,
+      "description": "Planned Unit Development (PUD 52-93). Density per approved PUD plan."
+    },
+    "PUD 53-93": {
+      "min_density": 0,
+      "max_density": 55.0,
+      "description": "Planned Unit Development (PUD 53-93). Density per approved PUD plan."
+    },
+    "PUD 54-93": {
+      "min_density": 0,
+      "max_density": 55.0,
+      "description": "Planned Unit Development (PUD 54-93). Density per approved PUD plan."
+    },
+    "PUD 57-88": {
+      "min_density": 0,
+      "max_density": 55.0,
+      "description": "Planned Unit Development (PUD 57-88). Density per approved PUD plan."
+    },
+    "PUD 57-93": {
+      "min_density": 0,
+      "max_density": 55.0,
+      "description": "Planned Unit Development (PUD 57-93). Density per approved PUD plan."
+    },
+    "PUD 58-93": {
+      "min_density": 0,
+      "max_density": 55.0,
+      "description": "Planned Unit Development (PUD 58-93). Density per approved PUD plan."
+    },
+    "PUD 6-81": {
+      "min_density": 0,
+      "max_density": 55.0,
+      "description": "Planned Unit Development (PUD 6-81). Density per approved PUD plan."
+    },
+    "PUD 66-94": {
+      "min_density": 0,
+      "max_density": 55.0,
+      "description": "Planned Unit Development (PUD 66-94). Density per approved PUD plan."
+    },
+    "PUD 69-81": {
+      "min_density": 0,
+      "max_density": 55.0,
+      "description": "Planned Unit Development (PUD 69-81). Density per approved PUD plan."
+    },
+    "PUD 70-91": {
+      "min_density": 0,
+      "max_density": 55.0,
+      "description": "Planned Unit Development (PUD 70-91). Density per approved PUD plan."
+    },
+    "PUD 71-88": {
+      "min_density": 0,
+      "max_density": 55.0,
+      "description": "Planned Unit Development (PUD 71-88). Density per approved PUD plan."
+    },
+    "PUD 72-88": {
+      "min_density": 0,
+      "max_density": 55.0,
+      "description": "Planned Unit Development (PUD 72-88). Density per approved PUD plan."
+    },
+    "PUD 79-88": {
+      "min_density": 0,
+      "max_density": 55.0,
+      "description": "Planned Unit Development (PUD 79-88). Density per approved PUD plan."
+    },
+    "PUD 80-94": {
+      "min_density": 0,
+      "max_density": 55.0,
+      "description": "Planned Unit Development (PUD 80-94). Density per approved PUD plan."
+    },
+    "PUD 82-88": {
+      "min_density": 0,
+      "max_density": 55.0,
+      "description": "Planned Unit Development (PUD 82-88). Density per approved PUD plan."
+    },
+    "PUD 88-81": {
+      "min_density": 0,
+      "max_density": 55.0,
+      "description": "Planned Unit Development (PUD 88-81). Density per approved PUD plan."
+    },
+    "PUD 91-90": {
+      "min_density": 0,
+      "max_density": 55.0,
+      "description": "Planned Unit Development (PUD 91-90). Density per approved PUD plan."
+    },
+    "PUD 95-89": {
+      "min_density": 0,
+      "max_density": 55.0,
+      "description": "Planned Unit Development (PUD 95-89). Density per approved PUD plan."
+    },
+    "PUD 98-88": {
+      "min_density": 0,
+      "max_density": 55.0,
+      "description": "Planned Unit Development (PUD 98-88). Density per approved PUD plan."
+    },
+    "PUD 99-86": {
+      "min_density": 0,
+      "max_density": 55.0,
+      "description": "Planned Unit Development (PUD 99-86). Density per approved PUD plan."
+    },
+    "PUDA 01-001": {
+      "min_density": 0,
+      "max_density": 55.0,
+      "description": "Planned Unit Development Amendment (PUDA 01-001). Density per approved PUD plan."
+    },
+    "PUDA 01-013": {
+      "min_density": 0,
+      "max_density": 55.0,
+      "description": "Planned Unit Development Amendment (PUDA 01-013). Density per approved PUD plan."
+    },
+    "PUDA 01-204": {
+      "min_density": 0,
+      "max_density": 55.0,
+      "description": "Planned Unit Development Amendment (PUDA 01-204). Density per approved PUD plan."
+    },
+    "PUDA 02-001": {
+      "min_density": 0,
+      "max_density": 55.0,
+      "description": "Planned Unit Development Amendment (PUDA 02-001). Density per approved PUD plan."
+    },
+    "PUDA 02-003": {
+      "min_density": 0,
+      "max_density": 55.0,
+      "description": "Planned Unit Development Amendment (PUDA 02-003). Density per approved PUD plan."
+    },
+    "PUDA 02-004": {
+      "min_density": 0,
+      "max_density": 55.0,
+      "description": "Planned Unit Development Amendment (PUDA 02-004). Density per approved PUD plan."
+    },
+    "PUDA 02-005": {
+      "min_density": 0,
+      "max_density": 55.0,
+      "description": "Planned Unit Development Amendment (PUDA 02-005). Density per approved PUD plan."
+    },
+    "PUDA 02-007": {
+      "min_density": 0,
+      "max_density": 55.0,
+      "description": "Planned Unit Development Amendment (PUDA 02-007). Density per approved PUD plan."
+    },
+    "PUDA 04-001": {
+      "min_density": 0,
+      "max_density": 55.0,
+      "description": "Planned Unit Development Amendment (PUDA 04-001). Density per approved PUD plan."
+    },
+    "PUDA 04-002": {
+      "min_density": 0,
+      "max_density": 55.0,
+      "description": "Planned Unit Development Amendment (PUDA 04-002). Density per approved PUD plan."
+    },
+    "PUDA 04-003": {
+      "min_density": 0,
+      "max_density": 55.0,
+      "description": "Planned Unit Development Amendment (PUDA 04-003). Density per approved PUD plan."
+    },
+    "PUDA 06-001": {
+      "min_density": 0,
+      "max_density": 55.0,
+      "description": "Planned Unit Development Amendment (PUDA 06-001). Density per approved PUD plan."
+    },
+    "PUDA 07-001": {
+      "min_density": 0,
+      "max_density": 55.0,
+      "description": "Planned Unit Development Amendment (PUDA 07-001). Density per approved PUD plan."
+    },
+    "PUDA 07-003": {
+      "min_density": 0,
+      "max_density": 55.0,
+      "description": "Planned Unit Development Amendment (PUDA 07-003). Density per approved PUD plan."
+    }
+  }
+}

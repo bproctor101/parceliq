@@ -1,0 +1,275 @@
+{
+  "city": "Fremont",
+  "state": "California",
+  "source": [
+    "https://www.codepublishing.com/CA/Fremont/html/Fremont18/Fremont18.html",
+    "https://www.codepublishing.com/CA/Fremont/html/Fremont18/Fremont1890.html",
+    "https://www.codepublishing.com/CA/Fremont/html/Fremont18/Fremont1845.html",
+    "https://www.codepublishing.com/CA/Fremont/html/Fremont18/Fremont1847.html",
+    "https://www.codepublishing.com/CA/Fremont/html/Fremont18/Fremont1849.html",
+    "https://www.codepublishing.com/CA/Fremont/html/Fremont18/Fremont1843.html",
+    "https://www.codepublishing.com/CA/Fremont/html/Fremont18/Fremont1850.html",
+    "http://www.shapeourfremont.com/docs/FMC_multifamily.htm",
+    "http://www.shapeourfremont.com/docs/FMC_residential.htm",
+    "https://www.fremont.gov/government/departments/community-development/planning-building-permit-services/plans-maps-guidelines/zoning"
+  ],
+  "last_updated": "2026-04-16",
+  "notes": "Density measured in dwelling units per net acre (du/ac). Fremont uses General Plan density ranges tied to zoning subdistricts. R-1 districts do not specify density in du/ac directly; density is derived from minimum lot size. R-3 subdistricts specify explicit density ranges. Commercial/mixed-use zones allow residential as part of mixed-use projects at densities governed by General Plan designations.",
+  "zones": {
+    "R-1-6": {
+      "min_density": 5.4,
+      "max_density": 7.3,
+      "description": "Single-Family Residential, 6,000 sq ft minimum lot size. Low-density single-family homes. Density derived from lot size (approx 6-7 du/ac)."
+    },
+    "R-1-6-GG": {
+      "min_density": 5.4,
+      "max_density": 7.3,
+      "description": "Single-Family Residential, Glenmoor Gardens designated neighborhood. 6,000 sq ft minimum lot size."
+    },
+    "R-1-8": {
+      "min_density": 3.6,
+      "max_density": 5.4,
+      "description": "Single-Family Residential, 8,000 sq ft minimum lot size. Low-density single-family homes."
+    },
+    "R-1-8-MR": {
+      "min_density": 3.6,
+      "max_density": 5.4,
+      "description": "Single-Family Residential, Mission Ranch designated neighborhood. 8,000 sq ft minimum lot size."
+    },
+    "R-1-10": {
+      "min_density": 2.3,
+      "max_density": 4.4,
+      "description": "Single-Family Residential, 10,000 sq ft minimum lot size. Low-density single-family homes."
+    },
+    "R-1-20": {
+      "min_density": 1.0,
+      "max_density": 2.2,
+      "description": "Single-Family Residential, 20,000 sq ft minimum lot size. Very low density, typically hillside or semi-rural areas."
+    },
+    "R-1-40": {
+      "min_density": 0.5,
+      "max_density": 1.1,
+      "description": "Single-Family Residential, 40,000 sq ft (approx 1 acre) minimum lot size. Very low density, hillside residential."
+    },
+    "R-2": {
+      "min_density": 8.8,
+      "max_density": 14.5,
+      "description": "Two-Family Residential (Duplex). Allows single-family and duplex dwellings. Low-medium density."
+    },
+    "R-G": {
+      "min_density": 2.3,
+      "max_density": 8.7,
+      "description": "Garden Residential District. Recognizes developments built under garden-style standards with emphasis on open green areas. Low density, mix of housing types."
+    },
+    "R-3-10": {
+      "min_density": 8.3,
+      "max_density": 10.0,
+      "description": "Multi-Family Residential, grandfathered density range. Properties may continue at this density until rezoned."
+    },
+    "R-3-11": {
+      "min_density": 8.8,
+      "max_density": 11.0,
+      "description": "Multi-Family Residential, low-medium density multifamily."
+    },
+    "R-3-14": {
+      "min_density": 11.1,
+      "max_density": 14.5,
+      "description": "Multi-Family Residential, low-medium density multifamily."
+    },
+    "R-3-15": {
+      "min_density": 13.0,
+      "max_density": 15.0,
+      "description": "Multi-Family Residential, grandfathered density. Cannot be applied to new properties as of Jan 1, 2014."
+    },
+    "R-3-18": {
+      "min_density": 14.6,
+      "max_density": 18.0,
+      "description": "Multi-Family Residential, medium density multifamily."
+    },
+    "R-3-23": {
+      "min_density": 18.1,
+      "max_density": 23.0,
+      "description": "Multi-Family Residential, medium density multifamily."
+    },
+    "R-3-27": {
+      "min_density": 25.0,
+      "max_density": 27.0,
+      "description": "Multi-Family Residential, grandfathered density. Cannot be applied to new properties as of Jan 1, 2014."
+    },
+    "R-3-30": {
+      "min_density": 23.1,
+      "max_density": 29.9,
+      "description": "Multi-Family Residential, medium density multifamily."
+    },
+    "R-3-35": {
+      "min_density": 30.0,
+      "max_density": 35.0,
+      "description": "Multi-Family Residential, urban density. Up to 3 units above/below allowed for superior design."
+    },
+    "R-3-50": {
+      "min_density": 35.1,
+      "max_density": 50.0,
+      "description": "Multi-Family Residential, urban density. Up to 4 units above/below allowed for superior design."
+    },
+    "R-3-70": {
+      "min_density": 50.1,
+      "max_density": 70.0,
+      "description": "Multi-Family Residential, urban/transit-oriented density. Up to 5 units above/below allowed for superior design. Applies within TOD areas near BART."
+    },
+    "CC": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Community Commercial. General commercial uses; standalone residential not permitted."
+    },
+    "CN": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Neighborhood Commercial. Small-scale neighborhood-serving commercial uses; standalone residential not permitted."
+    },
+    "CO": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Office Commercial. Office and professional service uses; standalone residential not permitted."
+    },
+    "CR": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Regional Commercial. Large-scale regional retail and commercial uses; standalone residential not permitted."
+    },
+    "MX": {
+      "min_density": 14.6,
+      "max_density": 50.0,
+      "description": "Mixed-Use District. Primarily commercial with residential above; ground floor retail/service required. Residential density per General Plan designation (medium to urban range). Vertical mixed-use encouraged."
+    },
+    "TC-P": {
+      "min_density": 14.6,
+      "max_density": 50.0,
+      "description": "Town Center - Pedestrian. Historic cores of Centerville, Irvington, Mission San Jose, and Niles. Mixed-use, pedestrian-oriented. Residential density per General Plan designation."
+    },
+    "TC-T": {
+      "min_density": 14.6,
+      "max_density": 50.0,
+      "description": "Town Center - Transitional. Areas transitioning from suburban to walkable mixed-use character. Residential density per General Plan designation."
+    },
+    "D-CA": {
+      "min_density": 30.0,
+      "max_density": 70.0,
+      "description": "Downtown - Capitol Avenue Zone. Urban mixed-use along Capitol Avenue corridor. High-density residential and commercial."
+    },
+    "D-E": {
+      "min_density": 14.6,
+      "max_density": 29.9,
+      "description": "Downtown - Edge Zone. Transitional area at downtown periphery. Medium-density residential and mixed-use."
+    },
+    "D-CC": {
+      "min_density": 30.0,
+      "max_density": 70.0,
+      "description": "Downtown - Civic Center Zone. Government, institutional, and high-density mixed-use around civic core."
+    },
+    "D-MD": {
+      "min_density": 30.0,
+      "max_density": 70.0,
+      "description": "Downtown - Mid Zone. Core downtown area with urban-density residential and commercial mixed-use."
+    },
+    "CC-D": {
+      "min_density": 30.0,
+      "max_density": 70.0,
+      "description": "City Center Districts. Mixed-use development per City Center Community Plan. Urban-density residential and nonresidential."
+    },
+    "WSI": {
+      "min_density": 50.1,
+      "max_density": 70.0,
+      "description": "Warm Springs Innovation District. Mixed-use near Warm Springs/South Fremont BART station. Urban housing, innovation/advanced manufacturing, commercial. Transit-oriented high density."
+    },
+    "IG": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "General Industrial. Manufacturing, wholesale, distribution, and related service uses. Residential not permitted."
+    },
+    "IL": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Limited Industrial. Light industrial, research and development, and compatible office uses. Residential not permitted."
+    },
+    "O-S": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Open Space. Parks, recreation, natural resource conservation, and open space preservation. Residential not permitted."
+    },
+    "P-F": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Public Facilities. Government buildings, schools, utilities, and public infrastructure. Residential not permitted."
+    },
+    "P": {
+      "min_density": null,
+      "max_density": null,
+      "description": "Planned District. Density determined by approved development plan and applicable General Plan designation. Allows flexible site planning within overall density limits."
+    },
+    "AP": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Airport (GIS short code). Airport land use. Residential not permitted."
+    },
+    "B": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Business/Commercial (GIS short code). General commercial/business district. Maps to CC/CN/CO/CR commercial zones. Standalone residential not permitted."
+    },
+    "HDR": {
+      "min_density": 23.1,
+      "max_density": 70.0,
+      "description": "High Density Residential (GIS short code). Maps to R-3-30 through R-3-70 multi-family zones. Density range 23.1-70.0 du/ac."
+    },
+    "I": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Industrial (GIS short code). Maps to IG/IL industrial zones. Residential not permitted."
+    },
+    "IP": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Industrial Park (GIS short code). Maps to IL (Limited Industrial). Light industrial, R&D, and compatible office. Residential not permitted."
+    },
+    "LDR": {
+      "min_density": 0.5,
+      "max_density": 7.3,
+      "description": "Low Density Residential (GIS short code). Maps to R-1 single-family zones (R-1-6 through R-1-40). Density 0.5-7.3 du/ac depending on lot size."
+    },
+    "MHP": {
+      "min_density": 0,
+      "max_density": 14.5,
+      "description": "Mobile Home Park (GIS short code). Mobile home park residential. Medium density."
+    },
+    "N/A": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Not Applicable / Unzoned (GIS short code). Parcels without a designated zoning classification."
+    },
+    "R1": {
+      "min_density": 0.5,
+      "max_density": 7.3,
+      "description": "Single-Family Residential (GIS short code). Maps to R-1 subdistricts (R-1-6, R-1-8, R-1-10, R-1-20, R-1-40). Density 0.5-7.3 du/ac depending on lot size."
+    },
+    "R2": {
+      "min_density": 8.8,
+      "max_density": 14.5,
+      "description": "Two-Family Residential (Duplex). Allows single-family and duplex dwellings. Low-medium density."
+    },
+    "R3": {
+      "min_density": 8.3,
+      "max_density": 70.0,
+      "description": "Multi-Family Residential (GIS short code). Maps to R-3 subdistricts (R-3-10 through R-3-70). Density 8.3-70.0 du/ac depending on subdistrict."
+    },
+    "RHB": {
+      "min_density": 14.6,
+      "max_density": 50.0,
+      "description": "Residential/Hybrid Business (GIS short code). Maps to MX (Mixed-Use) or TC zones. Residential density 14.6-50.0 du/ac per General Plan."
+    },
+    "TTP_CG": {
+      "min_density": 14.6,
+      "max_density": 50.0,
+      "description": "Transit-Oriented / Town Center - Commercial General (GIS short code). Maps to TC-P/TC-T Town Center zones. Mixed-use, pedestrian-oriented. 14.6-50.0 du/ac."
+    }
+  }
+}

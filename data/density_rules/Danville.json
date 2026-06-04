@@ -1,0 +1,267 @@
+{
+  "city": "Danville",
+  "source": "Town of Danville Municipal Code Ch. XXXII (https://codelibrary.amlegal.com/codes/danvilleca/latest/danville_ca/0-0-0-7018); Danville General Plan (https://www.danville.ca.gov/546/General-Plan); Danville Housing Element 2023-2031 (https://danville.ca.gov/DocumentCenter/View/10790/Housing-Element-Base-Document); HCD Review Letter (https://www.hcd.ca.gov/sites/default/files/docs/planning-and-community/HAU/danville-hau-2051-ta-081225.pdf)",
+  "last_updated": "2026-04-16",
+  "zones": {
+    "A-2": {
+      "min_density": 0,
+      "max_density": 0.05,
+      "description": "General Agricultural District. Minimum 20-acre lots. Very low density rural/agricultural, approx 1 du/20 ac."
+    },
+    "A-4": {
+      "min_density": 0,
+      "max_density": 0.05,
+      "description": "Agricultural Preserve District. Large-lot agricultural preservation, approx 1 du/20 ac."
+    },
+    "R-100": {
+      "min_density": 0,
+      "max_density": 0.44,
+      "description": "Single Family Residential, 100,000 sq ft minimum lot. Approx 0.44 du/ac."
+    },
+    "R-65": {
+      "min_density": 0,
+      "max_density": 0.67,
+      "description": "Single Family Residential, 65,000 sq ft (approx 1.5 ac) minimum lot. Approx 0.67 du/ac."
+    },
+    "R-40": {
+      "min_density": 0,
+      "max_density": 1.09,
+      "description": "Single Family Residential, 40,000 sq ft minimum lot. Approx 1 du/ac."
+    },
+    "R-20": {
+      "min_density": 0,
+      "max_density": 2.18,
+      "description": "Single Family Residential, 20,000 sq ft minimum lot. Approx 2 du/ac."
+    },
+    "R-15": {
+      "min_density": 0,
+      "max_density": 2.9,
+      "description": "Single Family Residential, 15,000 sq ft minimum lot. Approx 2.9 du/ac."
+    },
+    "R-12": {
+      "min_density": 0,
+      "max_density": 3.63,
+      "description": "Single Family Residential, 12,000 sq ft minimum lot. Approx 3.6 du/ac."
+    },
+    "R-10": {
+      "min_density": 0,
+      "max_density": 4.36,
+      "description": "Single Family Residential, 10,000 sq ft minimum lot. Approx 4.4 du/ac."
+    },
+    "R-7": {
+      "min_density": 0,
+      "max_density": 6.22,
+      "description": "Single Family Residential, 7,000 sq ft minimum lot. Approx 6.2 du/ac."
+    },
+    "R-6": {
+      "min_density": 0,
+      "max_density": 7.26,
+      "description": "Single Family Residential, 6,000 sq ft minimum lot. Approx 7.3 du/ac."
+    },
+    "M-12": {
+      "min_density": 8,
+      "max_density": 12,
+      "description": "Multifamily Residential District, Low/Medium Density. 8-12 du/ac."
+    },
+    "M-20": {
+      "min_density": 13,
+      "max_density": 20,
+      "description": "Multifamily Residential District, Medium Density. 13-20 du/ac."
+    },
+    "M-25": {
+      "min_density": 20,
+      "max_density": 25,
+      "description": "Multifamily Residential District, High/Medium Density. 20-25 du/ac."
+    },
+    "M-35": {
+      "min_density": 30,
+      "max_density": 35,
+      "description": "Multifamily Residential District, High Density. 30-35 du/ac. Adopted with 2023 Housing Element."
+    },
+    "DBD-13": {
+      "min_density": 30,
+      "max_density": 35,
+      "description": "Downtown Business District Area 13 - Multifamily Residential High Density Special. 30-35 du/ac."
+    },
+    "P-1": {
+      "min_density": 0,
+      "max_density": 35,
+      "description": "Planned Unit Development District. Density determined by project-specific approval; varies by underlying general plan designation."
+    },
+    "C-O": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Commercial Office District. Non-residential commercial/office uses."
+    },
+    "C-N": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Neighborhood Commercial District. Small-scale retail and service commercial uses."
+    },
+    "DBD": {
+      "min_density": 0,
+      "max_density": 25,
+      "description": "Downtown Business District. Mixed-use; residential may be allowed above ground floor commercial. Density varies by sub-area."
+    },
+    "D-1": {
+      "min_density": 6.1,
+      "max_density": 12,
+      "description": "Duplex Residential District. Two-family residential. ~6-12 du/ac."
+    },
+    "DBD1": {
+      "min_density": 0,
+      "max_density": 25,
+      "description": "Downtown Business District Area 1. Mixed-use commercial/residential. Up to 25 du/ac."
+    },
+    "DBD2": {
+      "min_density": 0,
+      "max_density": 25,
+      "description": "Downtown Business District Area 2. Mixed-use commercial/residential. Up to 25 du/ac."
+    },
+    "DBD2A": {
+      "min_density": 0,
+      "max_density": 25,
+      "description": "Downtown Business District Area 2A. Mixed-use commercial/residential sub-area. Up to 25 du/ac."
+    },
+    "DBD3": {
+      "min_density": 0,
+      "max_density": 25,
+      "description": "Downtown Business District Area 3. Mixed-use commercial/residential. Up to 25 du/ac."
+    },
+    "DBD4": {
+      "min_density": 0,
+      "max_density": 25,
+      "description": "Downtown Business District Area 4. Mixed-use commercial/residential. Up to 25 du/ac."
+    },
+    "DBD5": {
+      "min_density": 0,
+      "max_density": 25,
+      "description": "Downtown Business District Area 5. Mixed-use commercial/residential. Up to 25 du/ac."
+    },
+    "DBD6": {
+      "min_density": 0,
+      "max_density": 25,
+      "description": "Downtown Business District Area 6. Mixed-use commercial/residential. Up to 25 du/ac."
+    },
+    "DBD7": {
+      "min_density": 0,
+      "max_density": 25,
+      "description": "Downtown Business District Area 7. Mixed-use commercial/residential. Up to 25 du/ac."
+    },
+    "DBD8": {
+      "min_density": 0,
+      "max_density": 25,
+      "description": "Downtown Business District Area 8. Mixed-use commercial/residential. Up to 25 du/ac."
+    },
+    "DBD9": {
+      "min_density": 0,
+      "max_density": 25,
+      "description": "Downtown Business District Area 9. Mixed-use commercial/residential. Up to 25 du/ac."
+    },
+    "DBD10": {
+      "min_density": 0,
+      "max_density": 25,
+      "description": "Downtown Business District Area 10. Mixed-use commercial/residential. Up to 25 du/ac."
+    },
+    "DBD11": {
+      "min_density": 0,
+      "max_density": 25,
+      "description": "Downtown Business District Area 11. Mixed-use commercial/residential. Up to 25 du/ac."
+    },
+    "DBD12": {
+      "min_density": 0,
+      "max_density": 25,
+      "description": "Downtown Business District Area 12. Mixed-use commercial/residential. Up to 25 du/ac."
+    },
+    "M-8": {
+      "min_density": 8,
+      "max_density": 12,
+      "description": "Multifamily Residential District, 8 du/ac minimum. Low-medium density multifamily."
+    },
+    "M-13": {
+      "min_density": 8,
+      "max_density": 13,
+      "description": "Multifamily Residential District, up to 13 du/ac. Medium density multifamily."
+    },
+    "M-30": {
+      "min_density": 20,
+      "max_density": 30,
+      "description": "Multifamily Residential District, up to 30 du/ac. High density multifamily."
+    },
+    "G-1": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Government/Institutional District. Public facilities, schools, government uses."
+    },
+    "L-1": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Limited Commercial District. Limited commercial and office uses."
+    },
+    "O-1": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Office District. Professional and administrative office uses."
+    },
+    "P-1 (A-2)": {
+      "min_density": 0,
+      "max_density": 0.05,
+      "description": "Planned Unit Development with Agricultural (A-2) underlying zone. ~1 du/20 ac."
+    },
+    "P-1 (M-13)": {
+      "min_density": 8,
+      "max_density": 13,
+      "description": "Planned Unit Development with M-13 underlying zone. Up to 13 du/ac."
+    },
+    "P-1 (M-8)": {
+      "min_density": 8,
+      "max_density": 12,
+      "description": "Planned Unit Development with M-8 underlying zone. Up to 12 du/ac."
+    },
+    "P-1 (O-1)": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Planned Unit Development with Office (O-1) underlying zone."
+    },
+    "P-1 (R-10)": {
+      "min_density": 0,
+      "max_density": 4.36,
+      "description": "Planned Unit Development with R-10 underlying zone. Up to 4.4 du/ac."
+    },
+    "P-1 (R-100": {
+      "min_density": 0,
+      "max_density": 0.44,
+      "description": "Planned Unit Development with R-100 underlying zone. Up to 0.44 du/ac. (Truncated code in GIS data.)"
+    },
+    "P-1 (R-12)": {
+      "min_density": 0,
+      "max_density": 3.63,
+      "description": "Planned Unit Development with R-12 underlying zone. Up to 3.6 du/ac."
+    },
+    "P-1 (R-15)": {
+      "min_density": 0,
+      "max_density": 2.9,
+      "description": "Planned Unit Development with R-15 underlying zone. Up to 2.9 du/ac."
+    },
+    "P-1 (R-20)": {
+      "min_density": 0,
+      "max_density": 2.18,
+      "description": "Planned Unit Development with R-20 underlying zone. Up to 2.2 du/ac."
+    },
+    "P-1 (R-40)": {
+      "min_density": 0,
+      "max_density": 1.09,
+      "description": "Planned Unit Development with R-40 underlying zone. Up to 1.1 du/ac."
+    },
+    "P-1 (R-6)": {
+      "min_density": 0,
+      "max_density": 7.26,
+      "description": "Planned Unit Development with R-6 underlying zone. Up to 7.3 du/ac."
+    },
+    "P-1 (R-7)": {
+      "min_density": 0,
+      "max_density": 6.22,
+      "description": "Planned Unit Development with R-7 underlying zone. Up to 6.2 du/ac."
+    }
+  }
+}

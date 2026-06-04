@@ -1,0 +1,168 @@
+{
+  "city": "Palo Alto",
+  "state": "California",
+  "source": [
+    "https://codelibrary.amlegal.com/codes/paloalto/latest/paloalto_ca/0-0-0-76269 (Title 18 Zoning)",
+    "https://codelibrary.amlegal.com/codes/paloalto/latest/paloalto_ca/0-0-0-77117 (Ch. 18.12 R-1 Single-Family Residential)",
+    "https://codelibrary.amlegal.com/codes/paloalto/latest/paloalto_ca/0-0-0-76822 (Ch. 18.10 Low-Density Residential RE, R-2, RMD)",
+    "https://codelibrary.amlegal.com/codes/paloalto/latest/paloalto_ca/0-0-0-77458 (Ch. 18.13 Multiple Family Residential RM-20, RM-30, RM-40)",
+    "https://codelibrary.amlegal.com/codes/paloalto/latest/paloalto_ca/0-0-0-77947 (Ch. 18.16 Commercial CN, CC, CS)",
+    "https://codelibrary.amlegal.com/codes/paloalto/latest/paloalto_ca/0-0-0-78321 (Ch. 18.18 Downtown Commercial CD)",
+    "https://codelibrary.amlegal.com/codes/paloalto/latest/paloalto_ca/0-0-0-78729 (Ch. 18.20 Office, Research, Manufacturing MOR, ROLM, RP, GM)",
+    "https://codelibrary.amlegal.com/codes/paloalto/latest/paloalto_ca/0-0-0-92887 (Sec. 18.14.020 Housing Element Opportunity Sites)",
+    "https://paloaltohousingelement.com/wp-content/uploads/2024/07/Palo-Alto-Housing-Element-2.pdf (2023-2031 Housing Element)",
+    "https://www.paloalto.gov/files/assets/public/v/2/planning-amp-development-services/file-migration/historic/long-range-planning/resources/2030-comp-plan-2-land-use-june-21.pdf (2030 Comprehensive Plan Land Use Element)"
+  ],
+  "last_updated": "2026-04-16",
+  "notes": [
+    "Densities reflect the Palo Alto Municipal Code Title 18 (Zoning) as amended through Housing Element compliance ordinances (2022-2024).",
+    "The RM district numbers (20, 30, 40) correspond to the maximum dwelling units per acre allowed in each district.",
+    "On Housing Element Opportunity Sites (designated per Sec. 18.14.020), modified/higher densities may apply per Table 1 of that section.",
+    "Where the Comprehensive Plan Land Use Element density differs from the Zoning Ordinance, the Comprehensive Plan prevails.",
+    "Palo Alto does not use a single explicit 'minimum density' for most base zones; min_density values of null indicate no codified minimum. Where minimums exist (e.g., on Housing Opportunity Sites), they are noted.",
+    "Commercial and industrial zones generally prohibit standalone residential unless the site is a Housing Inventory Site or mixed-use is permitted.",
+    "The formerly named RM-15 district was renamed RM-20 (and density increased from 15 to 20 du/ac) as part of the 2022 Housing Element compliance amendments."
+  ],
+  "zones": {
+    "RE": {
+      "min_density": null,
+      "max_density": 2,
+      "description": "Residential Estate district (Ch. 18.10). Low-density single-family residential with large lots (min ~20,000 sq ft). Intended for estate-style homes in areas with semi-rural character. Max approx 2 du/ac based on minimum lot size."
+    },
+    "R-1(10000)": {
+      "min_density": null,
+      "max_density": 4,
+      "description": "Single-Family Residential district, 10,000 sq ft minimum lot subdistrict (Ch. 18.12). Standard single-family homes on larger lots. Max approx 4 du/ac."
+    },
+    "R-1(8000)": {
+      "min_density": null,
+      "max_density": 5,
+      "description": "Single-Family Residential district, 8,000 sq ft minimum lot subdistrict (Ch. 18.12). Single-family homes. Max approx 5 du/ac."
+    },
+    "R-1(7000)": {
+      "min_density": null,
+      "max_density": 6,
+      "description": "Single-Family Residential district, 7,000 sq ft minimum lot subdistrict (Ch. 18.12). Single-family homes. Max approx 6 du/ac."
+    },
+    "R-1(6000)": {
+      "min_density": null,
+      "max_density": 7,
+      "description": "Single-Family Residential district, 6,000 sq ft minimum lot subdistrict (Ch. 18.12). Smallest standard single-family lots. Max approx 7 du/ac. New lots capped at 9,999 sq ft."
+    },
+    "R-2": {
+      "min_density": null,
+      "max_density": 8,
+      "description": "Low-Density Residential, Two-Family district (Ch. 18.10). Permits single-family and duplexes. Max approx 8 du/ac based on minimum lot area per unit."
+    },
+    "RMD": {
+      "min_density": null,
+      "max_density": 12,
+      "description": "Residential Mixed Density district (Ch. 18.10). Allows single-family, duplexes, and small multi-family. Transitional zone between single-family and multi-family areas. Max approx 12 du/ac."
+    },
+    "RM-20": {
+      "min_density": null,
+      "max_density": 20,
+      "description": "Multiple Family Residential, 20 du/ac district (Ch. 18.13). Formerly RM-15 (renamed and upzoned in 2022). Min lot size 8,500 sq ft. Allows apartments, condominiums, and townhouses. Max 20 du/ac."
+    },
+    "RM-30": {
+      "min_density": null,
+      "max_density": 30,
+      "description": "Multiple Family Residential, 30 du/ac district (Ch. 18.13). Medium-density multi-family residential. Min lot size 8,500 sq ft. Allows apartments, condominiums, and townhouses. Max 30 du/ac."
+    },
+    "RM-40": {
+      "min_density": null,
+      "max_density": 40,
+      "description": "Multiple Family Residential, 40 du/ac district (Ch. 18.13). High-density multi-family residential. Min lot size 8,500 sq ft. Allows apartments, condominiums, and townhouses. Max 40 du/ac."
+    },
+    "CN": {
+      "min_density": 0,
+      "max_density": 20,
+      "description": "Neighborhood Commercial district (Ch. 18.16). Residential permitted on Housing Inventory Sites or as mixed-use. Max 15 du/ac on non-El Camino Real sites; up to 20 du/ac on Housing Inventory Sites per Housing Element. Standalone residential generally not permitted."
+    },
+    "CC": {
+      "min_density": 0,
+      "max_density": 15,
+      "description": "Community Commercial district (Ch. 18.16). Residential permitted only on Housing Inventory Sites or as part of mixed-use per Housing Element. Max 15 du/ac where residential is allowed. Standalone residential generally prohibited."
+    },
+    "CC(2)": {
+      "min_density": 0,
+      "max_density": 40,
+      "description": "Community Commercial (2) district (Ch. 18.16). South El Camino Real area. Permits residential mixed-use at higher densities. Up to 40 du/ac on Housing Opportunity Sites. No minimum ground floor commercial FAR required for residential projects."
+    },
+    "CS": {
+      "min_density": 0,
+      "max_density": 30,
+      "description": "Service Commercial district (Ch. 18.16). Residential permitted on Housing Inventory Sites, especially on El Camino Real corridor, as mixed-use. Up to 30 du/ac on Housing Opportunity Sites along El Camino Real. Standalone residential generally prohibited."
+    },
+    "CD-C": {
+      "min_density": 0,
+      "max_density": 50,
+      "description": "Downtown Commercial - Commercial subdistrict (Ch. 18.18). Downtown core area. Residential allowed as mixed-use. Max 50 du/ac on Housing Opportunity Sites (transit-adjacent, highest density designation). Some sites subject to Comprehensive Plan density provisions."
+    },
+    "CD-N": {
+      "min_density": 0,
+      "max_density": 40,
+      "description": "Downtown Commercial - Neighborhood subdistrict (Ch. 18.18). Downtown periphery/neighborhood transition area. Residential allowed as mixed-use. Max 40 du/ac on Housing Opportunity Sites."
+    },
+    "CD-S": {
+      "min_density": 0,
+      "max_density": 40,
+      "description": "Downtown Commercial - South subdistrict (Ch. 18.18). South end of downtown. Residential allowed as mixed-use. Max approx 40 du/ac on designated sites."
+    },
+    "MOR": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Mature Office/Residential district (Ch. 18.20). Existing office uses with some residential retention. No new residential development generally permitted. Legacy single-family may remain."
+    },
+    "ROLM": {
+      "min_density": 0,
+      "max_density": 30,
+      "description": "Research, Office, and Limited Manufacturing district (Ch. 18.20). Multi-family residential allowed by CUP, subject to RM-30 development standards (30 du/ac). On Housing Opportunity Sites, densities up to 50-90 du/ac may apply per Housing Element rezoning."
+    },
+    "ROLM(E)": {
+      "min_density": 0,
+      "max_density": 30,
+      "description": "Research, Office, and Limited Manufacturing (E) district (Ch. 18.20). Similar to ROLM. Multi-family residential allowed by CUP, subject to RM-30 standards. On Housing Opportunity Sites, higher densities may apply."
+    },
+    "RP": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Research Park district (Ch. 18.20). Intended for research, office, and light industrial uses. Residential not generally permitted. Stanford Research Park is the primary area under this designation."
+    },
+    "RP(5)": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Research Park (5) district (Ch. 18.20). Subdistrict of RP with 5-acre minimum lot size. Residential not generally permitted."
+    },
+    "GM": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "General Manufacturing district (Ch. 18.20). All residential development prohibited except on sites designated as Housing Element Opportunity Sites. On such sites, densities up to 50-90 du/ac are anticipated per Housing Element rezoning plans for areas along San Antonio Rd, W Bayshore Rd, and E Charleston Rd."
+    },
+    "PC": {
+      "min_density": null,
+      "max_density": null,
+      "description": "Planned Community district (Ch. 18.38). Density is set by individual PC ordinance for each planned community. Requires at least 20% below-market-rate units. Density negotiated on a project-by-project basis; not subject to a single citywide standard."
+    },
+    "PF": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Public Facilities district (Ch. 18.28). Intended for public and quasi-public uses (schools, government buildings, utilities). Residential not generally permitted, though the city has evaluated allowing housing on PF-zoned parking lots designated as Housing Inventory Sites."
+    },
+    "OS": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Open Space district. Intended for parks, preserves, and recreation areas. No residential development permitted."
+    },
+    "HIS-GM": {
+      "min_density": 20,
+      "max_density": 90,
+      "description": "Housing Inventory Sites in GM zone (per Sec. 18.14.020 and Housing Element). Sites along San Antonio Rd, W Bayshore Rd, E Charleston Rd rezoned to allow high-density residential. Min 20 du/ac (state law floor for recycled sites), max up to 90 du/ac."
+    },
+    "HIS-ROLM": {
+      "min_density": 20,
+      "max_density": 90,
+      "description": "Housing Inventory Sites in ROLM zone (per Sec. 18.14.020 and Housing Element). Former office/manufacturing sites designated for housing. Min 20 du/ac, max up to 90 du/ac per Housing Element assumptions."
+    }
+  }
+}

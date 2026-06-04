@@ -1,0 +1,200 @@
+{
+  "city": "Saratoga",
+  "county": "Santa Clara",
+  "state": "California",
+  "source": "Saratoga Municipal Code Chapter 15 Zoning Regulations (library.municode.com/ca/saratoga), City of Saratoga 2040 General Plan, and Housing Element. See also: https://library.municode.com/ca/saratoga/codes/code_of_ordinances?nodeId=CH15ZORE and https://www.saratoga.ca.us/656/2040-General-Plan",
+  "last_updated": "2026-04-16",
+  "notes": "Saratoga is predominantly a low-density single-family residential community. The R-1 district has multiple sub-zones defined by minimum lot size (10,000 to 40,000 sq ft). The general maximum residential density for multi-family and mixed-use is 20 du/ac (Section 15-19), with the C-N(RHD) overlay requiring a minimum of 30 du/ac. Single-family zones (A, HR, R-1 variants, R-OS) allow 1 dwelling per lot at their respective minimum lot sizes. Density in du/ac is derived from minimum lot size.",
+  "zones": {
+    "A": {
+      "min_density": 0,
+      "max_density": 1,
+      "description": "Agricultural District. Large-lot single-family residential and agricultural uses. Minimum lot size is approximately 1 acre (43,560 sq ft). One dwelling unit per lot."
+    },
+    "R-1-40000": {
+      "min_density": 0,
+      "max_density": 1.09,
+      "description": "Single-Family Residential (40,000 sq ft minimum lot). One dwelling per lot. Equivalent to approximately 1.09 du/ac. Front setback 30 ft, max lot coverage 35%."
+    },
+    "R-1-20000": {
+      "min_density": 0,
+      "max_density": 2.18,
+      "description": "Single-Family Residential (20,000 sq ft minimum lot). One dwelling per lot. Equivalent to approximately 2.18 du/ac."
+    },
+    "R-1-15000": {
+      "min_density": 0,
+      "max_density": 2.9,
+      "description": "Single-Family Residential (15,000 sq ft minimum lot). One dwelling per lot. Equivalent to approximately 2.9 du/ac. Standard lot 100 ft wide x 125 ft deep. Front setback 25 ft, max lot coverage 50%."
+    },
+    "R-1-12500": {
+      "min_density": 0,
+      "max_density": 3.48,
+      "description": "Single-Family Residential (12,500 sq ft minimum lot). One dwelling per lot. Equivalent to approximately 3.48 du/ac."
+    },
+    "R-1-10000": {
+      "min_density": 0,
+      "max_density": 4.36,
+      "description": "Single-Family Residential (10,000 sq ft minimum lot). One dwelling per lot. Equivalent to approximately 4.36 du/ac. Standard lot 85 ft wide x 115 ft deep. Front setback 25 ft, max lot coverage 60%."
+    },
+    "HR": {
+      "min_density": 0,
+      "max_density": 1,
+      "description": "Hillside Residential District. For hillside areas with slopes of 10% or greater. Single-family residential, one dwelling per lot. Larger lots required due to terrain; reduced net site area for slopes over 10%."
+    },
+    "R-OS": {
+      "min_density": 0,
+      "max_density": 0.1,
+      "description": "Residential Open Space District. Very low density residential with significant open space preservation. Primarily for conservation and limited single-family use."
+    },
+    "R-M": {
+      "min_density": 0,
+      "max_density": 20,
+      "description": "Residential Multi-Family District. Allows multi-family residential development up to 20 du/ac per Section 15-19 of the municipal code."
+    },
+    "P-A": {
+      "min_density": 0,
+      "max_density": 20,
+      "description": "Professional Administrative Office District. Allows office uses; mixed-use residential permitted up to 20 du/ac."
+    },
+    "C-N": {
+      "min_density": 0,
+      "max_density": 20,
+      "description": "Commercial Neighborhood District. Neighborhood-serving commercial. Mixed-use residential permitted up to 20 du/ac."
+    },
+    "C-N(RHD)": {
+      "min_density": 30,
+      "max_density": 30,
+      "description": "Commercial Neighborhood - Residential High Density Overlay. Amended by Ordinance 324 (Dec 2014) to require a minimum density of 30 du/ac. Intended for higher-density housing near commercial services."
+    },
+    "C-V": {
+      "min_density": 0,
+      "max_density": 20,
+      "description": "Commercial Visitor District. Visitor-oriented commercial uses. Mixed-use residential permitted up to 20 du/ac."
+    },
+    "CH-1": {
+      "min_density": 0,
+      "max_density": 20,
+      "description": "Commercial Historic 1 District (Saratoga Village Specific Plan area). Commercial uses with potential mixed-use residential up to 20 du/ac."
+    },
+    "CH-2": {
+      "min_density": 0,
+      "max_density": 20,
+      "description": "Commercial Historic 2 District (Saratoga Village Specific Plan area). Commercial uses with potential mixed-use residential up to 20 du/ac."
+    },
+    "M-U": {
+      "min_density": 0,
+      "max_density": 20,
+      "description": "Mixed Use District. Allows a mix of commercial and residential uses. Residential density up to 20 du/ac per Section 15-19."
+    },
+    "MU-HD": {
+      "min_density": 30,
+      "max_density": 40,
+      "description": "Mixed Use High Density District. Higher-density mixed-use zone allowing 30 to 40 du/ac. Created to accommodate housing element requirements."
+    },
+    "A AP/OS": {
+      "min_density": 0,
+      "max_density": 1,
+      "description": "Agricultural District with Agricultural Preserve/Open Space overlay. Large-lot single-family and agricultural uses; 1 dwelling per lot."
+    },
+    "CN": {
+      "min_density": 0,
+      "max_density": 20,
+      "description": "Commercial Neighborhood District. Neighborhood-serving commercial; mixed-use residential permitted up to 20 du/ac."
+    },
+    "CV": {
+      "min_density": 0,
+      "max_density": 20,
+      "description": "Commercial Visitor District. Visitor-oriented commercial; mixed-use residential permitted up to 20 du/ac."
+    },
+    "HR AP/OS": {
+      "min_density": 0,
+      "max_density": 1,
+      "description": "Hillside Residential with Agricultural Preserve/Open Space overlay. Single-family residential on hillside lots; one dwelling per lot."
+    },
+    "MU-PD": {
+      "min_density": 0,
+      "max_density": 20,
+      "description": "Mixed Use - Planned Development. Mixed-use planned development; residential density up to 20 du/ac per approved plan."
+    },
+    "None": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Unzoned or unclassified parcel. No zoning designation assigned."
+    },
+    "PA": {
+      "min_density": 0,
+      "max_density": 20,
+      "description": "Professional Administrative Office District. Office uses; mixed-use residential permitted up to 20 du/ac."
+    },
+    "R-1-10": {
+      "min_density": 0,
+      "max_density": 4.36,
+      "description": "Single-Family Residential (10,000 sq ft minimum lot). One dwelling per lot; approximately 4.36 du/ac."
+    },
+    "R-1-10 PC": {
+      "min_density": 0,
+      "max_density": 4.36,
+      "description": "Single-Family Residential (10,000 sq ft min lot) with Planned Community overlay. One dwelling per lot; approximately 4.36 du/ac."
+    },
+    "R-1-10 SS": {
+      "min_density": 0,
+      "max_density": 4.36,
+      "description": "Single-Family Residential (10,000 sq ft min lot) with Small Subdivision overlay. One dwelling per lot; approximately 4.36 du/ac."
+    },
+    "R-1-12": {
+      "min_density": 0,
+      "max_density": 3.48,
+      "description": "Single-Family Residential (12,500 sq ft minimum lot). One dwelling per lot; approximately 3.48 du/ac."
+    },
+    "R-1-15": {
+      "min_density": 0,
+      "max_density": 2.9,
+      "description": "Single-Family Residential (15,000 sq ft minimum lot). One dwelling per lot; approximately 2.9 du/ac."
+    },
+    "R-1-20": {
+      "min_density": 0,
+      "max_density": 2.18,
+      "description": "Single-Family Residential (20,000 sq ft minimum lot). One dwelling per lot; approximately 2.18 du/ac."
+    },
+    "R-1-40": {
+      "min_density": 0,
+      "max_density": 1.09,
+      "description": "Single-Family Residential (40,000 sq ft minimum lot). One dwelling per lot; approximately 1.09 du/ac."
+    },
+    "R-1-40 AP/OS": {
+      "min_density": 0,
+      "max_density": 1.09,
+      "description": "Single-Family Residential (40,000 sq ft min lot) with Agricultural Preserve/Open Space overlay. One dwelling per lot; approximately 1.09 du/ac."
+    },
+    "R-1-40 PC": {
+      "min_density": 0,
+      "max_density": 1.09,
+      "description": "Single-Family Residential (40,000 sq ft min lot) with Planned Community overlay. One dwelling per lot; approximately 1.09 du/ac."
+    },
+    "R-M-3": {
+      "min_density": 0,
+      "max_density": 20,
+      "description": "Residential Multi-Family 3. Multi-family residential up to 20 du/ac per Section 15-19 of the municipal code."
+    },
+    "R-M-4": {
+      "min_density": 0,
+      "max_density": 20,
+      "description": "Residential Multi-Family 4. Multi-family residential up to 20 du/ac per Section 15-19 of the municipal code."
+    },
+    "R-M-5": {
+      "min_density": 0,
+      "max_density": 20,
+      "description": "Residential Multi-Family 5. Multi-family residential up to 20 du/ac per Section 15-19 of the municipal code."
+    },
+    "R-OS AP/OS": {
+      "min_density": 0,
+      "max_density": 0.1,
+      "description": "Residential Open Space with Agricultural Preserve/Open Space overlay. Very low density with open space preservation."
+    },
+    "R-OS*": {
+      "min_density": 0,
+      "max_density": 0.1,
+      "description": "Residential Open Space (special designation). Very low density residential with significant open space preservation."
+    }
+  }
+}

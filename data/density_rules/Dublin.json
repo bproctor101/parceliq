@@ -1,0 +1,142 @@
+{
+  "city": "Dublin",
+  "source": "Dublin General Plan Land Use Element (Chapter 2, updated 2024), dublin.ca.gov/DocumentCenter/View/36593; Dublin Municipal Code Title 8 Zoning Ordinance, codepublishing.com/CA/Dublin",
+  "last_updated": "2026-04-16",
+  "zones": {
+    "A": {
+      "min_density": 0,
+      "max_density": 0.01,
+      "description": "Agricultural Zoning District - very low density agricultural uses"
+    },
+    "R-1": {
+      "min_density": 0.9,
+      "max_density": 6.0,
+      "description": "Single Family Residential - lot size suffix determines density (e.g., R-1-10,000 to R-1-6,500); consistent with Low-Density Single-Family and Medium Density GP designations"
+    },
+    "R-2": {
+      "min_density": 6.1,
+      "max_density": 14.0,
+      "description": "Two Family Residential - duplexes and attached homes; lot size suffix determines density; consistent with Medium and Medium-High Density GP designations"
+    },
+    "R-M": {
+      "min_density": 14.1,
+      "max_density": 25.0,
+      "description": "Multi-Family Residential - apartments and condominiums; consistent with Medium-High Density GP designation (14.1-25.0 du/ac)"
+    },
+    "C-O": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Commercial Office Zoning District - office and professional services; no residential"
+    },
+    "C-N": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Neighborhood Commercial Zoning District - small-scale retail and services; no residential"
+    },
+    "C-1": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Retail Commercial Zoning District - retail sales and services; no residential"
+    },
+    "C-2": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "General Commercial Zoning District - broad range of commercial uses; no residential"
+    },
+    "M-P": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Industrial Park Zoning District - light industrial and office park; no residential"
+    },
+    "M-1": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Light Industrial Zoning District - manufacturing and warehousing; no residential"
+    },
+    "M-2": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Heavy Industrial Zoning District - heavy manufacturing and processing; no residential"
+    },
+    "PD": {
+      "min_density": 0,
+      "max_density": 85.0,
+      "description": "Planned Development Zoning District - density determined by approved PD plan; required for development over 6.0 du/gross acre"
+    },
+    "Downtown-Dublin-Village-Parkway": {
+      "min_density": 6.1,
+      "max_density": 25.0,
+      "description": "Downtown Dublin Specific Plan - Village Parkway District; mixed-use with FAR 0.35"
+    },
+    "Downtown-Dublin-Retail": {
+      "min_density": 6.1,
+      "max_density": 25.0,
+      "description": "Downtown Dublin Specific Plan - Retail District; mixed-use with FAR up to 2.5"
+    },
+    "Downtown-Dublin-Transit-Oriented": {
+      "min_density": 30.0,
+      "max_density": 85.0,
+      "description": "Downtown Dublin Specific Plan - Transit Oriented District; high-density mixed-use near BART with FAR 2.5"
+    },
+    "DC-MDR": {
+      "min_density": 6.0,
+      "max_density": 14.0,
+      "description": "Dublin Crossing Medium Density Residential - 6.0-14.0 units per net acre"
+    },
+    "DC-MHDR": {
+      "min_density": 14.1,
+      "max_density": 25.0,
+      "description": "Dublin Crossing Medium-High Density Residential - 14.1-25.0 units per net acre"
+    },
+    "GC-DC-MHDR": {
+      "min_density": 14.1,
+      "max_density": 25.0,
+      "description": "General Commercial / Dublin Crossing Medium-High Density Residential - mixed-use 14.1-25 du/ac with FAR 0.25-1.0"
+    },
+    "GC-DC-HDR": {
+      "min_density": 20.1,
+      "max_density": 60.0,
+      "description": "General Commercial / Dublin Crossing High Density Residential - 20.1-60 du/ac with FAR 0.25-1.0"
+    },
+    "Rural-Residential-Agriculture": {
+      "min_density": 0,
+      "max_density": 0.01,
+      "description": "Rural Residential/Agriculture - 1 unit per 100 acres; Western Extended Planning Area"
+    },
+    "Estate-Residential": {
+      "min_density": 0.01,
+      "max_density": 0.8,
+      "description": "Estate Residential - 0.01-0.8 du/ac; large lot single-family"
+    },
+    "Single-Family": {
+      "min_density": 0.9,
+      "max_density": 6.0,
+      "description": "Single Family Residential GP designation - 0.9-6.0 du/ac"
+    },
+    "Medium-Density": {
+      "min_density": 6.1,
+      "max_density": 14.0,
+      "description": "Medium Density Residential GP designation - 6.1-14.0 du/ac"
+    },
+    "Medium-High-Density": {
+      "min_density": 14.1,
+      "max_density": 25.0,
+      "description": "Medium-High Density Residential GP designation - 14.1-25.0 du/ac"
+    },
+    "High-Density": {
+      "min_density": 25.1,
+      "max_density": 60.0,
+      "description": "High Density Residential GP designation - 25.1+ du/ac"
+    },
+    "DCZD": {
+      "min_density": 6.0,
+      "max_density": 60.0,
+      "description": "Dublin Crossing Zoning District. Master-planned mixed-use community on former Camp Parks site. Density ranges from 6-60 du/ac depending on sub-area designation."
+    },
+    "DDZD": {
+      "min_density": 6.1,
+      "max_density": 85.0,
+      "description": "Downtown Dublin Zoning District. Mixed-use downtown area near BART. Density ranges from 6.1-85 du/ac depending on sub-district (Village Parkway, Retail, Transit-Oriented)."
+    }
+  }
+}

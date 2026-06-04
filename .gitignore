@@ -1,7 +1,9 @@
 # Large intermediate files (regenerable from pipeline)
 data/cities/*_Zoning_Mapped.csv
 data/cities/*_GIS_Raw.csv
+data/cities/*.geojson
 data/.gis_cache/
+archive/
 
 # Raw statewide file (too large for git)
 master_hei_raw.csv

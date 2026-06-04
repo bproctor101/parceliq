@@ -1,0 +1,225 @@
+{
+  "city": "Gilroy",
+  "county": "Santa Clara",
+  "state": "California",
+  "source": "Gilroy City Code Chapter 30 Zoning Ordinance (codepublishing.com/CA/Gilroy) and Gilroy 2040 General Plan Land Use Element (cityofgilroy.org/DocumentCenter/View/11311/02_Land-Use). See also: https://www.codepublishing.com/CA/Gilroy/html/Gilroy30/Gilroy30.html",
+  "last_updated": "2026-04-16",
+  "notes": "Density values are derived from the Gilroy Municipal Code Chapter 30 and 2040 General Plan. Min/max values reflect the intended average density ranges stated in each district article. For commercial/industrial zones without residential use, density is 0. Downtown Specific Plan districts (DHD, DED, CD, GD, TD, CCA) have minimum density requirements for residential components of mixed-use or standalone residential projects.",
+  "zones": {
+    "A1": {
+      "min_density": 0,
+      "max_density": 0.05,
+      "description": "Agricultural District. Intended for agricultural uses with an average density of less than 1 dwelling unit per 20 acres (0.05 du/ac). Maximum 1 dwelling unit per lot."
+    },
+    "RR": {
+      "min_density": 0,
+      "max_density": 0.4,
+      "description": "Rural Residential District. Intended for an average density of 1 dwelling unit per 2.5 acres (0.4 du/ac). Maximum 1 dwelling unit per lot."
+    },
+    "RH": {
+      "min_density": 0,
+      "max_density": 4,
+      "description": "Residential Hillside District. For areas with 10-30% average slope. Density determined by slope-density formula, up to a maximum of approximately 1-4 du/ac depending on slope. No construction allowed where slope exceeds 30%."
+    },
+    "R1": {
+      "min_density": 3,
+      "max_density": 7.25,
+      "description": "Single-Family Residential District. Intended for single-family detached dwellings at an average density of 3 to 7.25 du/ac. Maximum density is 1 single-family detached unit per lot."
+    },
+    "R2": {
+      "min_density": 3,
+      "max_density": 9,
+      "description": "Two-Family Residential District. Intended for an average density of 3 to 9 du/ac. Maximum density is 1 dwelling unit per 4,000 sq ft of land, up to 2 units per lot."
+    },
+    "R3": {
+      "min_density": 8,
+      "max_density": 16,
+      "description": "Medium Density Residential District. Intended for an average density of 8 to 16 du/ac. Maximum density is 1 dwelling unit per 2,722 sq ft of lot area."
+    },
+    "R4": {
+      "min_density": 20,
+      "max_density": 30,
+      "description": "High Density Residential District. Intended for group dwellings and apartments at an average density of 20 to 30 du/ac."
+    },
+    "C1": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Neighborhood Commercial District. Primarily for neighborhood-serving commercial uses. Residential not a primary permitted use."
+    },
+    "C2": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Central Commercial District. For central/downtown commercial uses. Standalone residential not permitted."
+    },
+    "C3": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Shopping Center Commercial District. Residential units may be allowed on 2nd or 3rd floors with a conditional use permit, but no defined residential density standard."
+    },
+    "HC": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Highway Commercial District. For highway-oriented commercial uses. No residential density standard."
+    },
+    "GC": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Gateway Commercial District. For gateway commercial uses along major corridors. No residential density standard."
+    },
+    "DHD": {
+      "min_density": 20,
+      "max_density": 40,
+      "description": "Downtown Historic District (Downtown Specific Plan). Residential only as part of mixed-use development. Minimum residential density of 20 du/ac."
+    },
+    "DED": {
+      "min_density": 20,
+      "max_density": 40,
+      "description": "Downtown Expansion District (Downtown Specific Plan). Residential only as part of mixed-use development. Minimum residential density of 20 du/ac."
+    },
+    "CD": {
+      "min_density": 20,
+      "max_density": 40,
+      "description": "Cannery District (Downtown Specific Plan). Allows standalone residential and mixed-use. Standalone residential must develop at 20 to 40 du/ac."
+    },
+    "GD": {
+      "min_density": 20,
+      "max_density": 30,
+      "description": "Gateway District (Downtown Specific Plan). Allows standalone residential and mixed-use. Standalone residential at a maximum of 30 du/ac. Minimum density of 20 du/ac."
+    },
+    "TD": {
+      "min_density": 0,
+      "max_density": 20,
+      "description": "Transitional District (Downtown Specific Plan). Allows commercial, mixed-use, and standalone residential. Standalone residential at a maximum of 20 du/ac."
+    },
+    "CCA": {
+      "min_density": 20,
+      "max_density": 40,
+      "description": "Civic/Cultural Arts District (Downtown Specific Plan). Residential allowed as part of mixed-use. Minimum density of 20 du/ac for residential component. Maximum FAR 2.5."
+    },
+    "CI": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Campus Industrial District. For campus-style industrial and office park uses. Residential not permitted."
+    },
+    "CM": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Commercial Industrial District. For mixed commercial and light industrial uses. Residential not permitted."
+    },
+    "M1": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Limited Industrial District. For light manufacturing, warehousing, and related uses. Residential not permitted."
+    },
+    "M2": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "General Industrial District. For large-scale manufacturing, assembly, storage, distribution, and wholesaling. Residential not permitted."
+    },
+    "A-1": {
+      "min_density": 0,
+      "max_density": 0.05,
+      "description": "Agricultural District. Intended for agricultural uses with an average density of less than 1 dwelling unit per 20 acres (0.05 du/ac)."
+    },
+    "C-1": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Neighborhood Commercial District. Primarily for neighborhood-serving commercial uses. Residential not a primary permitted use."
+    },
+    "C-3": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Shopping Center Commercial District. Residential units may be allowed on 2nd or 3rd floors with a conditional use permit."
+    },
+    "Cannery District": {
+      "min_density": 20,
+      "max_density": 40,
+      "description": "Cannery District (Downtown Specific Plan). Allows standalone residential and mixed-use. Standalone residential must develop at 20 to 40 du/ac."
+    },
+    "Civic/Cultural Arts Disctrict": {
+      "min_density": 20,
+      "max_density": 40,
+      "description": "Civic/Cultural Arts District (Downtown Specific Plan). Residential allowed as part of mixed-use. Minimum density of 20 du/ac."
+    },
+    "Expansion District": {
+      "min_density": 20,
+      "max_density": 40,
+      "description": "Downtown Expansion District (Downtown Specific Plan). Residential only as part of mixed-use development. Minimum residential density of 20 du/ac."
+    },
+    "Gateway District": {
+      "min_density": 20,
+      "max_density": 30,
+      "description": "Gateway District (Downtown Specific Plan). Allows standalone residential and mixed-use at a maximum of 30 du/ac. Minimum density of 20 du/ac."
+    },
+    "Glen Loma Ranch Special District": {
+      "min_density": 3,
+      "max_density": 16,
+      "description": "Glen Loma Ranch Special District. Master-planned community with a mix of single-family and multi-family residential."
+    },
+    "Hecker Pass Special District": {
+      "min_density": 0,
+      "max_density": 0.4,
+      "description": "Hecker Pass Special District. Rural area with agricultural and rural residential uses; very low density."
+    },
+    "Historic District": {
+      "min_density": 20,
+      "max_density": 40,
+      "description": "Downtown Historic District (Downtown Specific Plan). Residential only as part of mixed-use development. Minimum residential density of 20 du/ac."
+    },
+    "M-1": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Limited Industrial District. For light manufacturing, warehousing, and related uses. Residential not permitted."
+    },
+    "M-2": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "General Industrial District. For large-scale manufacturing, assembly, storage, distribution. Residential not permitted."
+    },
+    "ND": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Neighborhood District. Neighborhood-scale uses; density per specific plan."
+    },
+    "OS": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Open Space. Parks, recreation areas, and natural open space; no residential."
+    },
+    "PF": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Public Facilities. Public and institutional uses including schools, government buildings; no residential."
+    },
+    "PO": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Professional Office. Professional office and administrative uses; no residential as primary use."
+    },
+    "R-1": {
+      "min_density": 3,
+      "max_density": 7.25,
+      "description": "Single-Family Residential District. Single-family detached dwellings at 3 to 7.25 du/ac."
+    },
+    "R-2": {
+      "min_density": 3,
+      "max_density": 9,
+      "description": "Two-Family Residential District. Average density of 3 to 9 du/ac. Up to 2 units per lot."
+    },
+    "R-3": {
+      "min_density": 8,
+      "max_density": 16,
+      "description": "Medium Density Residential District. Average density of 8 to 16 du/ac."
+    },
+    "R-4": {
+      "min_density": 20,
+      "max_density": 30,
+      "description": "High Density Residential District. Group dwellings and apartments at 20 to 30 du/ac."
+    },
+    "Transitional District": {
+      "min_density": 0,
+      "max_density": 20,
+      "description": "Transitional District (Downtown Specific Plan). Allows commercial, mixed-use, and standalone residential at a maximum of 20 du/ac."
+    }
+  }
+}

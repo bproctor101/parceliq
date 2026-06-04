@@ -1,0 +1,172 @@
+{
+  "city": "Oakley",
+  "source": "City of Oakley Municipal Code Ch. 9.1 (https://www.codepublishing.com/CA/Oakley/html/Oakley09/Oakley091.html); Oakley General Plan (https://www.oakleyca.gov/233/General-Plan); Oakley Housing Element 6th Cycle Draft (https://www.hcd.ca.gov/sites/default/files/docs/planning-and-community/housing-element/ccoOakleyDraftout112922.pdf); Terner Center Affordable Housing Overlay Study (https://ternercenter.berkeley.edu/wp-content/uploads/2020/10/Affordable_Housing_Overlay_Zones_Oakley.pdf)",
+  "last_updated": "2026-04-16",
+  "zones": {
+    "R-20": {
+      "min_density": 0,
+      "max_density": 2.0,
+      "description": "Single Family Residential, Estate Lots. 20,000 sq ft minimum lot. Approx up to 2 du/ac."
+    },
+    "R-15": {
+      "min_density": 0,
+      "max_density": 2.9,
+      "description": "Single Family Residential, Large Lot. 15,000 sq ft minimum lot. Approx 2.9 du/ac."
+    },
+    "R-12": {
+      "min_density": 0,
+      "max_density": 3.6,
+      "description": "Single Family Residential. 12,000 sq ft minimum lot. Approx 3.6 du/ac."
+    },
+    "R-10": {
+      "min_density": 0,
+      "max_density": 4.4,
+      "description": "Single Family Residential. 10,000 sq ft minimum lot. Approx 4.4 du/ac."
+    },
+    "R-7": {
+      "min_density": 0,
+      "max_density": 5.5,
+      "description": "Single Family Residential, Small Lot. 7,000 sq ft minimum lot. Consistent with GP Single Family High (SH) 3.8-5.5 du/ac."
+    },
+    "R-6": {
+      "min_density": 0,
+      "max_density": 7.3,
+      "description": "Single Family Residential, Compact Lot. 6,000 sq ft minimum lot. Approx 7.3 du/ac."
+    },
+    "M-9": {
+      "min_density": 5.6,
+      "max_density": 9.0,
+      "description": "Multiple Family Residential, Low Density. Duplexes, triplexes, townhomes. Up to 9 du/ac."
+    },
+    "M-12": {
+      "min_density": 9.1,
+      "max_density": 12.0,
+      "description": "Multiple Family Residential, Medium Density. Apartments, condos, townhomes. Up to 12 du/ac."
+    },
+    "M-17": {
+      "min_density": 12.1,
+      "max_density": 17.0,
+      "description": "Multiple Family Residential, High Density. Apartments, condominiums. Up to 17 du/ac. Consistent with GP Multi-Family High (MH) 9.6-16.7 du/ac."
+    },
+    "AHO": {
+      "min_density": 17,
+      "max_density": 24.0,
+      "description": "Affordable Housing Overlay (applied over M-9, M-12, M-17). Allows up to 24 du/ac base density for affordable housing projects."
+    },
+    "C-1": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Neighborhood Commercial District. Small-scale retail and service uses serving surrounding neighborhoods."
+    },
+    "C-2": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Community Commercial District. General retail, commercial, and service uses."
+    },
+    "C-3": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Highway/Service Commercial District. Auto-oriented and highway commercial uses."
+    },
+    "BP": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Business Park District. Office, research and development, light industrial. Up to 1.0-2.0 FAR."
+    },
+    "P-1": {
+      "min_density": 0,
+      "max_density": 24,
+      "description": "Planned Unit Development. Density determined case-by-case per underlying general plan designation."
+    },
+    "SP-1": {
+      "min_density": 0,
+      "max_density": 17,
+      "description": "East Cypress Corridor Specific Plan. Mixed residential and commercial; density per specific plan standards."
+    },
+    "SP-4": {
+      "min_density": 0,
+      "max_density": 24,
+      "description": "Downtown Specific Plan. Mixed-use downtown area with varied density allowances."
+    },
+    "A-3": {
+      "min_density": 0,
+      "max_density": 0.1,
+      "description": "Agricultural, Large Lot (3-acre minimum). Very low density agricultural/residential."
+    },
+    "A-4": {
+      "min_density": 0,
+      "max_density": 0.05,
+      "description": "Agricultural, Estate (4-acre minimum or larger). Very low density agricultural."
+    },
+    "AL": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Agricultural Land. Active agricultural use, no residential development permitted."
+    },
+    "BPL": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Business Park - Light. Light industrial and office park uses. No residential permitted."
+    },
+    "C": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Commercial (general). Commercial uses. No standalone residential permitted."
+    },
+    "CR-A": {
+      "min_density": 0,
+      "max_density": 17,
+      "description": "Commercial Residential - Area A. Mixed-use commercial and residential. Density per specific plan."
+    },
+    "DR": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Delta Recreation. Recreation-oriented uses in the Delta area. No residential permitted."
+    },
+    "LI": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Light Industrial. Manufacturing, warehousing, and light industrial uses. No residential permitted."
+    },
+    "M-H": {
+      "min_density": 5.6,
+      "max_density": 12,
+      "description": "Mobile Home Residential. Mobile home and manufactured housing community. Medium density."
+    },
+    "P": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Public/Semi-Public. Government buildings, schools, churches, and public facilities. No residential permitted."
+    },
+    "PR": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Parks and Recreation. Public parks and recreational facilities. No residential permitted."
+    },
+    "R-40": {
+      "min_density": 0,
+      "max_density": 1.1,
+      "description": "Single Family Residential, Very Large Lot. 40,000 sq ft minimum lot (~1 acre). Very low density."
+    },
+    "RB": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Recreation/Boating. Marina and water-oriented recreation uses. No residential permitted."
+    },
+    "SP-2": {
+      "min_density": 0,
+      "max_density": 17,
+      "description": "Specific Plan 2 (Cypress Grove). Mixed residential per specific plan standards."
+    },
+    "SP-3": {
+      "min_density": 0,
+      "max_density": 17,
+      "description": "Specific Plan 3 (Summer Lake). Mixed residential per specific plan standards."
+    },
+    "UE": {
+      "min_density": 0,
+      "max_density": 0.5,
+      "description": "Urban Estate. Large-lot single-family, transitional between agricultural and suburban residential."
+    }
+  }
+}

@@ -1,0 +1,230 @@
+{
+  "city": "Campbell",
+  "state": "California",
+  "source": [
+    "https://library.municode.com/ca/campbell/codes/code_of_ordinances?nodeId=TIT21ZO (Title 21 Zoning Code)",
+    "https://gis.campbellca.gov/arcgis/rest/services/Planning/GeneralPlan/MapServer/1 (General Plan 2024 Land Use Designations)",
+    "https://www.campbellca.gov/166/Zoning-and-Land-Use (Zoning and Land Use page)",
+    "https://www.campbellca.gov/1535/Starter-Home-Projects (Starter Home Projects)"
+  ],
+  "last_updated": "2026-04-16",
+  "notes": [
+    "Campbell adopted the Envision Campbell General Plan in 2024, which introduced new land use designations and form-based zoning (Multi-Family Development and Design Standards, MFDDS).",
+    "The city's zoning code (Title 21) maps zoning districts to General Plan land use designations via Table 2-1. The density ranges listed here correspond to the General Plan land use designations as published in the 2024 General Plan GIS layer.",
+    "Residential zoning districts include R-1 (Single-Family), R-M-S (Multiple-Family), and mixed-use zones. The form-based approach uses GP designation densities as the controlling standard.",
+    "Density is expressed in dwelling units per gross acre (du/ac).",
+    "For zones with no explicit minimum density, min_density is set to 0. State law (SB 166/No Net Loss) may impose effective minimums on housing element sites."
+  ],
+  "zones": {
+    "R-1-6": {
+      "min_density": 0,
+      "max_density": 7.26,
+      "description": "Single-Family Residential (6,000 sq ft min lot). Corresponds to LDR General Plan designation. Traditional single-family detached homes."
+    },
+    "R-1-8": {
+      "min_density": 0,
+      "max_density": 5.45,
+      "description": "Single-Family Residential (8,000 sq ft min lot). Corresponds to LDR General Plan designation. Single-family detached homes on larger lots."
+    },
+    "R-1-10": {
+      "min_density": 0,
+      "max_density": 4.35,
+      "description": "Single-Family Residential (10,000 sq ft min lot). Corresponds to LDR General Plan designation. Single-family detached homes on large lots."
+    },
+    "LDR(<4.5)": {
+      "min_density": 0,
+      "max_density": 4.5,
+      "description": "Low Density Residential (<4.5 units/gross acre). Single-family detached homes on large lots. General Plan 2024 designation."
+    },
+    "LDR(<5.5)": {
+      "min_density": 0,
+      "max_density": 5.5,
+      "description": "Low Density Residential (<5.5 units/gross acre). Single-family detached homes. General Plan 2024 designation."
+    },
+    "LDR(<7.5)": {
+      "min_density": 0,
+      "max_density": 7.5,
+      "description": "Low Density Residential (<7.5 units/gross acre). Single-family detached homes on smaller lots. General Plan 2024 designation."
+    },
+    "LMDR(8-16)": {
+      "min_density": 8,
+      "max_density": 16,
+      "description": "Low-Medium Density Residential (8-16 units/gross acre). Townhouses, small multifamily buildings. General Plan 2024 designation."
+    },
+    "MDR(18-25)": {
+      "min_density": 18,
+      "max_density": 25,
+      "description": "Medium Density Residential (18-25 units/gross acre). Apartments, condominiums, townhouses. General Plan 2024 designation."
+    },
+    "MHDR(26-33)": {
+      "min_density": 26,
+      "max_density": 33,
+      "description": "Medium-High Density Residential (26-33 units/gross acre). Multi-family residential, low-rise apartments. General Plan 2024 designation."
+    },
+    "HDR(34-45)": {
+      "min_density": 34,
+      "max_density": 45,
+      "description": "High Density Residential (34-45 units/gross acre). Multi-family residential, mid-rise apartments. General Plan 2024 designation."
+    },
+    "MHP(8-16)": {
+      "min_density": 8,
+      "max_density": 16,
+      "description": "Mobile Home Park (8-16 units/gross acre). Manufactured/mobile home communities. General Plan 2024 designation."
+    },
+    "PO-MU(8-16)": {
+      "min_density": 8,
+      "max_density": 16,
+      "description": "Professional Office Mixed-Use (8-16 units/gross acre). Office with residential above/behind. General Plan 2024 designation."
+    },
+    "NC-MU(18-25)": {
+      "min_density": 18,
+      "max_density": 25,
+      "description": "Neighborhood Commercial Mixed-Use (18-25 units/gross acre). Neighborhood-serving retail with residential. General Plan 2024 designation."
+    },
+    "MHD-MU(26-33)": {
+      "min_density": 26,
+      "max_density": 33,
+      "description": "Medium-High Density Mixed-Use (26-33 units/gross acre). Mixed-use with medium-high density residential. General Plan 2024 designation."
+    },
+    "CB-MU(26-33)": {
+      "min_density": 26,
+      "max_density": 33,
+      "description": "Central Business Mixed-Use (26-33 units/gross acre). Downtown Campbell mixed-use district. General Plan 2024 designation."
+    },
+    "GC-MU(26-33)": {
+      "min_density": 26,
+      "max_density": 33,
+      "description": "General Commercial Mixed-Use (26-33 units/gross acre). Larger commercial areas with residential mixed-use. General Plan 2024 designation."
+    },
+    "HD-MU(34-45)": {
+      "min_density": 34,
+      "max_density": 45,
+      "description": "High Density Mixed-Use (34-45 units/gross acre). High-density mixed-use development. General Plan 2024 designation."
+    },
+    "CC-MU(45-60)": {
+      "min_density": 45,
+      "max_density": 60,
+      "description": "Commercial Corridor Mixed-Use (45-60 units/gross acre). Major corridor mixed-use with high-density residential. General Plan 2024 designation."
+    },
+    "TO-MU(57-75)": {
+      "min_density": 57,
+      "max_density": 75,
+      "description": "Transit-Oriented Mixed-Use (57-75 units/gross acre). Highest-density mixed-use near transit (e.g., near VTA light rail). General Plan 2024 designation."
+    },
+    "NC": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Neighborhood Commercial. Retail and services for surrounding neighborhoods. Standalone residential not permitted."
+    },
+    "GC": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "General Commercial. Larger-scale retail and commercial uses. Standalone residential not permitted."
+    },
+    "PO": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Professional Office. Office uses. Standalone residential not permitted."
+    },
+    "GC-LI": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "General Commercial/Light Industrial. Commercial and light industrial uses. Residential not permitted."
+    },
+    "LI": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Light Industrial. Manufacturing, warehousing, and light industrial uses. Residential not permitted."
+    },
+    "RD": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Research Development. Research and development, technology campus uses. Residential not permitted."
+    },
+    "C-PD": {
+      "min_density": null,
+      "max_density": null,
+      "description": "Condominium Planned Development. Density set by individual development plan per the corresponding General Plan land use designation."
+    },
+    "P-D": {
+      "min_density": null,
+      "max_density": null,
+      "description": "Planned Development. Density set by individual development plan per the corresponding General Plan land use designation."
+    },
+    "PF": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Public Facilities. Schools, government buildings, public services. Residential not permitted."
+    },
+    "OS": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Open Space. Parks, trails, and open space preservation. Residential not permitted."
+    },
+    "CB-MU": {
+      "min_density": 26,
+      "max_density": 33,
+      "description": "Central Business Mixed-Use. Downtown Campbell mixed-use district. 26-33 du/ac per General Plan 2024."
+    },
+    "CC-MU": {
+      "min_density": 45,
+      "max_density": 60,
+      "description": "Commercial Corridor Mixed-Use. Major corridor mixed-use with high-density residential. 45-60 du/ac per General Plan 2024."
+    },
+    "GC-MU": {
+      "min_density": 26,
+      "max_density": 33,
+      "description": "General Commercial Mixed-Use. Larger commercial areas with residential mixed-use. 26-33 du/ac per General Plan 2024."
+    },
+    "HD-MU": {
+      "min_density": 34,
+      "max_density": 45,
+      "description": "High Density Mixed-Use. High-density mixed-use development. 34-45 du/ac per General Plan 2024."
+    },
+    "LMDR": {
+      "min_density": 8,
+      "max_density": 16,
+      "description": "Low-Medium Density Residential. Townhouses, small multifamily buildings. 8-16 du/ac per General Plan 2024."
+    },
+    "MDR": {
+      "min_density": 18,
+      "max_density": 25,
+      "description": "Medium Density Residential. Apartments, condominiums, townhouses. 18-25 du/ac per General Plan 2024."
+    },
+    "MHD-MU": {
+      "min_density": 26,
+      "max_density": 33,
+      "description": "Medium-High Density Mixed-Use. Mixed-use with medium-high density residential. 26-33 du/ac per General Plan 2024."
+    },
+    "MHDR": {
+      "min_density": 26,
+      "max_density": 33,
+      "description": "Medium-High Density Residential. Multi-family residential, low-rise apartments. 26-33 du/ac per General Plan 2024."
+    },
+    "NC-MU": {
+      "min_density": 18,
+      "max_density": 25,
+      "description": "Neighborhood Commercial Mixed-Use. Neighborhood-serving retail with residential. 18-25 du/ac per General Plan 2024."
+    },
+    "R-1-16": {
+      "min_density": 0,
+      "max_density": 2.72,
+      "description": "Single-Family Residential (16,000 sq ft min lot). Corresponds to LDR General Plan designation. Single-family detached homes on large lots."
+    },
+    "R-1-9": {
+      "min_density": 0,
+      "max_density": 4.84,
+      "description": "Single-Family Residential (9,000 sq ft min lot). Corresponds to LDR General Plan designation. Single-family detached homes."
+    },
+    "ROW": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Right-of-Way. Public streets, roads, and utility easements. No residential development permitted."
+    },
+    "TO-MU": {
+      "min_density": 57,
+      "max_density": 75,
+      "description": "Transit-Oriented Mixed-Use. Highest-density mixed-use near transit (e.g., near VTA light rail). 57-75 du/ac per General Plan 2024."
+    }
+  }
+}

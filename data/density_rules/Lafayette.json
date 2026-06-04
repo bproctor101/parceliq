@@ -1,0 +1,157 @@
+{
+  "city": "Lafayette",
+  "source": "City of Lafayette Municipal Code Title 6 (https://library.municode.com/ca/lafayette/codes/code_of_ordinances?nodeId=TIT6PLLAUS); Lafayette General Plan Density & Zoning (https://www.planlafayette.org/density-and-zoning); Lafayette General Plan Land Use Element (https://www.planlafayette.org/land-use); Zoning Regulations (https://www.lovelafayette.org/city-hall/city-departments/planning-building/zoning-regulations-handouts)",
+  "last_updated": "2026-04-16",
+  "zones": {
+    "S-1": {
+      "min_density": 0,
+      "max_density": 1.0,
+      "description": "Single Family Residential, Very Low Density. Large lots, up to 1 du/ac."
+    },
+    "R-20": {
+      "min_density": 0,
+      "max_density": 2.0,
+      "description": "Single Family Residential, Low Density. 20,000 sq ft minimum lot. Up to 2 du/ac."
+    },
+    "R-15": {
+      "min_density": 0,
+      "max_density": 2.9,
+      "description": "Single Family Residential, Low-Medium Density. 15,000 sq ft minimum lot. Up to 2.9 du/ac."
+    },
+    "R-10": {
+      "min_density": 0,
+      "max_density": 4.0,
+      "description": "Single Family Residential, Medium Density. 10,000 sq ft minimum lot. Up to 4 du/ac."
+    },
+    "R-7.5": {
+      "min_density": 0,
+      "max_density": 5.8,
+      "description": "Single Family Residential, Medium Density. 7,500 sq ft minimum lot. Up to approx 5.8 du/ac."
+    },
+    "MFR": {
+      "min_density": 6,
+      "max_density": 21,
+      "description": "Multi-Family Residential District. Allows apartments, condominiums, and townhomes. 6-21 du/ac depending on general plan sub-designation."
+    },
+    "APO": {
+      "min_density": 20,
+      "max_density": 35,
+      "description": "Affordable Housing Overlay. Applied to sites for higher-density housing including affordable units. 20-35 du/ac."
+    },
+    "TOD": {
+      "min_density": 35,
+      "max_density": 75,
+      "description": "Transit-Oriented Development (BART station areas). High density mixed-use. 35-75 du/ac per state TOD requirements."
+    },
+    "C-1": {
+      "min_density": 0,
+      "max_density": 35,
+      "description": "Retail Business Commercial District. Mixed-use residential permitted in Downtown at up to 35 du/ac; standalone commercial has 0 residential density."
+    },
+    "C-2": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "General Commercial District. Primarily non-residential commercial uses."
+    },
+    "O": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Administrative and Professional Office District. Office and professional uses."
+    },
+    "P-1": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Planned Development District. Density determined on case-by-case basis per underlying general plan designation."
+    },
+    "A-2": {
+      "min_density": 0,
+      "max_density": 0.5,
+      "description": "Agricultural-Residential (2-acre minimum lot). Very low density residential with agricultural use."
+    },
+    "C": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Commercial (general). Commercial uses. No standalone residential permitted."
+    },
+    "D-1": {
+      "min_density": 0,
+      "max_density": 35,
+      "description": "Downtown District 1. Downtown mixed-use area allowing residential above commercial. Up to 35 du/ac."
+    },
+    "HPD": {
+      "min_density": 20,
+      "max_density": 35,
+      "description": "High Priority Development. Sites identified for higher-density housing per Housing Element. 20-35 du/ac."
+    },
+    "LR-10": {
+      "min_density": 0,
+      "max_density": 4.0,
+      "description": "Low-density Residential (10,000 sq ft min lot). Single-family residential, up to 4 du/ac."
+    },
+    "LR-5": {
+      "min_density": 0,
+      "max_density": 8.0,
+      "description": "Low-density Residential (5,000 sq ft min lot). Single-family residential, up to ~8 du/ac."
+    },
+    "MRA": {
+      "min_density": 6,
+      "max_density": 21,
+      "description": "Multi-Family Residential A. Apartments, condominiums. 6-21 du/ac."
+    },
+    "MRB": {
+      "min_density": 6,
+      "max_density": 21,
+      "description": "Multi-Family Residential B. Apartments, condominiums. 6-21 du/ac."
+    },
+    "MRO": {
+      "min_density": 6,
+      "max_density": 21,
+      "description": "Multi-Family Residential-Office. Mixed residential and office uses. 6-21 du/ac."
+    },
+    "MRP": {
+      "min_density": 6,
+      "max_density": 21,
+      "description": "Multi-Family Residential Planned. Planned multi-family development. 6-21 du/ac."
+    },
+    "MRT": {
+      "min_density": 6,
+      "max_density": 21,
+      "description": "Multi-Family Residential Townhouse. Townhouse-style multi-family. 6-21 du/ac."
+    },
+    "R-6": {
+      "min_density": 0,
+      "max_density": 7.3,
+      "description": "Single-Family Residential (6,000 sq ft min lot). Up to ~7.3 du/ac."
+    },
+    "R-40": {
+      "min_density": 0,
+      "max_density": 1.1,
+      "description": "Single-Family Residential, Very Large Lot (40,000 sq ft / ~1 acre min lot). Up to ~1.1 du/ac."
+    },
+    "R-65": {
+      "min_density": 0,
+      "max_density": 0.67,
+      "description": "Single-Family Residential, Estate Lot (65,000 sq ft / ~1.5 acre min lot). Up to ~0.67 du/ac."
+    },
+    "R-100": {
+      "min_density": 0,
+      "max_density": 0.44,
+      "description": "Single-Family Residential, Large Estate Lot (100,000 sq ft / ~2.3 acre min lot). Up to ~0.44 du/ac."
+    },
+    "RB": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Recreation/Buffer. Parks, open space, and buffer areas. No residential permitted."
+    },
+    "SRB": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Stream/Riparian Buffer. Environmentally sensitive riparian corridor. No residential permitted."
+    },
+    "row": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Right-of-Way. Public streets, roads, and utility easements. No residential development permitted."
+    }
+  }
+}

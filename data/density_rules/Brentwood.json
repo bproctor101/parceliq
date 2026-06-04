@@ -1,0 +1,447 @@
+{
+  "city": "Brentwood",
+  "source": "City of Brentwood Municipal Code Title 17 Zoning (https://ecode360.com/43617892); Brentwood RE Zone (https://ecode360.com/43618239); R-1-E Zone (https://ecode360.com/43618280); R-1 Zone (https://ecode360.com/43618306); R-2 Zone (https://ecode360.com/43618348); General Residential Regulations (https://ecode360.com/43618096); Maps & Zoning (https://www.brentwoodca.gov/government/community-development/planning/maps-zoning)",
+  "last_updated": "2026-04-16",
+  "zones": {
+    "RE": {
+      "min_density": 0,
+      "max_density": 1.0,
+      "description": "Ranchette Estate Zone. Semirural residential buffer between urban and agricultural areas. Single-family with limited livestock/farming. Up to 1 du/ac."
+    },
+    "R-1-E": {
+      "min_density": 1.1,
+      "max_density": 3.0,
+      "description": "Single-Family Residential Estate Zone. Low density single-family. Base density 2 du/gross ac, max 3 du/gross ac with CUP."
+    },
+    "R-1": {
+      "min_density": 1.1,
+      "max_density": 6.0,
+      "description": "Single-Family Residential Zone. Standard single-family. Base 3.5 du/gross ac with subzones R-1-6, R-1-8, R-1-10, R-1-12 for different lot sizes. Max 6 du/gross ac."
+    },
+    "R-1-6": {
+      "min_density": 3.5,
+      "max_density": 6.0,
+      "description": "Single-Family Residential, 6,000 sq ft minimum lot subzone. Up to 6 du/gross ac."
+    },
+    "R-1-8": {
+      "min_density": 2.5,
+      "max_density": 5.5,
+      "description": "Single-Family Residential, 8,000 sq ft minimum lot subzone. Up to ~5.5 du/gross ac."
+    },
+    "R-1-10": {
+      "min_density": 2.0,
+      "max_density": 4.4,
+      "description": "Single-Family Residential, 10,000 sq ft minimum lot subzone. Up to ~4.4 du/gross ac."
+    },
+    "R-1-12": {
+      "min_density": 1.5,
+      "max_density": 3.6,
+      "description": "Single-Family Residential, 12,000 sq ft minimum lot subzone. Up to ~3.6 du/gross ac."
+    },
+    "R-2": {
+      "min_density": 6.1,
+      "max_density": 12.0,
+      "description": "Moderate Density Multifamily Residential Zone. Duplexes, triplexes, townhouses, small apartments. Base 9 du/gross ac, max 12 du/gross ac with CUP."
+    },
+    "R-3": {
+      "min_density": 12.1,
+      "max_density": 20.0,
+      "description": "High Density Multifamily Residential Zone. Apartments, condominiums. Up to 20 du/gross ac."
+    },
+    "C-1": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Neighborhood Commercial Zone. Convenience retail and services for surrounding neighborhoods."
+    },
+    "C-2": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Community Commercial Zone. General retail, commercial services, and office uses."
+    },
+    "C-3": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Highway/Regional Commercial Zone. Large-scale and auto-oriented commercial."
+    },
+    "M-1": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Light Industrial Zone. Light manufacturing, assembly, warehousing."
+    },
+    "M-2": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Heavy Industrial Zone. General manufacturing and heavy industrial uses."
+    },
+    "A": {
+      "min_density": 0,
+      "max_density": 0.1,
+      "description": "Agricultural Zone. Agricultural uses with very limited residential. Max 1 du/10 ac."
+    },
+    "PD-1": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Planned Development (density per individual PD plan)"
+    },
+    "PD-13": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Planned Development (density per individual PD plan)"
+    },
+    "PD-26": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Planned Development (density per individual PD plan)"
+    },
+    "PD-2": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Planned Development (density per individual PD plan)"
+    },
+    "PD-3": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Planned Development (density per individual PD plan)"
+    },
+    "PD-4": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Planned Development (density per individual PD plan)"
+    },
+    "PD-5": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Planned Development (density per individual PD plan)"
+    },
+    "PD-6": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Planned Development (density per individual PD plan)"
+    },
+    "PD-7": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Planned Development (density per individual PD plan)"
+    },
+    "PD-8": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Planned Development (density per individual PD plan)"
+    },
+    "PD-9": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Planned Development (density per individual PD plan)"
+    },
+    "PD-10": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Planned Development (density per individual PD plan)"
+    },
+    "PD-11": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Planned Development (density per individual PD plan)"
+    },
+    "PD-12": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Planned Development (density per individual PD plan)"
+    },
+    "PD-14": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Planned Development (density per individual PD plan)"
+    },
+    "PD-15": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Planned Development (density per individual PD plan)"
+    },
+    "PD-16": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Planned Development (density per individual PD plan)"
+    },
+    "PD-17": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Planned Development (density per individual PD plan)"
+    },
+    "PD-18": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Planned Development (density per individual PD plan)"
+    },
+    "PD-19": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Planned Development (density per individual PD plan)"
+    },
+    "PD-20": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Planned Development (density per individual PD plan)"
+    },
+    "PD-21": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Planned Development (density per individual PD plan)"
+    },
+    "PD-22": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Planned Development (density per individual PD plan)"
+    },
+    "PD-23": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Planned Development (density per individual PD plan)"
+    },
+    "PD-24": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Planned Development (density per individual PD plan)"
+    },
+    "PD-25": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Planned Development (density per individual PD plan)"
+    },
+    "PD-27": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Planned Development (density per individual PD plan)"
+    },
+    "PD-28": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Planned Development (density per individual PD plan)"
+    },
+    "PD-29": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Planned Development (density per individual PD plan)"
+    },
+    "PD-30": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Planned Development (density per individual PD plan)"
+    },
+    "PD-31": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Planned Development (density per individual PD plan)"
+    },
+    "PD-33": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Planned Development (density per individual PD plan)"
+    },
+    "PD-34": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Planned Development (density per individual PD plan)"
+    },
+    "PD-35": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Planned Development (density per individual PD plan)"
+    },
+    "PD-36": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Planned Development (density per individual PD plan)"
+    },
+    "PD-37": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Planned Development (density per individual PD plan)"
+    },
+    "PD-38": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Planned Development (density per individual PD plan)"
+    },
+    "PD-39": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Planned Development (density per individual PD plan)"
+    },
+    "PD-40": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Planned Development (density per individual PD plan)"
+    },
+    "PD-41": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Planned Development (density per individual PD plan)"
+    },
+    "PD-42": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Planned Development (density per individual PD plan)"
+    },
+    "PD-43": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Planned Development (density per individual PD plan)"
+    },
+    "PD-44": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Planned Development (density per individual PD plan)"
+    },
+    "PD-45": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Planned Development (density per individual PD plan)"
+    },
+    "PD-46": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Planned Development (density per individual PD plan)"
+    },
+    "PD-47": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Planned Development (density per individual PD plan)"
+    },
+    "PD-49": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Planned Development (density per individual PD plan)"
+    },
+    "PD-50": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Planned Development (density per individual PD plan)"
+    },
+    "PD-53": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Planned Development (density per individual PD plan)"
+    },
+    "PD-54": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Planned Development (density per individual PD plan)"
+    },
+    "PD-55": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Planned Development (density per individual PD plan)"
+    },
+    "PD-56": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Planned Development (density per individual PD plan)"
+    },
+    "PD-58": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Planned Development (density per individual PD plan)"
+    },
+    "PD-59": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Planned Development (density per individual PD plan)"
+    },
+    "PD-60": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Planned Development (density per individual PD plan)"
+    },
+    "PD-61": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Planned Development (density per individual PD plan)"
+    },
+    "PD-62": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Planned Development (density per individual PD plan)"
+    },
+    "PD-63": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Planned Development (density per individual PD plan)"
+    },
+    "PD-64": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Planned Development (density per individual PD plan)"
+    },
+    "PD-65": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Planned Development (density per individual PD plan)"
+    },
+    "PD-66": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Planned Development (density per individual PD plan)"
+    },
+    "PD-67": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Planned Development (density per individual PD plan)"
+    },
+    "PD-68": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Planned Development (density per individual PD plan)"
+    },
+    "PD-69": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Planned Development (density per individual PD plan)"
+    },
+    "PD-71": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Planned Development (density per individual PD plan)"
+    },
+    "PD-72": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Planned Development (density per individual PD plan)"
+    },
+    "CO": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Commercial Office Zone. Professional office and business park uses."
+    },
+    "DT": {
+      "min_density": 0,
+      "max_density": 30,
+      "description": "Downtown Zone. Mixed-use downtown core with residential permitted above commercial."
+    },
+    "PF": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Public Facility Zone. Government buildings, schools, utilities, and public facilities."
+    },
+    "BBSP": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Balfour-Brentwood Specific Plan area. Density per specific plan."
+    },
+    "PA-1": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Professional/Administrative Office Zone. Office and professional uses."
+    },
+    "R1-12": {
+      "min_density": 1.5,
+      "max_density": 3.6,
+      "description": "Single-Family Residential, 12,000 sq ft minimum lot subzone (alternate code for R-1-12). Up to ~3.6 du/gross ac."
+    },
+    "NA": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Not Applicable / Unzoned. No assigned zoning designation."
+    }
+  }
+}

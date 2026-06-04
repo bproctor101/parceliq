@@ -1,0 +1,152 @@
+{
+  "city": "Pleasant Hill",
+  "source": "City of Pleasant Hill Municipal Code Title 18 (https://www.codepublishing.com/CA/PleasantHill/html/PleasantHill18/PleasantHill18.html); Pleasant Hill Residential Districts Ch. 18.20 (https://www.codepublishing.com/CA/PleasantHill/html/PleasantHill18/PleasantHill1820.html); Pleasant Hill General Plan 2040 (https://www.phillca.gov/132/Current-General-Plan); eCode360 R-Districts (https://ecode360.com/47660801); Mixed-Use Districts Ch. 18.22 (https://www.codepublishing.com/CA/PleasantHill/html/PleasantHill18/PleasantHill1822.html)",
+  "last_updated": "2026-04-16",
+  "zones": {
+    "R-20": {
+      "min_density": 1.3,
+      "max_density": 2.2,
+      "description": "Single Family Residential, Low Density. 20,000 sq ft minimum lot. 1.3-2.2 du/net ac."
+    },
+    "R-15": {
+      "min_density": 1.3,
+      "max_density": 3.0,
+      "description": "Single Family Residential, Low Density. 15,000 sq ft minimum lot. 1.3-3.0 du/net ac."
+    },
+    "R-10": {
+      "min_density": 3.1,
+      "max_density": 4.5,
+      "description": "Single Family Residential, Medium Density. 10,000 sq ft minimum lot. 3.1-4.5 du/net ac."
+    },
+    "R-10A": {
+      "min_density": 3.1,
+      "max_density": 4.5,
+      "description": "Single Family Residential, Medium Density (Alternate). 10,000 sq ft minimum lot. 3.1-4.5 du/net ac."
+    },
+    "R-7": {
+      "min_density": 4.6,
+      "max_density": 6.2,
+      "description": "Single Family Residential, High Density. 7,000 sq ft minimum lot. 4.6-6.2 du/net ac."
+    },
+    "R-6": {
+      "min_density": 4.6,
+      "max_density": 7.3,
+      "description": "Single Family Residential, High Density. 6,000 sq ft minimum lot. 4.6-7.3 du/net ac."
+    },
+    "MRVL": {
+      "min_density": 7.0,
+      "max_density": 11.9,
+      "description": "Very Low Density Multiple-Family Residential. Duplexes, townhomes. 7-11.9 du/ac."
+    },
+    "MRL": {
+      "min_density": 12.0,
+      "max_density": 19.9,
+      "description": "Low Density Multiple-Family Residential. Townhomes, small apartments. 12-19.9 du/ac."
+    },
+    "MRM": {
+      "min_density": 20.0,
+      "max_density": 29.9,
+      "description": "Medium Density Multiple-Family Residential. Apartments, condominiums. 20-29.9 du/ac."
+    },
+    "MRH": {
+      "min_density": 30.0,
+      "max_density": 40.0,
+      "description": "High Density Multiple-Family Residential. Apartments, condominiums, townhouses. 30-40 du/ac."
+    },
+    "MRVH": {
+      "min_density": 40.0,
+      "max_density": 73.0,
+      "description": "Very High Density Multiple-Family Residential. Intensive multifamily including studio flats, condominiums, apartments. 40-73 du/ac."
+    },
+    "MX-N": {
+      "min_density": 12.0,
+      "max_density": 30.0,
+      "description": "Neighborhood Mixed-Use District. Residential above or behind ground floor neighborhood-serving commercial."
+    },
+    "MX-C": {
+      "min_density": 20.0,
+      "max_density": 50.0,
+      "description": "Community Mixed-Use District. Residential above ground floor commercial in community centers."
+    },
+    "C": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "General Commercial District. Retail, office, and service commercial uses."
+    },
+    "NB": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Neighborhood Business District. Small-scale neighborhood retail and service uses."
+    },
+    "O": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Office District. Professional office and administrative uses."
+    },
+    "LI": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Limited Industrial District. Light industrial, warehousing, and manufacturing uses."
+    },
+    "PUD": {
+      "min_density": 0,
+      "max_density": 73,
+      "description": "Planned Unit Development District. Density varies per underlying general plan designation and approved plan."
+    },
+    "R6": {
+      "min_density": 4.6,
+      "max_density": 7.3,
+      "description": "Single Family Residential, High Density (alternate code for R-6). 6,000 sq ft minimum lot. 4.6-7.3 du/net ac."
+    },
+    "R7": {
+      "min_density": 4.6,
+      "max_density": 6.2,
+      "description": "Single Family Residential, High Density (alternate code for R-7). 7,000 sq ft minimum lot. 4.6-6.2 du/net ac."
+    },
+    "R10": {
+      "min_density": 3.1,
+      "max_density": 4.5,
+      "description": "Single Family Residential, Medium Density (alternate code for R-10). 10,000 sq ft minimum lot. 3.1-4.5 du/net ac."
+    },
+    "R10A": {
+      "min_density": 3.1,
+      "max_density": 4.5,
+      "description": "Single Family Residential, Medium Density Alternate (alternate code for R-10A). 10,000 sq ft minimum lot. 3.1-4.5 du/net ac."
+    },
+    "R15": {
+      "min_density": 1.3,
+      "max_density": 3.0,
+      "description": "Single Family Residential, Low Density (alternate code for R-15). 15,000 sq ft minimum lot. 1.3-3.0 du/net ac."
+    },
+    "R20": {
+      "min_density": 1.3,
+      "max_density": 2.2,
+      "description": "Single Family Residential, Low Density (alternate code for R-20). 20,000 sq ft minimum lot. 1.3-2.2 du/net ac."
+    },
+    "RB": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Retail Business District. General retail and commercial uses."
+    },
+    "HPUD": {
+      "min_density": 0,
+      "max_density": 73,
+      "description": "Housing Planned Unit Development. Residential PUD with density per approved plan."
+    },
+    "PAO": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Professional and Administrative Office District. Office and professional uses."
+    },
+    "PPD": {
+      "min_density": 0,
+      "max_density": 73,
+      "description": "Precise Plan Development District. Density per approved precise plan."
+    },
+    "PUD-H": {
+      "min_density": 0,
+      "max_density": 73,
+      "description": "Planned Unit Development - Housing. Residential PUD, density per approved plan."
+    }
+  }
+}

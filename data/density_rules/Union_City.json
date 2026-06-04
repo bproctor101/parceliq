@@ -1,0 +1,262 @@
+{
+  "city": "Union City",
+  "source": "Union City Municipal Code Title 18 Zoning Ordinance, ecode360.com/UN5025; Union City Residential and Commercial Zoning Districts Development Standards, unioncityca.gov/208/Planning",
+  "last_updated": "2026-04-16",
+  "zones": {
+    "RS-6000": {
+      "min_density": 0,
+      "max_density": 7.26,
+      "description": "Single Family Residential - min lot area 6,000 sq ft (7.26 du/ac); one principal dwelling plus one ADU per lot; max height 30 ft"
+    },
+    "RS-4500": {
+      "min_density": 0,
+      "max_density": 9.68,
+      "description": "Single Family Residential - min lot area 4,500 sq ft (9.68 du/ac); one principal dwelling plus one ADU per lot; max height 30 ft"
+    },
+    "R-5000": {
+      "min_density": 0,
+      "max_density": 8.71,
+      "description": "Single Family Residential - min lot area 5,000 sq ft (8.71 du/ac); one principal dwelling per lot; max height 30 ft; 50-60% lot coverage"
+    },
+    "RS-6000-H": {
+      "min_density": 0,
+      "max_density": 7.26,
+      "description": "Single Family Residential Hillside - min lot area 6,000 sq ft (7.26 du/ac); hillside development standards apply"
+    },
+    "RS-6000D": {
+      "min_density": 0,
+      "max_density": 7.26,
+      "description": "Single Family Residential Duplex - min lot area 6,000 sq ft (7.26 du/ac); allows duplexes"
+    },
+    "RS-3000": {
+      "min_density": 0,
+      "max_density": 14.52,
+      "description": "Single Family Residential Small Lot - min lot area 3,000 sq ft (14.52 du/ac); small-lot single-family"
+    },
+    "RM-3500": {
+      "min_density": 0,
+      "max_density": 12.45,
+      "description": "Multi-Family Residential Medium - min site area 3,500 sq ft per unit (12.45 du/ac); max height 30 ft"
+    },
+    "RM-2500": {
+      "min_density": 0,
+      "max_density": 17.42,
+      "description": "Multi-Family Residential Medium-High - min site area 2,500 sq ft per unit (17.42 du/ac); max height 30 ft"
+    },
+    "RM-1500": {
+      "min_density": 0,
+      "max_density": 29.04,
+      "description": "Multi-Family Residential High - min site area 1,500 sq ft per unit (29.04 du/ac); max height 75 ft"
+    },
+    "511": {
+      "min_density": 0,
+      "max_density": 8.71,
+      "description": "511 Area District - special single-family residential district; standards similar to R-5000"
+    },
+    "CMU": {
+      "min_density": 17.0,
+      "max_density": 45.0,
+      "description": "Corridor Mixed Use - min 17 du/ac, max 45 du/ac; min site area 968 sq ft per dwelling unit; mixed-use along corridors"
+    },
+    "VMU": {
+      "min_density": 17.0,
+      "max_density": 30.0,
+      "description": "Village Mixed Use - mixed-use village center; 17-30 du/ac"
+    },
+    "MMU": {
+      "min_density": 17.0,
+      "max_density": 30.0,
+      "description": "Marketplace Mixed Use - mixed-use marketplace; 17-30 du/ac"
+    },
+    "SEMU-R": {
+      "min_density": 25.0,
+      "max_density": 60.0,
+      "description": "Station East Mixed Use Residential - high-density residential near BART station; 25-60 du/ac"
+    },
+    "CPA": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Commercial Pedestrian Activity - pedestrian-oriented retail and services; min site area 5,000 sq ft; max lot coverage 50%; max height 100 ft; no residential"
+    },
+    "CN": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Neighborhood Commercial - small-scale retail and neighborhood services; min site area 5,000 sq ft; max height 30 ft; no residential"
+    },
+    "CC": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Community Commercial - broad range of retail and service commercial; min site area 5,000 sq ft; max height 100 ft; no residential"
+    },
+    "CVR": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Commercial Vehicle Related - auto-related commercial uses; min site area 5,000 sq ft; max height 100 ft; no residential"
+    },
+    "CS": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Commercial Service - service-oriented commercial; min site area 5,000 sq ft; max height 40 ft; no residential"
+    },
+    "ML": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Light Industrial - light manufacturing and warehousing; no residential"
+    },
+    "MG": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "General Industrial - general manufacturing and industrial uses; no residential"
+    },
+    "P": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Public Facilities - public and institutional uses; no residential"
+    },
+    "OS": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Open Space - parks, recreation, and open space; no residential"
+    },
+    "511 Area District": {
+      "min_density": 0,
+      "max_density": 8.71,
+      "description": "511 Area District (GIS alias). Maps to 511 special single-family residential district. Standards similar to R-5000."
+    },
+    "511 Area District - Open Space": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "511 Area District - Open Space (GIS alias). Open space portion of the 511 Area District. No residential."
+    },
+    "Agricultural": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Agricultural (GIS alias). Agricultural land use. Residential not a primary permitted use."
+    },
+    "Civic Facility": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Civic Facility (GIS alias). Maps to P (Public Facilities). Government and institutional uses. No residential."
+    },
+    "Community Commercial": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Community Commercial (GIS alias). Maps to CC (Community Commercial). Broad range of retail and service commercial. No residential."
+    },
+    "Coorridor Mixed Use": {
+      "min_density": 17.0,
+      "max_density": 45.0,
+      "description": "Corridor Mixed Use (GIS alias, misspelled variant). Maps to CMU. Min 17 du/ac, max 45 du/ac."
+    },
+    "Corridor Mixed Use": {
+      "min_density": 17.0,
+      "max_density": 45.0,
+      "description": "Corridor Mixed Use (GIS alias). Maps to CMU. Min 17 du/ac, max 45 du/ac."
+    },
+    "Corridor Mixed Use Commercial": {
+      "min_density": 17.0,
+      "max_density": 45.0,
+      "description": "Corridor Mixed Use Commercial (GIS alias). Maps to CMU. Mixed-use along corridors. Min 17 du/ac, max 45 du/ac."
+    },
+    "Corridor Mixed-Use Employment": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Corridor Mixed-Use Employment (GIS alias). Employment-focused corridor mixed-use. Residential not a primary use."
+    },
+    "Decoto Residential": {
+      "min_density": 0,
+      "max_density": 7.26,
+      "description": "Decoto Residential (GIS alias). Maps to RS-6000 single-family residential in the Decoto area. Max 7.26 du/ac."
+    },
+    "Light Industrial": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Light Industrial (GIS alias). Maps to ML (Light Industrial). Light manufacturing and warehousing. No residential."
+    },
+    "Market Place Mixed Use": {
+      "min_density": 17.0,
+      "max_density": 30.0,
+      "description": "Market Place Mixed Use (GIS alias). Maps to MMU (Marketplace Mixed Use). 17-30 du/ac."
+    },
+    "Multi-Family Residential": {
+      "min_density": 0,
+      "max_density": 29.04,
+      "description": "Multi-Family Residential (GIS alias). Maps to RM-1500/RM-2500/RM-3500. Density up to 29.04 du/ac depending on subdistrict."
+    },
+    "Neighborhood Commercial": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Neighborhood Commercial (GIS alias). Maps to CN. Small-scale retail and neighborhood services. No residential."
+    },
+    "Open Space": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Open Space (GIS alias). Maps to OS. Parks, recreation, and open space. No residential."
+    },
+    "Private Institutional": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Private Institutional (GIS alias). Private institutional uses (schools, churches, etc.). No residential."
+    },
+    "Professional and Administrative Commercial": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Professional and Administrative Commercial (GIS alias). Maps to CPA (Commercial Pedestrian Activity). No residential."
+    },
+    "Single Family Residential": {
+      "min_density": 0,
+      "max_density": 7.26,
+      "description": "Single Family Residential (GIS alias). Maps to RS-6000. Single-family homes. Max 7.26 du/ac."
+    },
+    "Single Family Residential, DIPSA": {
+      "min_density": 0,
+      "max_density": 7.26,
+      "description": "Single Family Residential, DIPSA (GIS alias). Single-family residential within the DIPSA overlay. Max 7.26 du/ac."
+    },
+    "Single Family Residential/Special DIPSA": {
+      "min_density": 0,
+      "max_density": 7.26,
+      "description": "Single Family Residential/Special DIPSA (GIS alias). Single-family residential with special DIPSA designation. Max 7.26 du/ac."
+    },
+    "Special Industrial": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Special Industrial (GIS alias). Maps to MG (General Industrial). Industrial uses. No residential."
+    },
+    "Station East Employment": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Station East Employment (GIS alias). Employment-focused district near BART station. No residential."
+    },
+    "Station East Mixed Use Residential": {
+      "min_density": 25.0,
+      "max_density": 60.0,
+      "description": "Station East Mixed Use Residential (GIS alias). Maps to SEMU-R. High-density residential near BART. 25-60 du/ac."
+    },
+    "Station Mixed USe Commercial": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Station Mixed Use Commercial (GIS alias, misspelled variant). Commercial mixed-use near BART station. No residential."
+    },
+    "Station Mixed Use Commercial": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Station Mixed Use Commercial (GIS alias). Commercial mixed-use near BART station. No residential."
+    },
+    "Union Landing Commercial": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Union Landing Commercial (GIS alias). Commercial uses at Union Landing shopping area. No residential."
+    },
+    "Village Mixed Use Commercial": {
+      "min_density": 17.0,
+      "max_density": 30.0,
+      "description": "Village Mixed Use Commercial (GIS alias). Maps to VMU (Village Mixed Use). 17-30 du/ac."
+    },
+    "Vistor and Recreation Commercial": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Visitor and Recreation Commercial (GIS alias, misspelled). Maps to CVR. Commercial vehicle/visitor-related uses. No residential."
+    }
+  }
+}

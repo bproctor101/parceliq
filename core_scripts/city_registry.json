@@ -1,0 +1,218 @@
+{
+  "_README": "GIS endpoint registry for ParcelIQ Tier 2 pipeline. Each city has a zoning and optional parcel source. If parcel_url is null, the county-level parcel layer is used. status: 'ready' = verified endpoint, 'fallback' = uses statewide zoning, 'needs_verify' = URL found but untested.",
+
+  "_county_parcels": {
+    "Santa Clara": {
+      "url": "https://services.arcgis.com/NkcnS0qk4w2wasOJ/arcgis/rest/services/All_Parcels/FeatureServer/0",
+      "note": "FAF_Parcels layer. Max 2000/request. WKID 3857. Also layers 1-3 (PRK, RDA, UNK)."
+    },
+    "Alameda": {
+      "url": "https://data.acgov.org/api/geospatial/2b026350b5dd40b18ed7a321fdcdba81?method=export&type=GeoJSON",
+      "note": "Alameda County Open Data Hub parcels. Download as GeoJSON."
+    },
+    "Contra Costa": {
+      "url": "https://contra-costa-gis-cocogis.hub.arcgis.com/",
+      "note": "Requires auth on direct MapServer. Use Hub download or statewide fallback."
+    }
+  },
+
+  "_statewide_zoning_fallback": {
+    "url": "https://services8.arcgis.com/Xr1lDrwMv89PhjD9/arcgis/rest/services/California_Statewide_Zoning_North/FeatureServer/1",
+    "note": "Covers 535 of 539 CA jurisdictions. Use WHERE clause to filter by city."
+  },
+
+  "cities": {
+    "Campbell": {
+      "county": "Santa Clara",
+      "zoning_url": "https://gis.campbellca.gov/arcgis/rest/services/Planning/Zoning/FeatureServer/3",
+      "zoning_code_field": null,
+      "parcel_url": null,
+      "status": "ready"
+    },
+    "Cupertino": {
+      "county": "Santa Clara",
+      "zoning_url": "https://gis.cupertino.org/cupgis/rest/services/Public/AmazonData/FeatureServer/10",
+      "zoning_code_field": null,
+      "parcel_url": "https://gis.cupertino.org/cupgis/rest/services/Public/AccelaxAPO_2/MapServer/6",
+      "status": "ready"
+    },
+    "Gilroy": {
+      "county": "Santa Clara",
+      "zoning_url": "STATEWIDE_FALLBACK",
+      "zoning_code_field": null,
+      "parcel_url": null,
+      "status": "fallback",
+      "note": "No official city FeatureServer. Use statewide zoning."
+    },
+    "Los Altos": {
+      "county": "Santa Clara",
+      "zoning_url": "https://map.losaltosca.gov/arcgis/rest/services/Public/PublicGISLayers/MapServer/60",
+      "zoning_code_field": null,
+      "parcel_url": null,
+      "status": "ready"
+    },
+    "Milpitas": {
+      "county": "Santa Clara",
+      "zoning_url": null,
+      "zoning_code_field": null,
+      "parcel_url": null,
+      "status": "done",
+      "note": "Already normalized in data/cities/Milpitas_normalized.csv"
+    },
+    "Mountain View": {
+      "county": "Santa Clara",
+      "zoning_url": "https://maps.mountainview.gov/arcgis/rest/services/Public/ZoningDistrict/FeatureServer/0",
+      "zoning_code_field": null,
+      "parcel_url": "https://maps.mountainview.gov/arcgis/rest/services/Public/Parcel/FeatureServer/0",
+      "status": "ready"
+    },
+    "Palo Alto": {
+      "county": "Santa Clara",
+      "zoning_url": "https://services6.arcgis.com/evmyRZRrsopdeog7/arcgis/rest/services/ZoneDistricts/FeatureServer/0",
+      "zoning_code_field": null,
+      "parcel_url": "https://services6.arcgis.com/evmyRZRrsopdeog7/arcgis/rest/services/AssessorParcel/FeatureServer/0",
+      "status": "ready"
+    },
+    "San Jose": {
+      "county": "Santa Clara",
+      "zoning_url": null,
+      "zoning_code_field": null,
+      "parcel_url": null,
+      "status": "done",
+      "note": "Already normalized in data/cities/San_Jose_normalized.csv"
+    },
+    "Saratoga": {
+      "county": "Santa Clara",
+      "zoning_url": "STATEWIDE_FALLBACK",
+      "zoning_code_field": null,
+      "parcel_url": null,
+      "status": "fallback",
+      "note": "City publishes zoning as cached tiles only — not queryable."
+    },
+    "Sunnyvale": {
+      "county": "Santa Clara",
+      "zoning_url": "https://services5.arcgis.com/ecWT8iam2AWjfm3E/arcgis/rest/services/Sunnyvale_Base_Map/FeatureServer/16",
+      "zoning_code_field": null,
+      "parcel_url": "https://services5.arcgis.com/ecWT8iam2AWjfm3E/arcgis/rest/services/Sunnyvale_Base_Map/FeatureServer/18",
+      "status": "ready"
+    },
+
+    "Alameda": {
+      "county": "Alameda",
+      "zoning_url": "https://services9.arcgis.com/ucDLsG1EwPnOGY4c/arcgis/rest/services/Zoning_v02_view/FeatureServer/0",
+      "zoning_code_field": "zone",
+      "parcel_url": null,
+      "status": "ready"
+    },
+    "Dublin": {
+      "county": "Alameda",
+      "zoning_url": "https://gis.dublin.ca.gov/arcgis/rest/services/Planning/Planning_MS/MapServer/20",
+      "zoning_code_field": null,
+      "parcel_url": null,
+      "status": "needs_verify"
+    },
+    "Fremont": {
+      "county": "Alameda",
+      "zoning_url": "https://fremontgis.com/server/rest/services/ENT_ZONING_DISTRICTS_NEW/MapServer/2",
+      "zoning_code_field": null,
+      "parcel_url": null,
+      "status": "ready"
+    },
+    "Hayward": {
+      "county": "Alameda",
+      "zoning_url": "https://maps.hayward-ca.gov/arcgis/rest/services/OpenData/COH_Zoning/FeatureServer/0",
+      "zoning_code_field": null,
+      "parcel_url": "https://maps.hayward-ca.gov/arcgis/rest/services/OpenData/COH_Parcels/FeatureServer/0",
+      "status": "ready"
+    },
+    "Livermore": {
+      "county": "Alameda",
+      "zoning_url": "https://gisweb.cityoflivermore.net/arcgis/rest/services/CommunityDevelopment/Zoning/MapServer/3",
+      "zoning_code_field": null,
+      "parcel_url": null,
+      "status": "ready"
+    },
+    "Newark": {
+      "county": "Alameda",
+      "zoning_url": "STATEWIDE_FALLBACK",
+      "zoning_code_field": null,
+      "parcel_url": null,
+      "status": "fallback",
+      "note": "No public zoning endpoint found."
+    },
+    "Pleasanton": {
+      "county": "Alameda",
+      "zoning_url": "STATEWIDE_FALLBACK",
+      "zoning_code_field": null,
+      "parcel_url": null,
+      "status": "fallback",
+      "note": "City ArcGIS server returns 403."
+    },
+    "Union City": {
+      "county": "Alameda",
+      "zoning_url": "https://services7.arcgis.com/T3LbxamSmhpjBppB/arcgis/rest/services/ZoningUpdate_2024_view/FeatureServer/0",
+      "zoning_code_field": "CODE",
+      "parcel_url": null,
+      "status": "ready"
+    },
+
+    "Danville": {
+      "county": "Contra Costa",
+      "zoning_url": "https://services7.arcgis.com/Q1ummDfB2x5H3vGe/arcgis/rest/services/Zoning_Clean/FeatureServer/9",
+      "zoning_code_field": "ZONECLASS",
+      "parcel_url": null,
+      "status": "ready"
+    },
+    "Lafayette": {
+      "county": "Contra Costa",
+      "zoning_url": "https://services5.arcgis.com/N3iR6DMX9yR8o1uS/arcgis/rest/services/LAFAYETTE_ZONING_GC_EXTRACT_2017_10_24/FeatureServer/0",
+      "zoning_code_field": "CODE",
+      "parcel_url": null,
+      "status": "ready",
+      "note": "Data from 2017 — may be dated."
+    },
+    "Moraga": {
+      "county": "Contra Costa",
+      "zoning_url": "https://services9.arcgis.com/xLuiwIVVBKkNT0vQ/arcgis/rest/services/Moraga_Zoning_(Public)/FeatureServer/0",
+      "zoning_code_field": "Zoning_Final",
+      "parcel_url": null,
+      "status": "ready"
+    },
+    "Oakley": {
+      "county": "Contra Costa",
+      "zoning_url": "https://services8.arcgis.com/ql5SF28UZRL4qU2a/arcgis/rest/services/Zoning/FeatureServer/189",
+      "zoning_code_field": "Zoning",
+      "parcel_url": null,
+      "status": "ready"
+    },
+    "Brentwood": {
+      "county": "Contra Costa",
+      "zoning_url": "STATEWIDE_FALLBACK",
+      "zoning_code_field": null,
+      "parcel_url": null,
+      "status": "fallback",
+      "note": "City ArcGIS server requires token auth."
+    },
+    "Pleasant Hill": {
+      "county": "Contra Costa",
+      "zoning_url": "https://services6.arcgis.com/XbzAj96XFjVnq4ZS/arcgis/rest/services/PLEASANT_HILL_ZONINGv2/FeatureServer/1",
+      "zoning_code_field": "ZONING",
+      "parcel_url": null,
+      "status": "ready"
+    },
+    "San Ramon": {
+      "county": "Contra Costa",
+      "zoning_url": "https://gis.sanramon.ca.gov/server/rest/services/enCodePlus/Zoning/FeatureServer/0",
+      "zoning_code_field": null,
+      "parcel_url": "https://gis.sanramon.ca.gov/server/rest/services/Tax_Roll/Tax_Roll_Parcels_Current/FeatureServer/0",
+      "status": "ready"
+    },
+    "Walnut Creek": {
+      "county": "Contra Costa",
+      "zoning_url": "https://services2.arcgis.com/AhHMUmDoudKVXiUl/arcgis/rest/services/Existing_Zoning_and_General_Plan_WFL1/FeatureServer/9",
+      "zoning_code_field": null,
+      "parcel_url": null,
+      "status": "ready"
+    }
+  }
+}

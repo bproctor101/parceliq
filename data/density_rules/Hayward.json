@@ -1,0 +1,95 @@
+{
+  "city": "Hayward",
+  "source": "Housing Element 2023-2031, Appendix D (Revised); Municipal Code Title 10; Business Friendly Code Updates (Aug 2025); Mission Boulevard Form-Based Code (Art. 24); Downtown Specific Plan (Art. 28)",
+  "last_updated": "2026-04-16",
+  "notes": {
+    "combining_B_district": "SEC 10-1.2400 establishes the Special Lot Standards Combining District (B). The B suffix with a number (e.g., B4, B6, B8) modifies the base zone's minimum lot size. The number represents thousands of square feet of minimum lot area. E.g., RLB6 = RL zone with 6,000 sq ft minimum lot. The B combining district does NOT change the allowed density range of the base zone - it only adjusts lot dimensions.",
+    "GIS_code_pattern": "GIS codes like 'RLB6' combine: base zone (RL) + combining district suffix (B) + lot size in thousands of sq ft (6). Similarly 'AB10A' = Agricultural (A) + combining B district + 10 acre minimum.",
+    "density_derivation": "For combining B districts, density is inherited from the base zone. Lot size modifies subdivision potential but max du/ac remains per the base zone."
+  },
+  "zones": {
+    "RS": {"min_density": 4.3, "max_density": 8.7, "description": "Single-Family Residential (Suburban Density GP designation)"},
+    "RM": {"min_density": 8.7, "max_density": 17.4, "description": "Medium Density Residential"},
+    "RH": {"min_density": 17, "max_density": 34, "description": "High Density Residential"},
+    "DC": {"min_density": 40, "max_density": 110, "description": "Downtown Core"},
+    "DG": {"min_density": 40, "max_density": 89, "description": "Downtown General"},
+    "DN": {"min_density": 24, "max_density": 63, "description": "Downtown Neighborhood"},
+    "DMU": {"min_density": 40, "max_density": 89, "description": "Downtown Mixed-Use"},
+    "MB-NR": {"min_density": 17, "max_density": 35, "description": "Mission Blvd Neighborhood Residential"},
+    "MB-MU": {"min_density": 35, "max_density": 75, "description": "Mission Blvd Mixed-Use"},
+    "MB-C": {"min_density": 35, "max_density": 55, "description": "Mission Blvd Commercial"},
+    "AT-R": {"min_density": 30, "max_density": 75, "description": "Air Terminal - Recreational"},
+    "AT-MU": {"min_density": 40, "max_density": 110, "description": "Air Terminal - Mixed-Use"},
+    "AT-C": {"min_density": 30, "max_density": 55, "description": "Air Terminal - Commercial"},
+    "SMU": {"min_density": 25, "max_density": 55, "description": "Sustainable Mixed-Use"},
+    "CCR": {"min_density": 17, "max_density": 35, "description": "Community Commercial Residential"},
+    "CLIO": {"min_density": 0, "max_density": 0, "description": "Civic-Light Industrial Overlay"},
+    "CC": {"min_density": 0, "max_density": 0, "description": "Community Commercial"},
+    "CS": {"min_density": 0, "max_density": 0, "description": "Commercial Service"},
+    "CG": {"min_density": 0, "max_density": 0, "description": "General Commercial (multi-family above first-floor commercial only)"},
+    "IP": {"min_density": 0, "max_density": 0, "description": "Industrial Park"},
+    "IG": {"min_density": 0, "max_density": 0, "description": "General Industrial"},
+    "IL": {"min_density": 0, "max_density": 0, "description": "Limited Industrial"},
+    "MS": {"min_density": 0, "max_density": 25, "description": "Main Street"},
+    "PF": {"min_density": 0, "max_density": 0, "description": "Public Facilities"},
+    "OS": {"min_density": 0, "max_density": 0, "description": "Open Space"},
+    "RS-B": {"min_density": 4.3, "max_density": 17.4, "description": "Residential Suburban - Combining District"},
+    "RM-B": {"min_density": 8.7, "max_density": 34, "description": "Residential Medium Density - Combining District"},
+
+    "A": {"min_density": 0, "max_density": 1, "description": "Agricultural District. Min lot 43,560 sq ft (1 acre). Single-family + second dwelling + group homes permitted. GP: Rural Estate Density (1 du/ac max)"},
+    "AB10A": {"min_density": 0, "max_density": 0.1, "description": "Agricultural - Combining B District (10-acre min lot). Essentially no residential density at scale. Maps to Rural Estate GP designation"},
+    "AB160A": {"min_density": 0, "max_density": 0.006, "description": "Agricultural - Combining B District (160-acre min lot). No meaningful residential density. Likely watershed/open space land"},
+
+    "AT-AC": {"min_density": 0, "max_density": 0, "description": "Air Terminal - Aviation Commercial. Airport-oriented commercial uses. No residential permitted (aviation operations area)"},
+    "AT-IP": {"min_density": 0, "max_density": 0, "description": "Air Terminal - Industrial Park. Industrial/office uses near airport. No residential permitted"},
+    "AT-O": {"min_density": 0, "max_density": 0, "description": "Air Terminal - Operations. Airport operations subdistrict. No residential permitted"},
+    "AT-RM": {"min_density": 8.7, "max_density": 17.4, "description": "Air Terminal - Medium Density Residential. Residential subdistrict within AT area. Density consistent with RM district (medium density)"},
+
+    "CB": {"min_density": 0, "max_density": 0, "description": "Central Business District. Multi-family residential above first-floor commercial conditionally permitted. Table D-15: consistent with RM and RH density ranges"},
+    "CBB20": {"min_density": 0, "max_density": 0, "description": "Central Business - Combining B District (20,000 sq ft min lot). Same uses as CB with larger lot requirement"},
+
+    "CL": {"min_density": 0, "max_density": 0, "description": "Limited Access Commercial District (SEC 10-1.1200). Table D-15: min lot 10,000 sq ft, max lot coverage 40%. Residential above first-floor commercial. Recommended for elimination/consolidation into CN or CO"},
+    "CN": {"min_density": 0, "max_density": 17.4, "description": "Neighborhood Commercial District. Residential units above first-floor commercial uses only. Table D-15: min lot 6,000 sq ft, 17-25 du/ac density range"},
+    "CN-R": {"min_density": 17, "max_density": 25, "description": "Neighborhood Commercial-Residential. Mixed residential and commercial along arterials. Table D-15: min lot 10,000 sq ft, 17-25 du/ac"},
+    "CO": {"min_density": 0, "max_density": 17.4, "description": "Commercial Office District. Multi-family dwellings and small group homes permitted. Table D-15: min lot 5,000 sq ft, consistent with RM and RH density"},
+    "CR": {"min_density": 0, "max_density": 0, "description": "Regional Commercial District (SEC 10-1.1400). Large-scale retail (min 100,000 sq ft). Multi-family residential subject to streamlined ministerial approval. Only 1 site (~16 acres, Costco). Recommended for rezoning to CG or CN"},
+
+    "County": {"min_density": 0, "max_density": 0, "description": "Unincorporated Alameda County land (not subject to Hayward zoning). Density per County regulations, not City of Hayward"},
+
+    "DT-MS": {"min_density": 40, "max_density": 110, "description": "Downtown Main Street (Downtown Specific Plan, Art. 28). Table D-15: max height 85 ft, min lot width 200-400 ft, 40-110 du/ac. Moderate-to-high intensity housing from Main Street Buildings to Lined Buildings"},
+
+    "FP": {"min_density": 0, "max_density": 0, "description": "Flood Plain District (SEC 10-1.2100). Restricts development in flood-prone areas. No residential density allowed"},
+
+    "MB-CC": {"min_density": 35, "max_density": 75, "description": "Mission Boulevard - Corridor Center. Table D-12/D-15: 5-6 stories, 35-75 du/ac by right, up to 100 du/ac in TOD Overlays. High-intensity residential"},
+    "MB-CN": {"min_density": 17.5, "max_density": 55, "description": "Mission Boulevard - Corridor Neighborhood. Table D-12/D-15: 3-5 stories, 17.5-35 du/ac (up to 55 du/ac south of A Street). Moderate-intensity, medium-scale residential"},
+    "MB-CS": {"min_density": 0, "max_density": 0, "description": "Mission Boulevard - Civic Space. Public open space, civic buildings. No residential density. Civic Space Dedication Bonus may add up to 4 units/acre to abutting zones"},
+    "MB-NN": {"min_density": 17, "max_density": 65, "description": "Mission Boulevard - Neighborhood Node. Table D-12/D-15: 4-5 stories, 17-65 du/ac (35 by right, 65 with Major Site Plan Review). Mixed-use infill development"},
+
+    "MH": {"min_density": 0.7, "max_density": 12, "description": "Mobile Home Park District. Table D-15: min lot 304,920 sq ft (~7 acres), max lot coverage 40%, 0.7-12 du/ac. GP: Mobile Home Park (12 du/ac max)"},
+
+    "NE": {"min_density": 40, "max_density": 110, "description": "Neighborhood Edge (Downtown Specific Plan, Art. 28). Table D-11/D-15: max 35 ft height, 40-110 du/ac. Small-to-medium footprint, lower-intensity housing from Houses to Small Multiplex Buildings and Cottage Courts"},
+    "NG": {"min_density": 40, "max_density": 110, "description": "Neighborhood General (Downtown Specific Plan, Art. 28). Table D-11/D-15: max 45 ft height, 40-110 du/ac. Small-to-medium footprint, moderate-intensity from Houses and Rowhouses to Small Multiplex and Courtyard Buildings"},
+
+    "PD": {"min_density": 0, "max_density": 0, "description": "Planned Development District (SEC 10-1.2500). Density determined by the approved PD plan and underlying GP land use designation. Variable - must check individual PD approval"},
+
+    "RHB7": {"min_density": 17, "max_density": 34, "description": "High Density Residential - Combining B District (7,500 sq ft min lot). Same density as RH base zone (17-34 du/ac). B suffix modifies minimum lot size only"},
+
+    "RL": {"min_density": 1, "max_density": 8.7, "description": "Residential Low Density. Single-family residential. GP: Low Density (max 8.7 du/ac). Same permitted uses as RS but maps to Low Density GP designation"},
+    "RLB10": {"min_density": 1, "max_density": 8.7, "description": "Residential Low - Combining B District (10,000 sq ft min lot). Same density as RL (max 8.7 du/ac)"},
+    "RLB20": {"min_density": 0.5, "max_density": 4.3, "description": "Residential Low - Combining B District (20,000 sq ft min lot). Larger lots suggest Suburban Density GP (max 4.3 du/ac)"},
+    "RLB4": {"min_density": 1, "max_density": 8.7, "description": "Residential Low - Combining B District (4,000 sq ft min lot). Same density as RL (max 8.7 du/ac). Smaller lots enable higher effective density within the range"},
+    "RLB40": {"min_density": 0, "max_density": 1, "description": "Residential Low - Combining B District (40,000 sq ft / ~1 acre min lot). Maps to Rural Estate Density GP (max 1 du/ac)"},
+    "RLB6": {"min_density": 1, "max_density": 8.7, "description": "Residential Low - Combining B District (6,000 sq ft min lot). Same density as RL (max 8.7 du/ac)"},
+    "RLB8": {"min_density": 1, "max_density": 8.7, "description": "Residential Low - Combining B District (8,000 sq ft min lot). Same density as RL (max 8.7 du/ac)"},
+
+    "RMB3.5": {"min_density": 8.7, "max_density": 17.4, "description": "Medium Density Residential - Combining B District (3,500 sq ft min lot). Same density as RM (8.7-17.4 du/ac). Smaller lot allows townhouse-scale development"},
+    "RMB4": {"min_density": 8.7, "max_density": 17.4, "description": "Medium Density Residential - Combining B District (4,000 sq ft min lot). Same density as RM (8.7-17.4 du/ac)"},
+
+    "RNP": {"min_density": 0, "max_density": 4.3, "description": "Residential Natural Preserve (Residential Natura Preserve). Table D-15: min lot 20,000 sq ft, max height 30 ft, max coverage 30%. Hillside areas where topography determines development. GP: Suburban Density or lower"},
+    "RO": {"min_density": 0, "max_density": 17.4, "description": "Residential Office District (SEC 10-1.600). Table D-15: min lot 5,000 sq ft, max height 10 ft (reduced for additions), consistent with RM and RH. Mix of residential and office. Recommended for consolidation into CO district"},
+
+    "UC": {"min_density": 40, "max_density": 110, "description": "Urban Center (Downtown Specific Plan, Art. 28). Table D-11/D-15: max height 124 ft, min lot width 250-450 ft, 40-110 du/ac. Highest intensity downtown district. Medium-to-large footprint from Rowhouses and Multiplex Large Buildings to Stacked Flats and Lined Buildings"},
+    "UN": {"min_density": 40, "max_density": 110, "description": "Urban Neighborhood (Downtown Specific Plan, Art. 28). Table D-11/D-15: max height 70 ft, 40-110 du/ac. Small-to-large footprint, moderate-intensity from Rowhouse and Large Multiplex Buildings to Stacked Flats"},
+    "UNL": {"min_density": 0, "max_density": 34.8, "description": "Urban Neighborhood - Low (Downtown Specific Plan variant). Table D-15: max height 70 ft, same width as UN, max 34.8 du/ac. Lower density subdistrict within the Downtown plan area, transitional between neighborhood and urban scales"}
+  }
+}

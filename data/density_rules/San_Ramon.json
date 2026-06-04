@@ -1,0 +1,217 @@
+{
+  "city": "San Ramon",
+  "source": "City of San Ramon Zoning Ordinance Division D-2 (https://cdnsm5-hosted.civiclive.com/UserFiles/Servers/Server_10826046/File/Our%20City/Departments/Community%20Development/Planning/Zoning%20Ordinance/Division%20D-2%2002.28.20.pdf); San Ramon Municipal Code Title D (https://online.encodeplus.com/regs/sanramon-ca/doc-viewer.aspx?secid=3764); Zoning Ordinance page (https://www.sanramon.ca.gov/our_city/departments_and_divisions/community_development/planning_services/zoning_ordinance)",
+  "last_updated": "2026-04-16",
+  "zones": {
+    "RA": {
+      "min_density": 0,
+      "max_density": 0.5,
+      "description": "Rural Agricultural Zone. Large-lot rural residential and agriculture. Up to 0.5 du/net ac."
+    },
+    "RL": {
+      "min_density": 0.5,
+      "max_density": 3.0,
+      "description": "Residential Low Density Zone. Single-family detached homes on large lots. 0.5-3.0 du/net ac."
+    },
+    "RS": {
+      "min_density": 3.0,
+      "max_density": 6.0,
+      "description": "Single Family Residential Zone. Standard single-family neighborhoods. 3.0-6.0 du/net ac (typical 3-6 du/ac)."
+    },
+    "RM": {
+      "min_density": 6.0,
+      "max_density": 14.0,
+      "description": "Multiple Family Medium Density Zone. Townhomes, duplexes, small apartments. 6-14 du/net ac."
+    },
+    "RMH": {
+      "min_density": 14.0,
+      "max_density": 22.0,
+      "description": "Medium-High Density Residential Zone. Apartments, condominiums. 14-22 du/net ac."
+    },
+    "RH": {
+      "min_density": 22.0,
+      "max_density": 30.0,
+      "description": "Multiple Family High Density Zone. Apartments, condominiums. 22-30 du/net ac."
+    },
+    "RVH": {
+      "min_density": 30.0,
+      "max_density": 50.0,
+      "description": "Multiple Family Very High Density Zone. Intensive multifamily residential. 30-50 du/net ac."
+    },
+    "MU": {
+      "min_density": 14.0,
+      "max_density": 30.0,
+      "description": "Mixed Use Zone. Integrated mix of residential and non-residential uses. 14-30 du/ac; up to 0.70 FAR non-residential."
+    },
+    "CCMU": {
+      "min_density": 22.0,
+      "max_density": 50.0,
+      "description": "City Center Mixed Use Zone. High-density mixed-use in City Center. 22-50 du/ac; up to 0.70 FAR (1.35 max with public benefits)."
+    },
+    "MU-C": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Commercial Mixed Use Zone. Integrated non-residential uses only (retail, services, offices). No residential. Up to 0.70 FAR."
+    },
+    "CN": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Neighborhood Commercial Zone. Small-scale convenience commercial serving adjacent neighborhoods."
+    },
+    "CR": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Commercial Recreation Zone. Recreational commercial uses. Up to 0.35 FAR."
+    },
+    "CO": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Commercial Office Zone. Office, professional, and administrative uses."
+    },
+    "MW": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Manufacturing/Warehousing Zone. General and low-intensity industrial, manufacturing, distribution, R&D. Up to 0.50 FAR."
+    },
+    "OS": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Open Space Zone. Parks, recreation, resource conservation, and open space preservation."
+    },
+    "PF": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Public Facility Zone. Government buildings, schools, utilities, and other public facilities."
+    },
+    "AG": {
+      "min_density": 0,
+      "max_density": 0.1,
+      "description": "Agricultural Zone. Agricultural uses with very limited residential."
+    },
+    "CC": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Community Commercial Zone. Community-scale retail and commercial uses."
+    },
+    "CT": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Commercial Thoroughfare Zone. Commercial uses along major corridors."
+    },
+    "DMU-N": {
+      "min_density": 14.0,
+      "max_density": 30.0,
+      "description": "Dougherty Mixed Use North Zone. Mixed-use with residential and commercial."
+    },
+    "DMU-S": {
+      "min_density": 14.0,
+      "max_density": 30.0,
+      "description": "Dougherty Mixed Use South Zone. Mixed-use with residential and commercial."
+    },
+    "GC": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "General Commercial Zone. General retail and commercial uses."
+    },
+    "M-1": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Light Industrial Zone. Light manufacturing and industrial uses."
+    },
+    "M-2": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "General Industrial Zone. General manufacturing and industrial uses."
+    },
+    "MC": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Medical Center Zone. Medical offices, hospitals, and health care facilities."
+    },
+    "MUR": {
+      "min_density": 14.0,
+      "max_density": 30.0,
+      "description": "Mixed Use Residential Zone. Mixed-use with residential emphasis."
+    },
+    "MUX": {
+      "min_density": 14.0,
+      "max_density": 30.0,
+      "description": "Mixed Use Flex Zone. Flexible mixed-use with residential and commercial."
+    },
+    "OA": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Office Administrative Zone. Office and administrative uses."
+    },
+    "OL": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Office Limited Zone. Limited office and professional uses."
+    },
+    "OS-1": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Open Space 1 Zone. Parks, recreation, and open space."
+    },
+    "OS-2": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Open Space 2 Zone. Resource conservation and open space preservation."
+    },
+    "P": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Public/Semi-Public Zone. Government, schools, and institutional uses."
+    },
+    "PD": {
+      "min_density": 0,
+      "max_density": 50,
+      "description": "Planned Development Zone. Density per approved development plan."
+    },
+    "PS": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Public/Semi-Public Zone. Government buildings and public facilities."
+    },
+    "RC": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Recreation Commercial Zone. Recreation-oriented commercial uses."
+    },
+    "RE-A": {
+      "min_density": 0,
+      "max_density": 0.5,
+      "description": "Rural Estate A Zone. Large-lot rural residential. Up to 0.5 du/ac."
+    },
+    "RE-B": {
+      "min_density": 0,
+      "max_density": 1.0,
+      "description": "Rural Estate B Zone. Rural residential on moderate lots. Up to 1.0 du/ac."
+    },
+    "RS-6": {
+      "min_density": 3.0,
+      "max_density": 6.0,
+      "description": "Single Family Residential, 6,000 sq ft lot. 3-6 du/ac."
+    },
+    "RS-7": {
+      "min_density": 3.0,
+      "max_density": 6.0,
+      "description": "Single Family Residential, 7,000 sq ft lot. 3-6 du/ac."
+    },
+    "RS-10": {
+      "min_density": 2.0,
+      "max_density": 4.4,
+      "description": "Single Family Residential, 10,000 sq ft lot. 2-4.4 du/ac."
+    },
+    "RS-12": {
+      "min_density": 1.5,
+      "max_density": 3.6,
+      "description": "Single Family Residential, 12,000 sq ft lot. 1.5-3.6 du/ac."
+    },
+    "RS-D": {
+      "min_density": 3.0,
+      "max_density": 6.0,
+      "description": "Single Family Residential Detached Zone. Standard single-family. 3-6 du/ac."
+    }
+  }
+}

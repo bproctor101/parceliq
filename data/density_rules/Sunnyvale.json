@@ -1,0 +1,212 @@
+{
+  "city": "Sunnyvale",
+  "state": "California",
+  "source": [
+    "https://ecode360.com/42729914 (Chapter 19.18 - Residential Zoning Districts)",
+    "https://ecode360.com/42729946 (Chapter 19.20 - Commercial Zoning Districts)",
+    "https://ecode360.com/42729973 (Chapter 19.22 - Industrial Zoning Districts)",
+    "https://ecode360.com/42730007 (Chapter 19.24 - Office and Public Facilities Zoning Districts)",
+    "https://ecode360.com/42730025 (Chapter 19.26 - Combining Districts)",
+    "https://ecode360.com/42730139 (Chapter 19.28 - Downtown Specific Plan District)",
+    "https://ecode360.com/42730203 (Chapter 19.29 - Moffett Park Specific Plan District)",
+    "https://ecode360.com/42730514 (Chapter 19.36 - El Camino Real Specific Plan District)"
+  ],
+  "last_updated": "2026-04-16",
+  "notes": "Densities from Sunnyvale Municipal Code Title 19 (Zoning). Max densities are base maximums; density bonuses may apply per California Government Code Sections 65915-65918 and local incentive programs. Where the code specifies only a maximum, min_density is listed as 0 (no explicit minimum unless noted). For commercial/industrial/public facilities zones, residential is generally not a permitted primary use (density 0) unless the General Plan or a combining district allows it.",
+  "zones": {
+    "R-0": {
+      "min_density": 0,
+      "max_density": 7,
+      "description": "Low Density Residential. Reserved for single-family detached homes. Max 7 du/ac."
+    },
+    "R-1": {
+      "min_density": 0,
+      "max_density": 7,
+      "description": "Low Density Residential. Reserved for single-family detached homes. Max 7 du/ac."
+    },
+    "R-1.5": {
+      "min_density": 0,
+      "max_density": 10,
+      "description": "Low-Medium Density Residential. Max 10 du/ac."
+    },
+    "R-1.7/PD": {
+      "min_density": 0,
+      "max_density": 14,
+      "description": "Low-Medium Density Residential (Planned Development). Small-lot residential development. Must be combined with PD combining district. Max 14 du/ac."
+    },
+    "R-2": {
+      "min_density": 0,
+      "max_density": 12,
+      "description": "Low-Medium Density Residential. Allows duplexes and small multi-family. Max 12 du/ac."
+    },
+    "R-3": {
+      "min_density": 0,
+      "max_density": 24,
+      "description": "Medium Density Residential. Allows multi-family residential. Max 24 du/ac."
+    },
+    "R-4": {
+      "min_density": 0,
+      "max_density": 36,
+      "description": "High Density Residential. Allows multi-family residential. Max 36 du/ac."
+    },
+    "R-5": {
+      "min_density": 0,
+      "max_density": 45,
+      "description": "High Density Residential and Office. Allows multi-family residential alone or in combination with hotels/motels. Max 45 du/ac."
+    },
+    "R-MH": {
+      "min_density": 0,
+      "max_density": 12,
+      "description": "Residential-Mobile Home. Reserved for mobile home parks and incidental uses. Max 12 du/ac of mobile home park area."
+    },
+    "C-1": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Neighborhood Business. Retail commercial and service facilities for adjacent residential areas. Residential not a primary permitted use; may be allowed under state law consistent with General Plan density."
+    },
+    "C-2": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Highway Business. Retail commercial, tourist accommodations, and highway-oriented service facilities. Residential not a primary permitted use; may be allowed under state law consistent with General Plan density."
+    },
+    "M-S": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Industrial and Service. Offices, research, limited manufacturing, hotels/motels, restaurants, financial uses, retail sales and services. Residential not a primary permitted use (see ITR combining district for conversion allowance)."
+    },
+    "M-3": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "General Industrial. Offices, research, general manufacturing and compatible uses. Residential not permitted."
+    },
+    "O": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Office. Administrative, professional and research offices; residential may be allowed with a use permit if the General Plan designates the site as Village Mixed Use (average ~18 du/ac across Village Centers per General Plan). Base zoning does not establish an independent residential density."
+    },
+    "P-F": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Public Facilities. Governmental, public utility, and educational buildings and facilities. Residential not a primary permitted use."
+    },
+    "DSP": {
+      "min_density": 0,
+      "max_density": 65,
+      "description": "Downtown Specific Plan District (Chapter 19.28). Divided into subdistricts (blocks). General Plan maximum allowed density is 65 du/ac. Additional density possible through local/state density bonus or community benefits programs."
+    },
+    "ECR-R3": {
+      "min_density": 0,
+      "max_density": 24,
+      "description": "El Camino Real - Medium Density Residential (Chapter 19.36). Max 24 du/ac, consistent with citywide R-3 district."
+    },
+    "ECR-MU-24": {
+      "min_density": 0,
+      "max_density": 24,
+      "description": "El Camino Real - Mixed Use, 24 du/ac classification. Base maximum density of 24 du/ac per Table 19.36.070."
+    },
+    "ECR-MU-36": {
+      "min_density": 0,
+      "max_density": 36,
+      "description": "El Camino Real - Mixed Use, 36 du/ac classification. Base maximum density of 36 du/ac per Table 19.36.070."
+    },
+    "ECR-MU-54": {
+      "min_density": 0,
+      "max_density": 54,
+      "description": "El Camino Real - Mixed Use, 54 du/ac classification. Base maximum density of 54 du/ac per Table 19.36.070."
+    },
+    "ECR-MU-72": {
+      "min_density": 0,
+      "max_density": 72,
+      "description": "El Camino Real - Mixed Use, 72 du/ac classification. Base maximum density of 72 du/ac per Table 19.36.070."
+    },
+    "ECR-MU-90": {
+      "min_density": 0,
+      "max_density": 90,
+      "description": "El Camino Real - Mixed Use, 90 du/ac classification. Base maximum density of 90 du/ac per Table 19.36.070. Higher densities available through Incentives Program for community benefits."
+    },
+    "MP-MU": {
+      "min_density": 36,
+      "max_density": 100,
+      "description": "Moffett Park - Mixed Use (Chapter 19.29). Allows standalone residential, standalone office, or mixed-use. Minimum residential density of 36 du/ac (consistent with R-4). Maximum density per the Moffett Park Specific Plan; up to ~100 du/ac anticipated for high-density sites."
+    },
+    "MP-I": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Moffett Park - Industrial (Chapter 19.29). Industrial and office uses. Residential not a primary permitted use in this subdistrict."
+    },
+    "General Business": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "General Business (GIS alias). Maps to C-1/C-2 commercial zones. Residential not a primary permitted use."
+    },
+    "Highway Commercial": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Highway Commercial (GIS alias). Maps to C-2 Highway Business. Retail commercial, tourist accommodations, and highway-oriented service facilities. Residential not a primary permitted use."
+    },
+    "Industrial": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Industrial (GIS alias). Maps to M-S/M-3 Industrial zones. Residential not permitted."
+    },
+    "Lakefront": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Lakefront (GIS alias). Special district; treated as non-residential for density purposes."
+    },
+    "Local Retail": {
+      "min_density": 0,
+      "max_density": 0,
+      "description": "Local Retail (GIS alias). Maps to C-1 Neighborhood Business. Residential not a primary permitted use."
+    },
+    "Multifamily Residential": {
+      "min_density": 0,
+      "max_density": 36,
+      "description": "Multifamily Residential (GIS alias). Maps to R-3/R-4 multi-family residential zones. Max density up to 36 du/ac depending on subdistrict."
+    },
+    "Planned Development": {
+      "min_density": 0,
+      "max_density": 14,
+      "description": "Planned Development (GIS alias). Maps to PD combining district. Density depends on underlying zoning and approved plan; up to 14 du/ac for R-1.7/PD."
+    },
+    "Single Family - 1": {
+      "min_density": 0,
+      "max_density": 7,
+      "description": "Single Family - 1 (GIS alias). Maps to R-0/R-1 Low Density Residential. Max 7 du/ac."
+    },
+    "Single Family - 2": {
+      "min_density": 0,
+      "max_density": 7,
+      "description": "Single Family - 2 (GIS alias). Maps to R-0/R-1 Low Density Residential. Max 7 du/ac."
+    },
+    "Single Family - 3": {
+      "min_density": 0,
+      "max_density": 10,
+      "description": "Single Family - 3 (GIS alias). Maps to R-1.5 Low-Medium Density Residential. Max 10 du/ac."
+    },
+    "Single Family - 4": {
+      "min_density": 0,
+      "max_density": 12,
+      "description": "Single Family - 4 (GIS alias). Maps to R-2 Low-Medium Density Residential. Max 12 du/ac."
+    },
+    "Single Family - 5": {
+      "min_density": 0,
+      "max_density": 12,
+      "description": "Single Family - 5 (GIS alias). Maps to R-2/R-MH density range. Max 12 du/ac."
+    }
+  },
+  "combining_districts": {
+    "PD": {
+      "description": "Planned Development combining district. May be combined with base zoning districts to allow flexible site design; does not independently change density."
+    },
+    "ITR": {
+      "description": "Industrial to Residential combining district. Allows industrial, office, commercial and residential uses within the same zoning district; permits gradual conversion from industrial/office/commercial to residential use. Residential density governed by the applicable General Plan designation."
+    },
+    "HH": {
+      "description": "Heritage Housing combining district. Preserves historic residential neighborhood character; does not change underlying density limits."
+    },
+    "S": {
+      "description": "Single-Story combining district. May be combined with R-0, R-1, and R-2. Preserves single-story neighborhood character; does not change underlying density limits."
+    }
+  }
+}

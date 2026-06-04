@@ -157,80 +157,204 @@ st.markdown('<p class="sub-header">Acquisition & Zoning Intelligence</p>', unsaf
 # Search Input
 query = st.text_input(
     label="Investment Criteria", 
-    placeholder="Enter location and site parameters (e.g., 'Eureka, density over 10')",
+    placeholder="Try: 'Cupertino sites between 3 and 10 acres' or 'city of Eureka density over 10'",
     label_visibility="collapsed"
 )
 
-def parse_query_simple(query_text, cities_in_db):
-    q = query_text.lower()
-    
-    # 1. Location Parsing (Regex Word Boundary Matching v1.3.7)
-    # Longest Match First + Word Boundaries to prevent substring collisions
-    sorted_cities = sorted(cities_in_db, key=len, reverse=True)
-    
-    target_city = None
-    for city in sorted_cities:
-        pattern = rf"\b{re.escape(city)}\b"
-        if re.search(pattern, query_text, re.IGNORECASE):
-            target_city = city
+def _normalize_query(q):
+    """Pre-process query text: fix typos, standardize units, collapse noise."""
+    # Fix common typos (fuzzy tolerance for key words)
+    q = re.sub(r'b\w*twe+n', 'between', q)          # betweeen, beetween, btween
+    q = re.sub(r'\bacera?ge\b', 'acreage', q)        # acerage, acerge
+    q = re.sub(r'\bacreage\b', 'acres', q)            # acreage → acres
+    q = re.sub(r'\bacre\b', 'acres', q)               # acre → acres
+    q = re.sub(r'\b(\d+(?:\.\d+)?)\s*ac\b', r'\1 acres', q)  # "5 ac" → "5 acres"
+    q = re.sub(r'\bsf\b', 'sqft', q)
+    q = re.sub(r'\bdu/ac(?:re)?\b', 'duac', q)        # normalize density unit
+    q = re.sub(r'\bunits?\s*/?\s*acres?\b', 'duac', q)
+    # Collapse repeated conjunctions: "and and", "to to"
+    q = re.sub(r'\b(and|to|or)\s+\1\b', r'\1', q)
+    # Collapse multiple spaces
+    q = re.sub(r'\s+', ' ', q).strip()
+    return q
+
+
+def _has_acreage_context(q):
+    """Return True if the query mentions acreage/size in any recognizable way."""
+    return bool(re.search(
+        r'acres?|acreage|\bac\b|lot\s*size|parcel\s*size|site\s*size|land\s*size|'
+        r'(?:big|small|large|tiny|huge)\s+(?:lot|parcel|site|propert)',
+        q
+    ))
+
+
+def _parse_acreage(q):
+    """
+    Robust acreage parser — handles dozens of natural-language phrasings.
+    Returns dict with keys: min, max, type (range|min|max|both|None).
+    """
+    NUM = r'(\d+(?:\.\d+)?)'   # reusable number capture
+    SEP = r'\s*(?:to|and|through|thru|-|–|—)\s*'  # range separators
+    UNIT = r'(?:\s*acres?)?'   # optional trailing unit
+    UNIT_REQ = r'\s*acres?'    # required trailing unit
+
+    result = {"min": None, "max": None, "type": None}
+
+    # ── RANGE PATTERNS (most specific first) ──
+    range_patterns = [
+        # "between 3 acres and 10 acres" / "between 3 and 10 acres"
+        rf'between\s+{NUM}{UNIT}{SEP}{NUM}{UNIT}',
+        # "from 3 acres to 10 acres" / "from 3 to 10 acres"
+        rf'from\s+{NUM}{UNIT}{SEP}{NUM}{UNIT}',
+        # "acres from/between 3 to 10"
+        rf'acres?\s*(?:from|between|ranging|of)\s*{NUM}{SEP}{NUM}',
+        # "3 acres to 10 acres" / "3 to 10 acres" / "3-10 acres"
+        rf'{NUM}\s*acres?{SEP}{NUM}{UNIT}',
+        # "3 to 10 acre" (no trailing s)
+        rf'{NUM}{SEP}{NUM}\s*acres?',
+        # "lot size 3 to 10" / "size between 3 and 10 acres"
+        rf'(?:lot\s*|parcel\s*|site\s*|land\s*)?size\s*(?:from|between|of|ranging)?\s*{NUM}{SEP}{NUM}{UNIT}',
+        # "size: 3-10 acres"
+        rf'size\s*:?\s*{NUM}{SEP}{NUM}{UNIT}',
+    ]
+
+    for pat in range_patterns:
+        m = re.search(pat, q)
+        if m:
+            lo, hi = float(m.group(1)), float(m.group(2))
+            result["min"], result["max"] = min(lo, hi), max(lo, hi)
+            result["type"] = "range"
+            return result
+
+    # ── MAXIMUM PATTERNS (checked FIRST so "no more than" isn't stolen by min) ──
+    max_patterns = [
+        # "no more than / not more than / no larger than" — must be checked before min
+        rf'(?<!\w)(?:no|not)\s+(?:more|larger|bigger|greater)\s+than\s*{NUM}{UNIT}',
+        # "under/below/less than/at most/maximum/max/smaller than/up to 10 acres"
+        rf'(?:<|<=|under|below|less\s+than|at\s+most|maximum|max|smaller\s+than|up\s+to)\s*{NUM}{UNIT}',
+        # "10 acres or less" / "10 acres or smaller" / "10 acres max"
+        rf'{NUM}{UNIT_REQ}\s+(?:or\s+(?:less|smaller|fewer|under|below)|maximum|max)',
+        # "acres under/below 10"
+        rf'acres?\s+(?:under|below|less\s+than|at\s+most|<=?)\s*{NUM}',
+        # "lots/sites/parcels smaller than 10 acres"
+        rf'(?:lot|parcel|site|propert\w+|land)s?\s+(?:smaller|less|under|below)\s+(?:than\s+)?{NUM}{UNIT}',
+    ]
+
+    for pat in max_patterns:
+        m = re.search(pat, q)
+        if m and _has_acreage_context(q):
+            result["max"] = float(m.group(1))
+            result["type"] = "max"
             break
-    
-    # 2. Density Parsing (Regex Capture Groups)
+
+    # ── MINIMUM PATTERNS ──
+    min_patterns = [
+        # "over/above/more than/at least/minimum/min/larger than/bigger than 5 acres"
+        rf'(?:>|>=|over|above|more\s+than|at\s+least|minimum|min|larger\s+than|bigger\s+than|'
+        rf'no\s+(?:less|smaller|fewer)\s+than|exceeding|starting\s+(?:at|from))\s*{NUM}{UNIT}',
+        # "5+ acres" / "5 acres or more" / "5 acres or larger" / "5 acres minimum"
+        rf'{NUM}\s*\+{UNIT}',
+        rf'{NUM}{UNIT_REQ}\s+(?:or\s+(?:more|larger|bigger|greater|above)|minimum|min|\+)',
+        # "acres over/above 5"
+        rf'acres?\s+(?:over|above|more\s+than|at\s+least|exceeding|>=?)\s*{NUM}',
+        # "lots/sites/parcels bigger than 5 acres"
+        rf'(?:lot|parcel|site|propert\w+|land)s?\s+(?:bigger|larger|greater|over|above|exceeding)\s+(?:than\s+)?{NUM}{UNIT}',
+    ]
+
+    for pat in min_patterns:
+        m = re.search(pat, q)
+        if m and _has_acreage_context(q):
+            # Guard: skip if this match is actually part of "no/not more than"
+            start = m.start()
+            prefix = q[max(0, start - 6):start].strip()
+            if re.search(r'\b(?:no|not)$', prefix):
+                continue
+            result["min"] = float(m.group(1))
+            if result["type"] == "max":
+                result["type"] = "both"
+            else:
+                result["type"] = "min"
+            break
+
+    return result
+
+
+def _parse_density(q):
+    """Robust density parser — handles natural-language density queries."""
     target_density = {"min": None, "max": None, "target": None, "type": None}
-    
-    # Range: density between 0 and 30
-    range_match = re.search(r'density.*?\b(\d+)\s*(?:to|and|-)\s*(\d+)\b', q)
+
+    # Normalize density-related terms
+    dq = re.sub(r'\bdu(?:\/|\s+per\s+)acres?\b', 'density', q)
+    dq = re.sub(r'\bunits?\s*(?:/|per)\s*acres?\b', 'density', dq)
+    dq = re.sub(r'\bduac\b', 'density', dq)
+    dq = re.sub(r'\bdwelling\s+units?\s*(?:/|per)\s*acres?\b', 'density', dq)
+
+    # Range: density between 0 and 30 / density from 10 to 50
+    range_match = re.search(r'density\s*(?:between|from|of|ranging)?\s*(\d+(?:\.\d+)?)\s*(?:to|and|through|-|–)\s*(\d+(?:\.\d+)?)', dq)
+    if not range_match:
+        range_match = re.search(r'between\s+(\d+(?:\.\d+)?)\s*(?:to|and|-)\s*(\d+(?:\.\d+)?)\s*(?:density|du|units?\s*/?\s*ac)', dq)
     if range_match:
         target_density["min"] = float(range_match.group(1))
         target_density["max"] = float(range_match.group(2))
         target_density["type"] = "range"
     else:
         # Minimum only: density over 30
-        min_match = re.search(r'density.*?(?:>|over|above|more than|min|minimum|at least)\s*(\d+)', q)
+        min_match = re.search(r'density\s*(?:>|>=|over|above|more\s+than|min|minimum|at\s+least|exceeding|starting)\s*(\d+(?:\.\d+)?)', dq)
+        if not min_match:
+            min_match = re.search(r'(?:>|>=|over|above|more\s+than|at\s+least|minimum|min)\s*(\d+(?:\.\d+)?)\s*(?:density|du|units?\s*/?\s*ac)', dq)
         if min_match:
             target_density["min"] = float(min_match.group(1))
             target_density["type"] = "min"
-        
+
         # Maximum only: density under 30
-        max_match = re.search(r'density.*?(?:<|under|below|less than|max|maximum|up to)\s*(\d+)', q)
+        max_match = re.search(r'density\s*(?:<|<=|under|below|less\s+than|max|maximum|up\s+to|at\s+most)\s*(\d+(?:\.\d+)?)', dq)
+        if not max_match:
+            max_match = re.search(r'(?:<|<=|under|below|less\s+than|at\s+most|maximum|max)\s*(\d+(?:\.\d+)?)\s*(?:density|du|units?\s*/?\s*ac)', dq)
         if max_match:
             target_density["max"] = float(max_match.group(1))
             target_density["type"] = "max" if not target_density["type"] else "both"
-        
-        # 4. Exact Target Density (Final Fallback)
+
+        # Exact Target Density (Final Fallback)
         if not target_density["type"]:
-            target_match = re.search(r'density\s*(?:of|is|at|around|for)?\s*(\d+(?:\.\d+)?)', q)
+            target_match = re.search(r'density\s*(?:of|is|at|around|for|:)?\s*(\d+(?:\.\d+)?)', dq)
             if target_match:
                 target_density["target"] = float(target_match.group(1))
                 target_density["type"] = "target"
 
-    # 3. Acreage Parsing (Full Range Support - mirrors density logic)
-    target_acreage = {"min": None, "max": None, "type": None}
+    return target_density
 
-    # Range: "between 3 and 10 acres", "3 to 10 acres", "3-10 acres"
-    range_ac_match = re.search(r'(\d+(?:\.\d+)?)\s*(?:to|and|-)\s*(\d+(?:\.\d+)?)\s*acres?', q)
-    if not range_ac_match:
-        # Also catch: "acres between 3 and 10", "acreage from 3 to 10"
-        range_ac_match = re.search(r'acr(?:es|eage)?\s*(?:between|from)?\s*(\d+(?:\.\d+)?)\s*(?:to|and|-)\s*(\d+(?:\.\d+)?)', q)
-    if range_ac_match:
-        target_acreage["min"] = float(range_ac_match.group(1))
-        target_acreage["max"] = float(range_ac_match.group(2))
-        target_acreage["type"] = "range"
-    else:
-        # Minimum only: "over 5 acres", "at least 3 acres", "bigger than 2 acres"
-        min_ac_match = re.search(r'(?:>|>=|over|above|more than|at least|minimum|min|larger than|bigger than)\s*(\d+(?:\.\d+)?)\s*acres?', q)
-        if min_ac_match:
-            target_acreage["min"] = float(min_ac_match.group(1))
-            target_acreage["type"] = "min"
 
-        # Maximum only: "under 10 acres", "less than 5 acres", "smaller than 3 acres"
-        max_ac_match = re.search(r'(?:<|<=|under|below|less than|at most|maximum|max|smaller than)\s*(\d+(?:\.\d+)?)\s*acres?', q)
-        if max_ac_match:
-            target_acreage["max"] = float(max_ac_match.group(1))
-            if target_acreage["type"] == "min":
-                target_acreage["type"] = "both"
-            else:
-                target_acreage["type"] = "max"
+def parse_query_simple(query_text, cities_in_db):
+    q_raw = query_text.lower().strip()
+    q = _normalize_query(q_raw)
+
+    # 1. Location Parsing (Regex Word Boundary Matching)
+    # Handle "city of X" prefix: extract city name after "city of"
+    sorted_cities = sorted(cities_in_db, key=len, reverse=True)
+
+    target_city = None
+    # First try "city of X" explicit pattern
+    city_of_match = re.search(r'city\s+of\s+(\w[\w\s]*?)(?:\s+(?:sites?|lots?|parcels?|properties|between|with|over|under|above|below|density|acres?|zoning|that|where|\d)|\s*$)', q)
+    if city_of_match:
+        candidate = city_of_match.group(1).strip().title()
+        for city in sorted_cities:
+            if city.lower() == candidate.lower():
+                target_city = city
+                break
+
+    # Fallback: longest-match word boundary search
+    if not target_city:
+        for city in sorted_cities:
+            pattern = rf"\b{re.escape(city)}\b"
+            if re.search(pattern, query_text, re.IGNORECASE):
+                target_city = city
+                break
+
+    # 2. Density Parsing
+    target_density = _parse_density(q)
+
+    # 3. Acreage Parsing
+    target_acreage = _parse_acreage(q)
 
     return target_city, target_acreage, target_density
 
@@ -397,4 +521,4 @@ if run_btn:
                 st.error(f"Error: {str(e)}")
 
 st.markdown("---")
-st.caption("ParcelIQ v1.4.0 | Advanced NL Query Engine")
+st.caption("ParcelIQ v1.5.0 | Advanced NL Query Engine")
